@@ -1,17 +1,16 @@
-[
-    {
-        "id": "1",
-        "rubrik": "Kultur",
-        "info": "Video från 1942 som visar hur världen såg ut då, mitt under brinnande krig.",
-    },
-    {
-        "id": "2",
-        "rubrik": "Megastora hästar",
-        "info": "Detta var inte en poppulär syn.",
-    },
-    {
-        "id": "3",
-        "rubrik": "Intensitet",
-        "info": "Videon finns men har inget med saken att göra.",
-    }
+[{
+		"id": "1",
+		"rubrik": "Kultur",
+		"info": "Video från 1942 som visar hur världen såg ut då, mitt under brinnande krig."
+	},
+	{
+		"id": "2",
+		"rubrik": "Megastora hästar",
+		"info": "Detta var inte en poppulär syn."
+	},
+	{
+		"id": "3",
+		"rubrik": "Intensitet",
+		"info": "Videon finns men har inget med saken att göra."
+	}
 ]
