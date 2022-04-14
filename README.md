@@ -1,7 +1,12 @@
 # testzone
 testzone mainly for unity webBuilds
 
-## Avatar tester 
+## Chatbuddy
+[Chatbuddy WGL](https://mattislindmark.github.io/testzone/aichatbuddy/index.html)
+Byggd 2022-04-14
+Använder GPT3 och snackar med. Obs, ge den ingen personlig info!
+
+## Avatar adventure island tester 
 [Test 2](https://mattislindmark.github.io/testzone/avatarbuild2/index.html)
 Byggd 31 aug 2021 - små framsteg.
 
