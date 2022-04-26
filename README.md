@@ -16,6 +16,6 @@ Första test av dialog-system etc.
 Styr: WASD. Högerklick + mus för att rotera kamera. Scroll för att zooma hit å dit.
 
 ## Utopia WebGL version super beta
-[UtopiaWGL-beta3] (https://mattislindmark.github.io/testzone/UtopiaWGLbeta3/index.html)
+[UtopiaWGL-beta3](https://mattislindmark.github.io/testzone/UtopiaWGLbeta3/index.html)
 Byggd 26 april 2022. Fonterna är lite skumma. Bold arial verkar ej funka.
 Glöm inte scrolla in och ut för att zooma!
