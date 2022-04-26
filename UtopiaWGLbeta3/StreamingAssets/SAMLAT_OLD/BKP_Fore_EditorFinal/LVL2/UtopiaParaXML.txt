@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SavedataParagraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Paragrafer>
+    <PObject>
+      <pID>1</pID>
+      <typ>6</typ>
+      <rubrik>Välkommen</rubrik>
+      <bodyText>Besökare av denna testgrej.</bodyText>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>2</pID>
+      <typ>6</typ>
+      <rubrik>Paragraf 2</rubrik>
+      <bodyText>Denna bör visas efter en viss tid	</bodyText>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>3</pID>
+      <typ>5</typ>
+      <rubrik>Hejsan</rubrik>
+      <bodyText>Välkommen till Tallus, säger den grodliknande Tallusanen.
+Hen smackar förnöjt och gluffsar i sig en katt.</bodyText>
+      <links>
+        <Link>
+          <LinkText>Wtf, äter ni katter?</LinkText>
+          <DirectToID>4</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Ush, jag sticker!</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Öppna en annan stor ruta</LinkText>
+          <DirectToID>6</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>4</pID>
+      <typ>6</typ>
+      <rubrik>Kattmördaren avslöjas</rubrik>
+      <bodyText>Japp, säger tallusfiluren
+Hejdå!</bodyText>
+      <links>
+        <Link>
+          <LinkText>hejdå!</LinkText>
+          <DirectToID>-2</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Jag vill parata lite mer</LinkText>
+          <DirectToID>5</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Ministäng detta.</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Öppna tredje stora rutan i smyg</LinkText>
+          <DirectToID>9</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>5</pID>
+      <typ>6</typ>
+      <rubrik>Vad ska vi prata om då?</rubrik>
+      <bodyText>Jag har ingen aning vad vi ska prata om	</bodyText>
+      <links>
+        <Link>
+          <LinkText>Okej, hejdå</LinkText>
+          <DirectToID>-2</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Vi måste prata om Kevin?</LinkText>
+          <DirectToID>7</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Vad hände egentligen på vägen till damaskus?</LinkText>
+          <DirectToID>8</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>6</pID>
+      <typ>5</typ>
+      <rubrik>Öppna en annan stor ruta</rubrik>
+      <bodyText>Detta är en annan stor ruta.</bodyText>
+      <links>
+        <Link>
+          <LinkText>stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Jag vill prata mer</LinkText>
+          <DirectToID>5</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>tillbaka</LinkText>
+          <DirectToID>9999</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>en tredje stor ruta</LinkText>
+          <DirectToID>9</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>7</pID>
+      <typ>6</typ>
+      <rubrik>Kevin</rubrik>
+      <bodyText>boken? Den är skriven...</bodyText>
+      <links>
+        <Link>
+          <LinkText>fint.</LinkText>
+          <DirectToID>5</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>ok</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>8</pID>
+      <typ>6</typ>
+      <rubrik>Vad hände egentligen på vägen till damaskus?</rubrik>
+      <bodyText>Det dammade.</bodyText>
+      <links>
+        <Link>
+          <LinkText>stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>9</pID>
+      <typ>5</typ>
+      <rubrik>3e stora rutan</rubrik>
+      <bodyText>hejsan
+Om det stämmer ska man fortfarande komma till 1an på tillbaka från 2an.
+Om man inte kom hit via popupparagraf. Då ska man komma tillbaka hit typ.</bodyText>
+      <links>
+        <Link>
+          <LinkText>Till annan stor ruta</LinkText>
+          <DirectToID>6</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+  </Paragrafer>
+</SavedataParagraph>

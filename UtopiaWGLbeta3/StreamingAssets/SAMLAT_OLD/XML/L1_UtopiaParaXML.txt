@@ -1,0 +1,3330 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SavedataParagraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Paragrafer>
+    <PObject>
+      <pID>1</pID>
+      <typ>3</typ>
+      <rubrik>Vattenbrist på Rubidus</rubrik>
+      <bodyText>Vi har tagit emot ett nödanrop från planeten Rubidus. Den senaste tidens solstormar har orsakat extrem torka och vattenbrist på planeten. Prästerskapet behöver omedelbar hjälp att lösa situationen. 
+
+Ert uppdrag är att samla vatten till Rubidus och förhindra att det blir vattenkris. </bodyText>
+      <links>
+        <Link>
+          <LinkText>Åk till Rubidus</LinkText>
+          <DirectToID>8</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>18</id>
+        <lable>SpaceBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>2</pID>
+      <typ>5</typ>
+      <rubrik>Rubidus</rubrik>
+      <bodyText>Ni har landat i Rubidus huvudstad Rubidon. Det är varmt och torrt. Mantaxerna som bor här gör sitt bästa för att söka skydd i skuggan av husen men det är varmt överallt. Vattenbristen och torkan är svår. Prästerskapet gör sitt bästa för att fördela vattnet. Om Rubiduserna inte får vatten snart kommer det få katastrofala följder.
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Besök Vattentemplet och Prästinnan Duula</LinkText>
+          <DirectToID>63</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Besök Vattenreservoaren</LinkText>
+          <DirectToID>4</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Besök Rubidus Rosodlingar</LinkText>
+          <DirectToID>5</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>2</id>
+        <lable>RubidusBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>3</pID>
+      <typ>6</typ>
+      <rubrik>Prästinnan Duula</rubrik>
+      <bodyText>“Så bra att ni är här! Vårt vatten håller på att ta slut! 
+Torkan och vattenbristen blir värre för varje dag som går. Det lilla vatten vi har kvar är smutsigt och nästan odrickbart! Vi behöver verkligen er hjälp!" </bodyText>
+      <links>
+        <Link>
+          <LinkText>Vad kan vi göra för att hjälpa?</LinkText>
+          <DirectToID>6</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Varför är det slut på vatten?</LinkText>
+          <DirectToID>7</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>49</id>
+        <lable>mantaxpriestTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>4</pID>
+      <typ>5</typ>
+      <rubrik>Vattenreservoaren</rubrik>
+      <bodyText>Det är mörkt och unket inne i vattenreservoaren. Dom stora vattenbassängerna som vanligtvis är fyllda med vatten är nästan tomma allihop. Vattnet som finns kvar på botten ser smutsigt ut och luktar illa. 
+
+Längst in i lokalen ser ni en mantaxisk vatten-ingenjör som står och tar prover.
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Prata med vatten-ingenjören</LinkText>
+          <DirectToID>9</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Undersök vattennivåerna</LinkText>
+          <DirectToID>13</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till staden</LinkText>
+          <DirectToID>2</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>44</id>
+        <lable>vattenreservoarBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>5</pID>
+      <typ>5</typ>
+      <rubrik>Rubidus Rosodlingar</rubrik>
+      <bodyText>Dom stora rosodlingarna breder ut sig över sanddynerna. Avancerade bevattningsrobotar skyndar fram och tillbaka mellan rader av röda rosbuskar. Det är så varmt att mycket av vattnet avdunstar direkt i den extrema ökenhettan.
+
+Lite längre bort står en mantax vid ett kontrollbord och sköter maskinerna. </bodyText>
+      <links>
+        <Link>
+          <LinkText>Prata med mantaxen vid kontrollbordet</LinkText>
+          <DirectToID>14</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Gå tillbaka till staden</LinkText>
+          <DirectToID>2</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>46</id>
+        <lable>rosodlingarBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>6</pID>
+      <typ>6</typ>
+      <rubrik>Prata med Prästinnan Duula</rubrik>
+      <bodyText>"Ni kan börja med att hämta vatten. Vattenbristen är akut och vattenreservoaren är nästan tom. Om den inte fylls på snart kommer det att bli katastrof!"
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Självklart! Vi ger oss av på en gång</LinkText>
+          <DirectToID>109</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Självklart! Vi ska bara titta runt lite först</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>49</id>
+        <lable>mantaxpriestTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>7</pID>
+      <typ>6</typ>
+      <rubrik>Prästinnan Duula</rubrik>
+      <bodyText>"Det finns inget naturligt vatten på Rubidus. Vi har fått frakta hit det själva och lagrat det i vattenreservoaren. För att det ska räcka längre har vi ransonerat dricksvattnet.
+Nu behöver vi fylla på reservoaren och vi vet inte var vi ska få vatten ifrån?!" säger Duula bekymrat.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Vattentemplet</ActionText>
+          <ActionNrA>63</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Vad kan vi göra för att hjälpa till?</LinkText>
+          <DirectToID>6</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>49</id>
+        <lable>MantaxpriestTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>8</pID>
+      <typ>4</typ>
+      <rubrik>Hämta vatten</rubrik>
+      <bodyText>Mantaxerna vill att ni hämtar vatten och fyller på deras vattenreservoar. Kom tillbaka när lastutrymmet är fullt</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Hämta vatten</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>9</pID>
+      <typ>6</typ>
+      <rubrik>Ingenjör Bolvatz</rubrik>
+      <bodyText>"Vattenivåerna är katastrofalt låga!" förklarar ingenjör Bolvatz
+"Det finns nästan inget drickbart vatten och bevattningssystemet är nästan tomt. Om inte reservoaren fylls på snart kommer rosodlingar att torka bort!" </bodyText>
+      <links>
+        <Link>
+          <LinkText>Var tar allt vatten vägen?</LinkText>
+          <DirectToID>10</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna diskussionen</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>48</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>10</pID>
+      <typ>6</typ>
+      <rubrik>Ingenjör Bolvatz</rubrik>
+      <bodyText>"Rosodlingarna får det mesta av vattnet. Rubi-rosor behöver vattnas och välsignas flera gånger per dag. Tyvärr så blir vattnet smutsigt efteråt och går inte att dricka eller använda till något annat. Det är faktiskt väldigt lite vatten används till dricksvatten."</bodyText>
+      <links>
+        <Link>
+          <LinkText>Varför hämtar ni inte mer vatten?</LinkText>
+          <DirectToID>11</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Går det inte att rena vattnet</LinkText>
+          <DirectToID>12</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>48</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>11</pID>
+      <typ>6</typ>
+      <rubrik>Ingenjör Bolvatz</rubrik>
+      <bodyText>"Vår vattenkälla är helt slut och det finns bara vatten på ett fåtal platser i vår sektor. Vattenplaneten Watersplash och handelsstationen Merlona är dom närmsta." säger Bolvatz fundersamt.
+"Det kan också finnas vatten på en och annan asteroid."</bodyText>
+      <links>
+        <Link>
+          <LinkText>Lämna diskussionen</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>48</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>12</pID>
+      <typ>6</typ>
+      <rubrik>Ingenjör Bolvatz</rubrik>
+      <bodyText>"Rubidus har inte teknologin eller resurserna för det. Jag har försökt säga det till prästerna att vi måste börja återvinna vårt vatten men dom lyssnar inte!" </bodyText>
+      <links>
+        <Link>
+          <LinkText>Ok, då förstår vi. </LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>48</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>13</pID>
+      <typ>6</typ>
+      <rubrik>Vattennivå i reservoaren</rubrik>
+      <bodyText>Den stora vattenmätaren är nere på rött. Det betyder att det är nästan slut på vatten i vattenreservoaren. 
+Det mesta av Rubidus vatten går åt till bevattning av rosodlingarna. Bara en liten del används till dricksvatten och heliga ceremonier. 
+
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Tillbaka till vattenreservoaren</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>33</id>
+        <lable>vattennivå</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>14</pID>
+      <typ>6</typ>
+      <rubrik>Rosodlare Mulk</rubrik>
+      <bodyText>Mantaxen ser ut över fälten och trycker hela tiden på olika knappar på kontrollbordet samtidigt som han pratar:
+"Det är Rubi-rosor vi odlar här! Mycket sällsynta och dyrbara ska ni veta. Dom växer egentligen inte här, vi har tagit hit dom från djungelplaneten Zoros. Det är inte det lättaste att få dom att växa, det behövs mycket sol och vatten!" </bodyText>
+      <links>
+        <Link>
+          <LinkText>Hur får ni blommorna att växa mitt i öknen?</LinkText>
+          <DirectToID>15</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna diskussionen</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>48</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>15</pID>
+      <typ>6</typ>
+      <rubrik>Rosodlare Mulk </rubrik>
+      <bodyText>"Det är inte det lättaste. Vi har löst det med ett stort och konstant flöde vatten. På så vis hålls marken fuktig även när solen gassar som värst, genialiskt!"</bodyText>
+      <links>
+        <Link>
+          <LinkText>Det låter slösaktigt!?</LinkText>
+          <DirectToID>16</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Går det inte att samla upp vattnet?</LinkText>
+          <DirectToID>17</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>48</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>16</pID>
+      <typ>6</typ>
+      <rubrik>Rosodlare Mulk </rubrik>
+      <bodyText>"Slösaktigt? Hur ska vi annars göra? Rosorna behöver vatten och vi behöver odla rosor för att ha något att handla energi och vatten för. Här finns bara sand och sten! </bodyText>
+      <links>
+        <Link>
+          <LinkText>Kan ni inte återvinna vattnet?</LinkText>
+          <DirectToID>17</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>48</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>17</pID>
+      <typ>6</typ>
+      <rubrik>Rosodlare Mulk </rubrik>
+      <bodyText>"Det kanske man skulle kunna göra, men det spelar ingen roll. Vattnet är fullt med gödsel och bekämpningsmedel. Det går inte att dricka." </bodyText>
+      <links>
+        <Link>
+          <LinkText>Ok, det lät inte så bra</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>48</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>18</pID>
+      <typ>5</typ>
+      <rubrik>Rubidus</rubrik>
+      <bodyText>Det är folktomt på gatorna i Rubidon. Dom flesta Mantaxer håller sig inomhus för att spara vatten och undvika värmen. 
+Vattennivåerna är så låga att prästerskapet låst dörrarna till vattentemplet. Inga fler vattenransoner delas ut förrän vattenreservoaren fyllts på igen. 
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Besök Vattenreservoaren</LinkText>
+          <DirectToID>19</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Besök Rubidus Rosodlingar</LinkText>
+          <DirectToID>20</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>2</id>
+        <lable>RubidusBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>19</pID>
+      <typ>5</typ>
+      <rubrik>Vattenreservoaren</rubrik>
+      <bodyText>Det är mörkt och unket inne i vattenreservoaren. Dom stora vattenbassängerna som vanligtvis är fyllda med vatten är nästan tomma allihop. Vattnet som finns kvar på botten ser smutsigt ut och luktar illa. 
+
+Längst in i lokalen ser ni en mantaxisk vatten-ingenjör som står och tar prover.
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Prata med vatten-ingenjören</LinkText>
+          <DirectToID>9</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Undersök vattennivåerna</LinkText>
+          <DirectToID>13</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Gå tillbaka till staden</LinkText>
+          <DirectToID>18</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>44</id>
+        <lable>vattenreservoarBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>20</pID>
+      <typ>5</typ>
+      <rubrik>Rubidus Rosodlingar</rubrik>
+      <bodyText>Dom stora rosodlingarna breder ut sig över sanddynerna. Avancerade bevattningsrobotar skyndar fram och tillbaka mellan rader av röda rosbuskar. Det är så varmt att mycket av vattnet avdunstar direkt i den extrema ökenhettan.
+
+Lite längre bort står en mantax vid ett kontrollbord och sköter maskinerna. </bodyText>
+      <links>
+        <Link>
+          <LinkText>Prata med mantaxen vid kontrollbordet</LinkText>
+          <DirectToID>14</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Gå tillbaka till staden</LinkText>
+          <DirectToID>18</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>46</id>
+        <lable>rosodlingarBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>21</pID>
+      <typ>5</typ>
+      <rubrik>Handelsstationen Merlona</rubrik>
+      <bodyText>Merlona är Ebulumernas handelsstation. Hit åker folk från hela sektorn för att handla och byta saker med varandra. Ebulumerna är kända för sitt sinne för affärer och sina exklusiva handelsvaror. 
+På Merlona går det också att besöka Ebulumernas forskningsenhet  
+
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Besök marknaden</LinkText>
+          <DirectToID>22</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Besök forskningsenheten</LinkText>
+          <DirectToID>23</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna Merlona</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>24</id>
+        <lable>merlonaBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>22</pID>
+      <typ>5</typ>
+      <rubrik>Ebulumernas marknad</rubrik>
+      <bodyText>Det är hög aktivitet på Merlonas marknad. Solstormarna på Undromeda har påverkat vattensituationen i hela sektor Z. Handlare och köpare trängs bland dom många försäljningsbåsen. Alla vill köpa vatten och priserna har stigit otroligt mycket. 
+
+
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Prata med en vattenhandlare</LinkText>
+          <DirectToID>24</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna marknaden</LinkText>
+          <DirectToID>21</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>51</id>
+        <lable>marknadBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>23</pID>
+      <typ>5</typ>
+      <rubrik>Forskningsenheten</rubrik>
+      <bodyText>Ebulumernas forskningsenhet är ett högteknologiskt laboratorium. Här jobbar forskare och vetenskapare med att hitta på nya smarta produkter att sälja. 
+Den ökade värmen har gjort att Ebulumerna börjat forska om återvinning och vattenfiltrering.
+
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Prat med forskarna</LinkText>
+          <DirectToID>30</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna forskningsenheten</LinkText>
+          <DirectToID>21</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>53</id>
+        <lable>laboratoriumBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>24</pID>
+      <typ>6</typ>
+      <rubrik>Ebulumsk vattenhandlare</rubrik>
+      <bodyText>"Det är brist på vatten överallt!" utbrister den ebulumske handlaren. 
+"Vi har fått importera vatten hela vägen från Antikus för att möta efterfrågan! Det är inte miljövänligt men det är billigt och smakar nästan lika bra. Om inte det passar smaken kan vi också erbjuda kondens-vatten från Merlonas egna fuktreceptorer?" 
+
+Vad vill ni ha? </bodyText>
+      <links>
+        <Link>
+          <LinkText>Kondenserat vatten</LinkText>
+          <DirectToID>25</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Transporterat vatten</LinkText>
+          <DirectToID>26</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>41</id>
+        <lable>ebulumTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>25</pID>
+      <typ>6</typ>
+      <rubrik>Kondensvatten</rubrik>
+      <bodyText>"Kondens-vatten är ett mycket bra miljöval." försäkrar den ebulumiske handlaren. 
+"Vattnet är återvunnet från Merlonas egna ventialtionssystem. Återvinning tar lång tid så vattnet är dyrare än det importerade vattnet." </bodyText>
+      <links>
+        <Link>
+          <LinkText>Köp vattnet</LinkText>
+          <DirectToID>27</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Ta något annat</LinkText>
+          <DirectToID>24</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>41</id>
+        <lable>ebulumTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>26</pID>
+      <typ>6</typ>
+      <rubrik>Transporterat vatten</rubrik>
+      <bodyText>"Det importerade vattnet fraktas en lång väg. Det är inte miljövänligt, men är billigt och smakar nog lika bra ändå". </bodyText>
+      <links>
+        <Link>
+          <LinkText>Köp vattnet</LinkText>
+          <DirectToID>28</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Ta något annat</LinkText>
+          <DirectToID>24</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>41</id>
+        <lable>ebulumTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>27</pID>
+      <typ>6</typ>
+      <rubrik>Ebulumsk vattenhandlare</rubrik>
+      <bodyText>"Tack för en god affär!"</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Merlona B</ActionText>
+          <ActionNrA>10</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Bra miljöval</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Marknaden</ActionText>
+          <ActionNrA>33</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Tillbaka till marknaden</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna Merlona</LinkText>
+          <DirectToID>29</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>41</id>
+        <lable>ebulumTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>28</pID>
+      <typ>6</typ>
+      <rubrik>Ebulumsk vattenhandlare</rubrik>
+      <bodyText>"Tack för en god affär!"</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Dåligt miljöval</ActionText>
+          <ActionNrA>-2</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Merlona B</ActionText>
+          <ActionNrA>10</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Marknaden</ActionText>
+          <ActionNrA>33</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Tillbaka till marknaden</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna Merlona</LinkText>
+          <DirectToID>29</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>41</id>
+        <lable>ebulumTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>29</pID>
+      <typ>6</typ>
+      <rubrik>Lämna Merlona</rubrik>
+      <bodyText>...</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>30</pID>
+      <typ>6</typ>
+      <rubrik>Forskare Florp </rubrik>
+      <bodyText>"Vi har kommit på en ny tekniken för att återvinna och filtrera vatten. Med ett av våra reningsverk kan man försörja en planet med rent vatten i flera hundra år!" skryter den ebulumska forskaren. "Tyvärr är teknologin väldigt dyr att tillverka". </bodyText>
+      <links>
+        <Link>
+          <LinkText>Kan vi få köpa teknologin?</LinkText>
+          <DirectToID>31</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Ok, tack då vet vi det. </LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>41</id>
+        <lable>ebulumTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>31</pID>
+      <typ>6</typ>
+      <rubrik>Forskare Florp</rubrik>
+      <bodyText>"Teknologi av det här slaget är ovärderlig! För att dela med oss av den skulle vi behöva ett exklusivt handelsavtal med Rubidus!" säger forskare Florp.
+ 
+Ebulumerna vill ha ett avtal som bestämmer att Rubidus bara får sälja rosor till dom. Det kan inte ni bestämma själva utan är något ni får diskutera med prästinnan Duula. 
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Ok, det behöver vi diskutera med prästinnanDuula</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>41</id>
+        <lable>ebulumTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>32</pID>
+      <typ>5</typ>
+      <rubrik>Handelsstationen Merlona</rubrik>
+      <bodyText>Det är stor aktivitet på handelsstationen Merlona. Rymdskepp kommer och går. Det verkar gå bra för Ebulumernas affärer.
+
+På Merlona går det också att besöka Ebulumernas forskningsenhet  
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Besök marknaden</LinkText>
+          <DirectToID>33</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Besök forskningsenheten</LinkText>
+          <DirectToID>35</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna Merlona</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>24</id>
+        <lable>merlonaBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>33</pID>
+      <typ>5</typ>
+      <rubrik>Ebulumernas marknad</rubrik>
+      <bodyText>Det råder kaos på Merlonas marknad. Solstormarna på Undromeda har påverkat vattensituationen i hela sektor Z. Handlare och köpare trängs bland dom många försäljningsbåsen. Alla vill köpa vatten och priserna har stigit otroligt mycket. 
+
+Ni har köpt allt vatten ni hade råd med på marknaden. </bodyText>
+      <links>
+        <Link>
+          <LinkText>Lämna marknaden</LinkText>
+          <DirectToID>32</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>51</id>
+        <lable>marknadBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>34</pID>
+      <typ>5</typ>
+      <rubrik>Mantax</rubrik>
+      <bodyText>Mantax är en torr och ofruktbar ökenplanet. Här finns inget utom ruiner från förr. 
+En gång i tiden bodde det Mantaxer på Mantax. Det var innan vattnet och gasen tog slut. Då slutade ekosystemet att fungera och mantaxerna tvingades att flytta till Rubidus. Nu kan inget växa eller leva på Mantax. 
+
+Det finns inget vatten att hämta här.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Mantax B</ActionText>
+          <ActionNrA>14</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Utforska ruinerna</LinkText>
+          <DirectToID>36</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>42</id>
+        <lable>Mantax</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>35</pID>
+      <typ>5</typ>
+      <rubrik>Forskningsenheten</rubrik>
+      <bodyText>Ebulumernas forskningsenhet är ett högteknologiskt laboratorium. Här jobbar forskare och vetenskapare med att hitta på nya smarta produkter att sälja. 
+Den ökade värmen har gjort att Ebulumerna börjat forska om återvinning och vattenfiltrering.
+
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Prat med forskarna</LinkText>
+          <DirectToID>30</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna forskningsenheten</LinkText>
+          <DirectToID>32</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>53</id>
+        <lable>laboratoriumBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>36</pID>
+      <typ>6</typ>
+      <rubrik>Mantax ruiner</rubrik>
+      <bodyText>Mantaxerna var en högteknologisk civilisation som levde i ett överflöd av energi och byggde sitt samhälle därefter. Lyxiga skrytbyggen och avancerad teknologi.
+
+I ruinerna hittar ni flera gamla maskiner och bevattningsrobotar. Det verkar som att Mantaxerna som bodde här också odlade rosor. Åtminstone tills det tog slut på vatten.
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Sluta undersöka </LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>37</pID>
+      <typ>5</typ>
+      <rubrik>Watersplash</rubrik>
+      <bodyText>Det är varmt och fuktigt i den flytande staden Korallodon. Lukten av saltvatten och ruttnande alger hänger över staden som en våt filt. Leviterna som bor på planeten är ett vattenlevande reptilfolk som trivs i det tropiska klimatet. Deras högste ledare kallas för gammelormen.
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Prata med Gammelormen </LinkText>
+          <DirectToID>48</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Besök Watersplash algodlingar</LinkText>
+          <DirectToID>39</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>47</id>
+        <lable>watersplashBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>38</pID>
+      <typ>5</typ>
+      <rubrik>Hydroquariatet</rubrik>
+      <bodyText>Djupt under havsytan ligger Hydroquariatet, Leviternas parlament. Hit kommer leviterna för att ta beslut i olika vatten-relaterade frågor. Leviter träffas sällan och är oense om det mesta. Därför är det viktigt att dom tar beslut på ett rättvist sätt och låter alla få sin röst hörd. Gammelormen fördelar ordet.  
+
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Prata med gammelormen</LinkText>
+          <DirectToID>48</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till ytan</LinkText>
+          <DirectToID>37</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>38</id>
+        <lable>hydroquariatetBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>39</pID>
+      <typ>5</typ>
+      <rubrik>Watersplash algodlingar</rubrik>
+      <bodyText>Leviternas algodlingar tar upp stora delar av Watersplash havsbotten. Leviterna har muterat algerna för att dom ska växa snabbare. Det gör att algerna blommar hela året om. Leviter använder alger till allt, mat, kläder och byggmaterial. I soppor, sallader och på mackan.
+
+Den som tar hand om algerna kallas för Sjögårdsmästaren. 
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Prata med Sjögårdsmästaren</LinkText>
+          <DirectToID>40</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till staden</LinkText>
+          <DirectToID>37</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>52</id>
+        <lable>algodlingBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>40</pID>
+      <typ>6</typ>
+      <rubrik>Sjögårdsmästaren</rubrik>
+      <bodyText>"Välkomna till Watersplash! Jag skulle gärna visa er runt, men algerna har betett sig så underligt på sistone." berättar Sjögårdsmästaren bekymrat. 
+"Värmen gör att algerna växer snabbare än vanligt och suger ut alldeles för mycket syre ur vattnet. Fortsätter dom att sprida sig på det här sättet kommer det innebära stora problem för oss Leviter!" </bodyText>
+      <links>
+        <Link>
+          <LinkText>Går det inte att stoppa algerna på nått sätt?</LinkText>
+          <DirectToID>41</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>5</id>
+        <lable>levitTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>41</pID>
+      <typ>6</typ>
+      <rubrik>Sjögårdsmästaren</rubrik>
+      <bodyText>"Det enda sättet att få stopp på algerna är att flytta dom någonstans där dom inte kan göra någon skada, till exempel en sol eller obefolkad planet."</bodyText>
+      <links>
+        <Link>
+          <LinkText>Vi kan hitta ett bra ställe att lämna algerna på! </LinkText>
+          <DirectToID>42</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Vi kan säkert hitta ett bra ställe senare</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>5</id>
+        <lable>levitTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>42</pID>
+      <typ>4</typ>
+      <rubrik>Frakta alger</rubrik>
+      <bodyText>Leviterna vill att ni flyttar algerna någonstans där dom inte kan orsaka mer skada, till exempel en sol eller obebodd planet.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Watersplash B</ActionText>
+          <ActionNrA>19</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Volga/Mantax</ActionText>
+          <ActionNrA>20</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Undromeda</ActionText>
+          <ActionNrA>21</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Börja leta</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>43</pID>
+      <typ>4</typ>
+      <rubrik>Lämna alger</rubrik>
+      <bodyText>Vill ni lämna av algerna här?</bodyText>
+      <links>
+        <Link>
+          <LinkText>Ja</LinkText>
+          <DirectToID>44</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Nej</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>44</pID>
+      <typ>4</typ>
+      <rubrik>Uppdrag utfört</rubrik>
+      <bodyText>Leviterna är tacksamma för er hjälp med algerna. Åk tillbaka till Watersplash för att hämta er belöning.
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Undromeda</ActionText>
+          <ActionNrA>20</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Mantax</ActionText>
+          <ActionNrA>21</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Watersplash C</ActionText>
+          <ActionNrA>22</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Mantax C</ActionText>
+          <ActionNrA>15</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk till Watersplash</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>45</pID>
+      <typ>4</typ>
+      <rubrik>Lämna alger</rubrik>
+      <bodyText>Vill ni lämna av algerna här? Dom kommer att brinna upp!</bodyText>
+      <links>
+        <Link>
+          <LinkText>Ja</LinkText>
+          <DirectToID>46</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Nej</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>46</pID>
+      <typ>4</typ>
+      <rubrik>Uppdrag utfört</rubrik>
+      <bodyText>Leviterna är tacksamma för er hjälp med algerna. Åk tillbaka till Watersplash för att hämta er belöning.
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Undromeda</ActionText>
+          <ActionNrA>20</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Mantax</ActionText>
+          <ActionNrA>21</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Watersplash C</ActionText>
+          <ActionNrA>22</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Leta vidare efter vatten</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>47</pID>
+      <typ>5</typ>
+      <rubrik>Mantax</rubrik>
+      <bodyText>Dom muterade algerna har anpassat sig bra till Mantax torra ökenklimat. Solens starka strålar gör att dom växer så att det knakar.
+Tillskillnad från rubi-rosorna verkar algerna inte behöva speciellt mycket vatten för att växa. 
+
+Om några år kommer det säkert gå att bo på Mantax igen. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Mantax D</ActionText>
+          <ActionNrA>16</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Undersök algerna</LinkText>
+          <DirectToID>114</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Undersök ruinerna</LinkText>
+          <DirectToID>36</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>37</id>
+        <lable>mutantalgerBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>48</pID>
+      <typ>6</typ>
+      <rubrik>Gammelormen</rubrik>
+      <bodyText>Leviternas ledare blir glatt överraskad av att se er och gurglar välkomnande.
+"Välkommen! Det är inte ofta vi får besök av rymdrådet här ute. Är ni här angående mutant-algerna eller är det något annat jag kan göra för er?"</bodyText>
+      <links>
+        <Link>
+          <LinkText>Vi letar efter vatten till Rubidus!</LinkText>
+          <DirectToID>49</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Har ni problem med alger?</LinkText>
+          <DirectToID>50</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>36</id>
+        <lable>gammelormenTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>49</pID>
+      <typ>6</typ>
+      <rubrik>Gammelormen</rubrik>
+      <bodyText>“Det låter hemskt jobbigt. Mantaxerna har alltid varit ett slösaktigt folk. Det spelar ingen roll hur mycket vatten dom får. Dom fortsätter att hälla det i en hink utan botten”, säger Gammelormen. “Samtidigt borde ingen behöva gå törstig för det”</bodyText>
+      <links>
+        <Link>
+          <LinkText>Betyder det att ni ger Rubidus vatten?</LinkText>
+          <DirectToID>51</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>36</id>
+        <lable>gammelormenTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>50</pID>
+      <typ>6</typ>
+      <rubrik>Gammelormen</rubrik>
+      <bodyText>"Den starka strålningen från solen gör att algerna växer snabbare än vanligt och suger ut alldeles för mycket syre ur vattnet! Om dom fortsätter att sprida sig på det här sättet kommer det snart inte gå att andas under vattnet!"</bodyText>
+      <links>
+        <Link>
+          <LinkText>Kan vi hjälpa till på något sätt? </LinkText>
+          <DirectToID>52</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Det låter jobbigt, hoppas det löser sig!</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>36</id>
+        <lable>gammelormenTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>51</pID>
+      <typ>6</typ>
+      <rubrik>Gammelormen</rubrik>
+      <bodyText>“Om det var upp till mig skulle Rubidus få allt vatten dom behöver. Men det är bara Hydroquariatet som kan besluta om sånt. För tillfället kan vi inte besluta om någonting!" berättar Gammelormen. 
+"Vi har stora problem med våra algodlingar och vet inte vad vi ska göra!"</bodyText>
+      <links>
+        <Link>
+          <LinkText>Vad är det för problem med algerna?</LinkText>
+          <DirectToID>50</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>36</id>
+        <lable>gammelormen</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>52</pID>
+      <typ>6</typ>
+      <rubrik>Gammelormen</rubrik>
+      <bodyText>"Det enda sättet att få stopp på algerna är att flytta dom någonstans där dom inte kan göra någon skada, till exempel en sol eller obefolkad planet. Hydroquariatet har försökt bestämma vem som ska göra det men kan inte komma överens!" </bodyText>
+      <links>
+        <Link>
+          <LinkText>Vi kan säkert hitta ett bra ställe att lämna algerna på! </LinkText>
+          <DirectToID>53</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Vi kan försöka hjälpa er hitta ett ställe senare</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>36</id>
+        <lable>gammelormenTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>53</pID>
+      <typ>6</typ>
+      <rubrik>Gammelormen</rubrik>
+      <bodyText>"Underbart! Kom tillbaka efter att ni lämnat algerna så ska vi säkert kunna ge Rubidus lite vatten!"</bodyText>
+      <links>
+        <Link>
+          <LinkText>Transportera algerna </LinkText>
+          <DirectToID>42</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>36</id>
+        <lable>gammelormenTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>54</pID>
+      <typ>5</typ>
+      <rubrik>Watersplash</rubrik>
+      <bodyText>Det är varmt och fuktigt i staden Korallodon. 
+En frisk havsbris hjälper till att göra det lite svalare. Det luktar inte ruttnande alger längre utan hav och saltvatten. Staden guppar lätt på vågorna. En grupp unga Leviter svalkar sig i vattnet. 
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Besök Hydroquariatet (Leviternas parlament)</LinkText>
+          <DirectToID>55</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Besök Watersplash Algodlingar</LinkText>
+          <DirectToID>62</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>47</id>
+        <lable>watersplashBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>55</pID>
+      <typ>5</typ>
+      <rubrik>Hydroquariatet</rubrik>
+      <bodyText>I Hydroquariatet har lugnet lagt sig. Krisen med mutant-algerna är över. Hydroquariatet har nu möjlighet att diskutera vattenbristen på Rubidus. Men Leviterna är långt i från överens. Vatten är viktiga saker på Watersplash och alla Leviter vill vara med och bestämma. 
+
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Be Leviterna om vatten till Rubidus</LinkText>
+          <DirectToID>56</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till ytan</LinkText>
+          <DirectToID>53</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>38</id>
+        <lable>hydroquariatetBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>56</pID>
+      <typ>6</typ>
+      <rubrik>Hydroquariatet</rubrik>
+      <bodyText>Leviterna kan inte komma överens om dom ska ge vatten till Rubidus. Dom behöver hjälp att ta beslut. 
+
+Hur ska leviterna göra för att ta ett beslut och samtidigt se till att alla får komma till tals?  
+
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Omröstning (flest röster vinner)</LinkText>
+          <DirectToID>58</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Konsensus (alla måste vara överens)</LinkText>
+          <DirectToID>59</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Låt den äldste får bestämma</LinkText>
+          <DirectToID>60</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>57</pID>
+      <typ>5</typ>
+      <rubrik>Hydroquariatet</rubrik>
+      <bodyText>Hydroquariatet har fattat sitt beslut och rådslaget är över. Leviterna fyller upp era vattentankar och tackar för den här gången. 
+
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>65</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>38</id>
+        <lable>hydroquariatetBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>58</pID>
+      <typ>6</typ>
+      <rubrik>Omröstning (flest röster vinner)</rubrik>
+      <bodyText>Leviterna röstar och en majoritet (de flesta) tycker att Watersplash ska hjälpa Rubidus. 
+
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Demokratiskt</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Beslut taget</ActionText>
+          <ActionNrA>57</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Hämta vattnet</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>26</id>
+        <lable>omrostning</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>59</pID>
+      <typ>6</typ>
+      <rubrik>Konsensus (alla måste vara överens)</rubrik>
+      <bodyText>Förhandlingarna tar lång tid. Alla Leviter får sin chans att berätta sin syn på det hela. Till slut kommer dock alla överens om att Watersplash borde ge Rubidus vatten. 
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Väldigt demokratiskt</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>beslut taget</ActionText>
+          <ActionNrA>57</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Hämta vattnet</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>27</id>
+        <lable>konsensus</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>60</pID>
+      <typ>6</typ>
+      <rubrik>Gammelormen får bestämma</rubrik>
+      <bodyText>Gammelormen tycker det är ett jättebra idé men hinner inte säga ett ord innan det blir bråk och alla leviter gurglar i munnen på varandra. Ni kan inte göra så mycket mer än att lämna diskussionerna och komma tillbaka senare.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>inte demokratiskt</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Inget beslut</ActionText>
+          <ActionNrA>61</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Lämna diskussionerna</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>61</pID>
+      <typ>5</typ>
+      <rubrik>Hydroquariatet</rubrik>
+      <bodyText>Hydroquariatet kommer inte kunna ta något beslut förrän alla lugnat ner sig. Det tar säkert bara några hundra år. Ni kan inte göra så mycket mer än att komma tillbaka senare. 
+
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>65</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>38</id>
+        <lable>hydroquariatetBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>62</pID>
+      <typ>5</typ>
+      <rubrik>Watersplash algodlingar</rubrik>
+      <bodyText>Dom muterade algodlingar tar upp stora delar av Watersplash havsbotten. Algerna växer fort och blommar året runt i det varma havsklimatet. Leviterna gör sitt bästa för att ta tillvara på algerna och använder dom i allt från mat till kläder och byggmaterial.
+
+Den som tar hand om algerna kallas för Sjögårdsmästaren. </bodyText>
+      <links>
+        <Link>
+          <LinkText>Prata med Sjögårdsmästaren</LinkText>
+          <DirectToID>64</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till staden</LinkText>
+          <DirectToID>54</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>52</id>
+        <lable>algodlingBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>63</pID>
+      <typ>5</typ>
+      <rubrik>Vattentemplet</rubrik>
+      <bodyText>I mitten av Rubidon ligger det heliga vattentemplet. Här ifrån övervakar och styr prästerskapet Rubidus vattenförsörjning och håller i viktiga vattenceremonier. Prästinnan Duula sitter såklart högst upp i templet. 
+ 
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Prata med prästinnan Duula</LinkText>
+          <DirectToID>3</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till staden</LinkText>
+          <DirectToID>2</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>23</id>
+        <lable>templetBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>64</pID>
+      <typ>6</typ>
+      <rubrik>Sjögårdsmästaren</rubrik>
+      <bodyText>"Tack för er hjälp med algerna! Den värsta krisen är över nu." säger Sjögårdsmästaren med en lättad suck. 
+"Algerna växer fortfarande snabbt men så länge vi kan skicka iväg en last då och då kommer dom inte suga kunna ut för mycket syre ur vattnet. Om ni prata med Hydroquariatet kan dom säkert tänka sig ge Rubidus lite vatten nu."  </bodyText>
+      <links>
+        <Link>
+          <LinkText>Ok, det låter bra</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>5</id>
+        <lable>levitTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>65</pID>
+      <typ>5</typ>
+      <rubrik>Lämna planeten</rubrik>
+      <bodyText>..</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Watersplash C</ActionText>
+          <ActionNrA>22</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Watersplash D</ActionText>
+          <ActionNrA>23</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>66</pID>
+      <typ>5</typ>
+      <rubrik>Loolas</rubrik>
+      <bodyText>Loolas är en isplanet utan atmosfär. Det finns ingen växtlighet bara snö och is. Kylan är så extrem att dom enda som kan bo på planeten är insektoiderna. Ett primitivt jägarfolk utan teknologi. 
+
+Ni har satt upp ett läger för att kunna utforska planeten bättre. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Loolas A</ActionText>
+          <ActionNrA>25</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Polypus A</ActionText>
+          <ActionNrA>31</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Leta efter vatten</LinkText>
+          <DirectToID>68</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Besök insektoiderna</LinkText>
+          <DirectToID>67</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>39</id>
+        <lable>loolasBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>67</pID>
+      <typ>6</typ>
+      <rubrik>Insektoiderna</rubrik>
+      <bodyText>Insektoiderna bor i enkla isgrottor under marken och använder ingen teknologi. Dom är gästvänliga men det är svårt att förstå vad dom säger. 
+
+XXZZZ XZQ QXX !! ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ ?!</bodyText>
+      <links>
+        <Link>
+          <LinkText>Vi letar vatten åt Rubidus!</LinkText>
+          <DirectToID>70</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Hur gör ni för att smälta isen?</LinkText>
+          <DirectToID>71</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>32</id>
+        <lable>insektoidTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>68</pID>
+      <typ>6</typ>
+      <rubrik>Leta efter vatten</rubrik>
+      <bodyText>Det finns inget rinnande vatten på Loolas. Det finns däremot stora is-glaciärer. Om det gick att smälta isen på något sätt skulle vattnet antagligen kunna försörja Rubidus en lång tid framöver. 
+
+Ni kan ta med er is på skeppet men Polypus imperiet blir nog inte så glada. </bodyText>
+      <links>
+        <Link>
+          <LinkText>Lasta is på skeppet (trots att polypus kanske blir arga)</LinkText>
+          <DirectToID>69</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till lägret</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>69</pID>
+      <typ>4</typ>
+      <rubrik>Lasta is på skeppet</rubrik>
+      <bodyText>Polypus imperiet blir arga för att ni tagit is från Loolas. Ett större problem är dock var ni ska göra med isen ni tagit med er. 
+
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Loolas C</ActionText>
+          <ActionNrA>27</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>isbit bakom skeppet</ActionText>
+          <ActionNrA>28</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText />
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Loolas E</ActionText>
+          <ActionNrA>29</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>70</pID>
+      <typ>6</typ>
+      <rubrik>Insektoid</rubrik>
+      <bodyText>"XXZZZ XZQ QXX !! ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ ?!"
+
+Insektoiderna förstår inte riktigt vad ni menar och det är svårt att förklara vad det är ni vill.</bodyText>
+      <links>
+        <Link>
+          <LinkText>Erbjud insektoiderna rubi-rosor</LinkText>
+          <DirectToID>72</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Erbjud insektoiderna teknologi (trots att polypus kan bli arga)</LinkText>
+          <DirectToID>73</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Sluta prata med insektoiderna</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>32</id>
+        <lable>insektoidTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>71</pID>
+      <typ>6</typ>
+      <rubrik>Insektoid</rubrik>
+      <bodyText>XXZZZ XZQ QXX !! ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ ?!
+
+Ni förstår inte riktig vad insektoiderna säger men det verkar som att dom brukar suga på isbitar när dom blir törstiga. </bodyText>
+      <links>
+        <Link>
+          <LinkText>Kan vi få köpa lite is?</LinkText>
+          <DirectToID>70</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Sluta prata med insektoiderna</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>32</id>
+        <lable>insektoidTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>72</pID>
+      <typ>6</typ>
+      <rubrik>Insektoid</rubrik>
+      <bodyText>"XXZZZ XZQ QXX !! ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ ?!"
+
+Insektoiderna är helt ointresserade av rubi-rosorna ni har med er. Det är kanske inte så konstigt. Inget kan växa på Loolas. </bodyText>
+      <links>
+        <Link>
+          <LinkText>Erbjud insektoiderna teknologi</LinkText>
+          <DirectToID>73</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Sluta prata med insektoiderna</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>32</id>
+        <lable>insektoidTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>73</pID>
+      <typ>6</typ>
+      <rubrik>Insektoid</rubrik>
+      <bodyText>XXZZZ XZQ QXX !! ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ ?!
+
+Insektoiderna blir uppspelta och glada. Dom visar er till en enorm isgrotta. Ni får ta så mycket is-kristaller ni vill. 
+Med hjälp av teknologin kan insektoiderna lära sig nya saker och börja ta kontakt med andra civilisationer.
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Lasta på is på skeppet</ActionText>
+          <ActionNrA>74</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Teknologi</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Loolas B</ActionText>
+          <ActionNrA>26</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Lasta skeppet med is (trots att Polypus imperiet kan bli arga)</LinkText>
+          <DirectToID>82</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna isen </LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>32</id>
+        <lable>insektoidTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>74</pID>
+      <typ>5</typ>
+      <rubrik>Loolas</rubrik>
+      <bodyText>Loolas är en isplanet utan atmosfär. Det finns ingen växtlighet bara snö och is. Kylan är så extrem att dom enda som kan bo på planeten är insektoiderna. Ett primitivt jägarfolk utan teknologi. 
+
+Ni har satt upp ett läger för att kunna utforska planeten bättre. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Loolas B</ActionText>
+          <ActionNrA>26</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Besök insektoiderna</LinkText>
+          <DirectToID>75</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>39</id>
+        <lable>loolasBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>75</pID>
+      <typ>6</typ>
+      <rubrik>Insektoiderna</rubrik>
+      <bodyText>Insektoiderna är helt uppslukade av teknologin ni givit dom och håller sig inne i sina enkla isgrottor under marken.  
+
+XXZZZ XZQ QXX !! ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ ?!</bodyText>
+      <links>
+        <Link>
+          <LinkText>Återvänd till lägret</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>32</id>
+        <lable>insektoidTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>76</pID>
+      <typ>6</typ>
+      <rubrik>Isen smälter!</rubrik>
+      <bodyText>Undromedas varma strålar smälter isblocket från Loolas. Det blir en ordentlig laddning vatten. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Loolas C</ActionText>
+          <ActionNrA>27</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>3</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Is bakomskeppet</ActionText>
+          <ActionNrA>28</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>34</id>
+        <lable>IsVsSol</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>77</pID>
+      <typ>4</typ>
+      <rubrik>Polypus imperiet</rubrik>
+      <bodyText>Planeten Loolas vaktas av Polypus imperiet. 
+Det går inte att besöka planeten utan deras tillstånd. När ni försöker landa blir ni anropade av stjärnkryssare Polypsos.</bodyText>
+      <links>
+        <Link>
+          <LinkText>Svara på anropet</LinkText>
+          <DirectToID>78</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Svara inte</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>78</pID>
+      <typ>6</typ>
+      <rubrik>Kapten Foss</rubrik>
+      <bodyText>Stjärnkryssaren Polypsos kommenderas av den beryktade Kapten Foss.
+
+"Vad har ni för ärende på Loolas? Planeten står under Polypus imperiets beskydd!" säger Kapten Foss. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Vi är från Rymdrådet och vill besöka Loolas</LinkText>
+          <DirectToID>79</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Vi letar efter vatten åt Rubidus</LinkText>
+          <DirectToID>80</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>40</id>
+        <lable>kaptenfossTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>79</pID>
+      <typ>6</typ>
+      <rubrik>Kapten Foos</rubrik>
+      <bodyText>"På så vis. Det går bra så länge som ni är försiktiga. Loolas ekosystem är väldigt känsligt. Under isen finns värdefulla biologiska organismer som legat orörda i tusentals år. Minsta lilla förändring kan ha oanade konsekvenser!"
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Vi ska vara försiktiga</LinkText>
+          <DirectToID>66</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Det låter känsligt, vi åker vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>40</id>
+        <lable>kaptenfossTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>80</pID>
+      <typ>6</typ>
+      <rubrik>Kapten Foss</rubrik>
+      <bodyText>"Minsann! Loolas ekosystem är alldeles för känsligt för att drickas upp. Ni får landa på planeten om ni lovar att inte ta någon is eller störa insektoiderna. </bodyText>
+      <links>
+        <Link>
+          <LinkText>Det låter känsligt, vi åker vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Vi lovar att inte ta någon is</LinkText>
+          <DirectToID>66</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>40</id>
+        <lable>kaptenfossTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>81</pID>
+      <typ>0</typ>
+      <rubrik>Polypus nöjda</rubrik>
+      <bodyText>Vi förstår att det var frestande att ta isen men insektoiderna är inte mogna för teknologi. 
+
+Som tack för att ni skydda systemet ... får ni lite hyper-avancerad teknologi. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Goda relationer</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>82</pID>
+      <typ>4</typ>
+      <rubrik>Lasta is på skeppet</rubrik>
+      <bodyText>Polypus imperiet blir arga för att ni tagit is från Loolas och givit teknologi till Insektoiderna. 
+Ett större problem är dock var ni ska smälta isen ni tagit med er. 
+
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Loolas C</ActionText>
+          <ActionNrA>27</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>isbit bakom skeppet</ActionText>
+          <ActionNrA>28</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText />
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Loolas B</ActionText>
+          <ActionNrA>26</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>83</pID>
+      <typ>5</typ>
+      <rubrik>Loolas</rubrik>
+      <bodyText>Loolas är en isplanet utan atmosfär. Det finns ingen växtlighet bara snö och is. Kylan är så extrem att dom enda som kan bo på planeten är insektoiderna. 
+
+Efter den senaste is-stölden övervakar Polypus imperiet allt som händer på planeten. Dom måste se till att inget mer händer med den känsliga isen.</bodyText>
+      <links>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>39</id>
+        <lable>loolasBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>84</pID>
+      <typ>4</typ>
+      <rubrik>Polypus imperiet</rubrik>
+      <bodyText>Planeten Loolas vaktas av Polypus imperiet. 
+Det går inte att besöka planeten utan deras tillstånd. När ni försöker landa blir ni anropade av stjärnkryssare Polypsos.</bodyText>
+      <links>
+        <Link>
+          <LinkText>Svara på anropet</LinkText>
+          <DirectToID>78</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Svara inte</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>85</pID>
+      <typ>4</typ>
+      <rubrik>Watersplash</rubrik>
+      <bodyText>Leviterna tackar för er hjälp med mutant-algerna men har inget vatten att ge för tillfället. </bodyText>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>86</pID>
+      <typ>4</typ>
+      <rubrik>Vill ni utvinna vatten?</rubrik>
+      <bodyText>Det finns frysta vattendepåer på asteroiderna. Vill ni utvinna vatten från asteroiderna ?</bodyText>
+      <links>
+        <Link>
+          <LinkText>Ja</LinkText>
+          <DirectToID>87</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Nej</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>87</pID>
+      <typ>4</typ>
+      <rubrik>Utvinna vatten</rubrik>
+      <bodyText>Det utvunna vattnet lagras i er lastutrymme. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Pumpstation</ActionText>
+          <ActionNrA>44</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>dåligt för miljön</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>88</pID>
+      <typ>4</typ>
+      <rubrik>Vill ni utvinna vatten?</rubrik>
+      <bodyText>Det finns frysta vattendepåer på asteroiderna. Vill ni utvinna vatten från asteroiderna ?</bodyText>
+      <links>
+        <Link>
+          <LinkText>Ja</LinkText>
+          <DirectToID>89</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Nej</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>89</pID>
+      <typ>4</typ>
+      <rubrik>Utvinna vatten</rubrik>
+      <bodyText>Det utvunna vattnet lagras i er lastutrymme. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Pumpstation</ActionText>
+          <ActionNrA>42</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>dåligt för miljön</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>90</pID>
+      <typ>4</typ>
+      <rubrik>Vill ni utvinna vatten?</rubrik>
+      <bodyText>Det finns frysta vattendepåer på asteroiderna. Vill ni utvinna vatten från asteroiderna ?</bodyText>
+      <links>
+        <Link>
+          <LinkText>Ja</LinkText>
+          <DirectToID>91</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Nej</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>91</pID>
+      <typ>4</typ>
+      <rubrik>Utvinna vatten</rubrik>
+      <bodyText>Det utvunna vattnet lagras i er lastutrymme. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>pumpstation</ActionText>
+          <ActionNrA>43</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Dåligt för miljön</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>92</pID>
+      <typ>4</typ>
+      <rubrik>Vill ni utvinna vatten?</rubrik>
+      <bodyText>Det finns frysta vattendepåer på asteroiderna. Vill ni utvinna vatten från asteroiderna ?</bodyText>
+      <links>
+        <Link>
+          <LinkText>Ja</LinkText>
+          <DirectToID>93</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Nej</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>93</pID>
+      <typ>4</typ>
+      <rubrik>Utvinna vatten</rubrik>
+      <bodyText>Det utvunna vattnet lagras i er lastutrymme. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Dåligt för miljön</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Pumpstation</ActionText>
+          <ActionNrA>45</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>94</pID>
+      <typ>4</typ>
+      <rubrik>Strandat skepp</rubrik>
+      <bodyText>Ett skepp är strandat i rymden </bodyText>
+      <links>
+        <Link>
+          <LinkText>Anropa skeppet</LinkText>
+          <DirectToID>95</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>95</pID>
+      <typ>6</typ>
+      <rubrik>Roboklius</rubrik>
+      <bodyText>"Var hälsade! Jag är Roboklius. Kringresande uppfinnare och handlarrobot. Jag var på väg till Merlona när mina motorer slutade fungera!"</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Kan vi hjälpa till på nått sätt?</LinkText>
+          <DirectToID>96</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Det lät jobbigt. Har du något vatten?</LinkText>
+          <DirectToID>97</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>65</id>
+        <lable>minirobotTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>96</pID>
+      <typ>6</typ>
+      <rubrik>Roboklius</rubrik>
+      <bodyText>"Jag är på väg till Merlona. Om ni kan hjälpa mig dit så lovar jag att belöna er!"</bodyText>
+      <links>
+        <Link>
+          <LinkText>Har du vatten?</LinkText>
+          <DirectToID>97</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Det låter bra!</LinkText>
+          <DirectToID>98</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>65</id>
+        <lable>minirobotTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>97</pID>
+      <typ>6</typ>
+      <rubrik>Roboklius</rubrik>
+      <bodyText>Jag har inget vatten men jag har en hel last med vattenutvinnare! Super-pumpar som kan utvinna vattenkristaller ur asteroider. Om ni hjälper mig till Merlona kan ni få ett par stycken. </bodyText>
+      <links>
+        <Link>
+          <LinkText>Det låter bra! </LinkText>
+          <DirectToID>98</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>65</id>
+        <lable>minirobotTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>98</pID>
+      <typ>4</typ>
+      <rubrik>Ta Roboklius till Merlona</rubrik>
+      <bodyText>Kör Roboklius till Merlona</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Kör till Merlona</ActionText>
+          <ActionNrA>47</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk till Merlona</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>99</pID>
+      <typ>4</typ>
+      <rubrik>Uppdrag utfört! </rubrik>
+      <bodyText>Roboklius tackar er för hjälpen och ger er fyra  "Vattenutvinnare" för att borra i Asteroider. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Ny teknologi</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Asteroider</ActionText>
+          <ActionNrA>48</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>DockatSkeppON</ActionText>
+          <ActionNrA>55</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>100</pID>
+      <typ>2</typ>
+      <rubrik>Lastutrymmet är fullt!</rubrik>
+      <bodyText>Det är fullt i lastutrymmet. Ni har samlat tillräckligt med vatten för att fylla Rubidus vattenreservoar och stoppa vattenkrisen. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Rubidus D</ActionText>
+          <ActionNrA>7</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk tillbaka till Rubidus</LinkText>
+          <DirectToID>101</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>101</pID>
+      <typ>6</typ>
+      <rubrik>Prästinnan Duula</rubrik>
+      <bodyText>"Tack för att ni hämtade vatten och stoppade vattenkrisen. Nu har vi tillräckligt för att kunna skörda Rubi-rosorna. 
+Efter det måste vi tänka ut ett nytt sätt att få vattnet att räcka till och förhindra att det blir vattenbrist igen! Vi kan inte hålla på så här längre!
+
+Vill ni hjälpa oss? 
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Det ska vi göra! </LinkText>
+          <DirectToID>110</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Det ska vi göra, vi ska bara titta i staden först</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>49</id>
+        <lable>mantaxpriestTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>102</pID>
+      <typ>5</typ>
+      <rubrik>Rubidus</rubrik>
+      <bodyText>I huvudstaden Rubidon är det vattenfestival.  Gatorna är fyllda av lyckliga rubiduser som firar att vattenkrisen är över och att rosodlingarna är räddade. Folk hurrar och vattnet flödar. Prästerna bjuder på avancerade vattenceremonier. Ingen tänker på att det kan snart vara slut på vatten igen. Om inte prästerskapet ordnar en mer hållbar vattenförsörjning.
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Prata med prästinnan Duula</LinkText>
+          <DirectToID>101</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Besök vattenreservoaren</LinkText>
+          <DirectToID>105</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Besök rosenodlingarna</LinkText>
+          <DirectToID>104</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>22</id>
+        <lable>rubidusvattenBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>103</pID>
+      <typ>4</typ>
+      <rubrik>Lämna vatten</rubrik>
+      <bodyText>Vill ni lämna av vatten på Rubidus?</bodyText>
+      <links>
+        <Link>
+          <LinkText>Ja</LinkText>
+          <DirectToID>102</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Nej</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>104</pID>
+      <typ>5</typ>
+      <rubrik>Rubidus rosenodlingarna</rubrik>
+      <bodyText>Vattnet flödar på Rubidus rosodlingar. Dom avancerade bevattningsrobotar skyndar fram och tillbaka mellan rader av röda rosbuskar. Det är fortfarande varmt och mycket av vattnet avdunstar i den extrema ökenhettan.
+
+I den här takten kommer vattnet ni hämtat inte räcka länge. 
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Prata med mantaxen vid kontrollbordet</LinkText>
+          <DirectToID>107</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna odlingarna</LinkText>
+          <DirectToID>102</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>46</id>
+        <lable>rosodlingBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>105</pID>
+      <typ>5</typ>
+      <rubrik>Vattenreservoaren</rubrik>
+      <bodyText>Vattenbassängerna har fyllts på och ni hör hur vatten pumpas ut genom dom enorma vattenslangarna. Det verkar som att den värsta vattenkrisen är över. Frågan är hur länge det kommer att räcka?
+
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Prata med vatteningenjör Bolvatz</LinkText>
+          <DirectToID>108</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Lämna reservoaren</LinkText>
+          <DirectToID>102</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>45</id>
+        <lable>endelvattenBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>106</pID>
+      <typ>3</typ>
+      <rubrik>Slutsummering</rubrik>
+      <bodyText>...</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+      </actions>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>107</pID>
+      <typ>6</typ>
+      <rubrik>Rosodlare Mulk</rubrik>
+      <bodyText>"Fantastiskt bra att ni hämtat vatten åt oss!" säger rosodlare Mulk. "Nu passar vi på att lägga in dubbla bevattningsskift för att rädda skörden."</bodyText>
+      <links>
+        <Link>
+          <LinkText>Lämna diskussionen</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>41</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>108</pID>
+      <typ>6</typ>
+      <rubrik>Ingenjör Bolvatz</rubrik>
+      <bodyText>"Vattenreservoaren är full och nivåerna har stabiliserats. Nu finns det vatten till att både dricka och vattna igen. Jag önskar bara att vi hade ett bättre och mer stabilt sätt att försörja oss med vatten. För snart kommer vattnet vara slut igen" 
+</bodyText>
+      <links>
+        <Link>
+          <LinkText>Lämna diskussionen</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>48</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>109</pID>
+      <typ>4</typ>
+      <rubrik>Hämta vatten</rubrik>
+      <bodyText>...</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Rubidus A</ActionText>
+          <ActionNrA>4</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Rubidus C</ActionText>
+          <ActionNrA>6</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Hämta vatten</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>110</pID>
+      <typ>6</typ>
+      <rubrik>Hur ska Rubidus göra?</rubrik>
+      <bodyText>För att det inte ska bli vattenbrist igen behöver Rubidus en hållbar vattenförsörjning. Dom har tre alternativ att välja på.
+
+ 1) Skriv på ett bindande avtal med Ebulumerna för att få teknologi för att återvinna och rena vatten.  
+
+2) Sluta odla rubi-rosor och försöka med något annat. Trots att det är deras enda inkomst.
+
+3) Ta vatten från Loolas och fortsätta odla som dom alltid har gjort.  
+
+Vilket råd ger ni?</bodyText>
+      <links>
+        <Link>
+          <LinkText>Återvinna vatten dom redan har</LinkText>
+          <DirectToID>111</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Sluta slösa vatten på rosor</LinkText>
+          <DirectToID>112</DirectToID>
+        </Link>
+        <Link>
+          <LinkText>Hämta mer vatten från Loolas</LinkText>
+          <DirectToID>113</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>111</pID>
+      <typ>6</typ>
+      <rubrik>Vattenfiltrering och återvinning</rubrik>
+      <bodyText>Rubiduserna följer ert råd och sluter ett avtal med handelsstationen Merlona.  
+Ebulumernas teknologi gör att Rubidus kan sluta slösa vatten och återvinna det i stället. När vattenförsörjning är säkrad kan mantaxerna fortsätta odla rosor som dom alltid gjort. Men dom får bara sälja rosor till Ebulumerna som kan välja hur mycket dom vill betala.  </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Kulturen bevaras</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>1</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Ny teknologi</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>Stoppa slöseriet</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Avsluta spelet</LinkText>
+          <DirectToID>106</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>112</pID>
+      <typ>6</typ>
+      <rubrik>Odla alger istället för rosor</rubrik>
+      <bodyText>Rubiduserna gör som ni säger och slutar odla rubi-rosor. 
+Watersplash ger mantaxerna mutant-alger att odla istället. Algerna sprider sig fort och tar snabbt över dom tidigare rosodlingarna. Algerna går inte att sälja men växer bra och ger mantaxerna tillräckligt att äta och dricka.  
+
+Leviterna är glada att bli av med algerna och relationerna mellan Rubidus och Watersplash växer sig starka.  </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Goda relationer</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Bra miljöval</ActionText>
+          <ActionNrA>3</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Avsluta spelet</LinkText>
+          <DirectToID>106</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>113</pID>
+      <typ>6</typ>
+      <rubrik>Ta vatten från någon annan</rubrik>
+      <bodyText>Rubidus fortsätter att odla rosor som dom alltid har gjort och gör ingenting för att bli bättre på att hushålla med sitt vatten. 
+Mantaxerna åker istället till Loolas för att hämta mer. Insektoiderna gör inget motstånd men Polypus imperiet lämnar systemet i protest. Ingen tänker på vilka konsekvenser det kan ha på miljön om isen försvinner. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Dåliga relationer</ActionText>
+          <ActionNrA>-3</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Dåligt för miljön</ActionText>
+          <ActionNrA>-2</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Avsluta spelet</LinkText>
+          <DirectToID>106</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>49</id>
+        <lable>mantaxpriest</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>114</pID>
+      <typ>0</typ>
+      <rubrik>[PH]Undersök algerna</rubrik>
+      <bodyText>Algerna har anpassat sig bra till Mantax torra ökenklimat. Deras rötter har grävt sig djupt under markytan till grundvattnet som ingen visste fanns.</bodyText>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>115</pID>
+      <typ>1</typ>
+      <rubrik>Planeten Rubidus</rubrik>
+      <bodyText>Rubidus är en ökenplanet, ca 90% av planetens yta består av öken. Det finns inga hav eller naturliga vattenkällor. Temperaturen ligger mellan 31 - 52 grader varmt. 
+
+Rubidus är en Mantaxisk koloni och styrs av ett prästerskap. Det finns ett par mindre bosättningar på planeten. Huvudstaden heter Rubidon.
+
+&lt;b&gt;Status:&lt;/b&gt; Mantaxisk koloni 
+&lt;b&gt;Statsskick:&lt;/b&gt; Teokrati (religion styr samhället)
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; 120 000
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Avancerad
+&lt;b&gt;Klimat/Topografi:&lt;/b&gt; Öken</bodyText>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>116</pID>
+      <typ>1</typ>
+      <rubrik>Handelsstationen Merlona</rubrik>
+      <bodyText>Merlona är Ebulumernas handelsstation. Hit åker rymdfarare från hela sektorn för att handla och byta varor med varandra. Merlona är en del av “den vita rymdstigen” en intergalaktisk handelsled som löper genom hela galaxen.
+
+&lt;b&gt;Typ:&lt;/b&gt; Rymdstation
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; Varierar
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Avancerad
+&lt;b&gt;Övrigt:&lt;/b&gt; Mötes och handelsplats	</bodyText>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>117</pID>
+      <typ>1</typ>
+      <rubrik>Planeten Watersplash</rubrik>
+      <bodyText>Watersplash är en vattenplanet. Endast 0,3 % av planetytan ligger ovanför vattenytan resten täcks av vatten. 
+
+Watersplash bebos av Leviterna. Ett gammalt och stolt släkte sjölevande reptiler. Det finns inte så många av dom kvar men Leviter kan bli flera hundra år gamla. 
+
+Leviterna bor under vattenytan i hålor och undervattensstäder. Dom lämnar sällan sin planet och ogillar besökare. När dom pratar låter det som om de gurglar. 
+
+&lt;b&gt;Status:&lt;/b&gt; Hemplanet 
+&lt;b&gt;Statsskick:&lt;/b&gt; Klansamhälle 
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; 57 Miljoner
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Avancerad
+&lt;b&gt;Klimat:&lt;/b&gt; Tropiskt havsklimat</bodyText>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>118</pID>
+      <typ>1</typ>
+      <rubrik>Planeten Mantax</rubrik>
+      <bodyText>Mantax var mantaxernas hemvärld tills planetens ekosystem föll samman och vattnet tog slut. Mantax är en torr och ofruktbar planet. Här finns inte längre något liv. Bara uttorkade flodbäddar och hav.
+
+Mantaxerna var ett religiöst folk som levde i ett överflöd av energi och teknologi och byggde sitt samhälle därefter.
+
+&lt;b&gt;Status:&lt;/b&gt; Övergiven
+&lt;b&gt;Statsskick:&lt;/b&gt; Inget 
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; Ingen
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Ingen 
+&lt;b&gt;Klimat/Topografi:&lt;/b&gt; Öken</bodyText>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>119</pID>
+      <typ>1</typ>
+      <rubrik>Asteroidbälte</rubrik>
+      <bodyText>Det här är ett asteroidbälte. En samling stora rymdstenar (asteroider) som svävar tillsammans i omloppsbana. Riktigt stora asteroider kallas för planetoider eller småplaneter. Det är lätt att krocka när man passerar genom ett asteroidbälte så kör väldigt försiktigt.
+
+&lt;b&gt;Typ:&lt;/b&gt; Asteroid
+&lt;b&gt;Ålder:&lt;/b&gt; Okänt 
+&lt;b&gt;Relaterade himlakroppar:&lt;/b&gt; Inga
+&lt;b&gt;Övrigt:&lt;/b&gt; Vissa asteroidbälten kan innehålla mineralrika asteroider. </bodyText>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>120</pID>
+      <typ>1</typ>
+      <rubrik>Planeten Loolas</rubrik>
+      <bodyText>Loolas är en kall och ogästvänlig plats. Planeten saknar atmosfär och täcks av ett tjockt istäcke. Det sägs att det finns stora naturtillgångar under isen (olja och gas).
+
+På Loolas bor ett insektliknade folkslag som lever på snö och is. Deras civilisation är primitiv men dom tar gärna emot besökare. När insektoiderna blir upprörda sprutar dom is.
+
+Planeten Loolas vaktas av Polypus imperiet. 
+
+&lt;b&gt;Status:&lt;/b&gt; Outforskad 
+&lt;b&gt;Statsskick:&lt;/b&gt; Okänd
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; Okänd
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Okänd
+&lt;b&gt;Klimat/Topografi:&lt;/b&gt; Arktiskt</bodyText>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>121</pID>
+      <typ>1</typ>
+      <rubrik>Solen Undromeda</rubrik>
+      <bodyText>Solen Undromeda är en livskraftig stjärna som beräknas vara drygt 8,1 miljarder år gammal. 
+Undromeda-systemet omfattar fyra planeter. Rubidus, Watersplash, Volga och Loolas.
+
+&lt;b&gt;Typ:&lt;/b&gt; Medelstor Stjärna
+&lt;b&gt;Ålder:&lt;/b&gt; 8,1 Miljarder år
+&lt;b&gt;Relaterade himlakroppar:&lt;/b&gt; Planeten Rubidus, Watersplash och Leelos</bodyText>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+  </Paragrafer>
+</SavedataParagraph>

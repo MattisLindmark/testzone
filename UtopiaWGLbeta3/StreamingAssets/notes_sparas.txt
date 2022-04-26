@@ -1,0 +1,10 @@
+2016-10-30
+Testar skriva en anteckning. får se om detta funkar. Det vore snyggt om man kunde få bort "script"-delen här ovan.
+
+Nu sparar jag!
+
+OK, det funkar. Man bör lägga så den testar ladda från början!
+
+Om man skriver lite längre blir det en scrolllist.
+
+Det är ju najs.

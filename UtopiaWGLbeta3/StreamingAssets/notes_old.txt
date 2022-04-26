@@ -1,0 +1,17 @@
+2016-10-30
+NotesWizard skapades.
+
+2016-10-31
+kväll
+Vidderna finns i följande:
+pId 95
+   - länkas från: 94 och 102
+   - Länkar till: 100 och -3 och lämna planet -1
+pId 104
+   - länkas från: 108 : frihamnen port bestia
+   - Länkar till: 108 och 100
+
+
+Slutsats: 95 och 104 kan slås ihop med -3 som tillbaka.
+p 108 ska då länka till 95 istället.
+108 tas bort.

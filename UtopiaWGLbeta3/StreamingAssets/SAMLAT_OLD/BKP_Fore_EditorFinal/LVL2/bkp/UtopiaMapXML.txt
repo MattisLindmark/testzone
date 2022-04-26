@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SavedataMapObj xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Mapobjects>
+    <MapObject>
+      <id>1</id>
+      <worldID>2</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Fluxor6</lable>
+      <description>En testplanet</description>
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <actions />
+      <visualID>10</visualID>
+      <visualLable>GreenPlanet</visualLable>
+      <other>Visual</other>
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>2</id>
+      <worldID>2</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Fluxor start countdown</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>tid</thisTrigger>
+          <ActionText>visa 2 efter 5 sek, vad gör bnr?</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>10</ActionNrB>
+          <ActionTnr>5</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>3</id>
+      <worldID>5</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Enter to start time</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>PLenter</thisTrigger>
+          <ActionText>enter to start time on fluxor</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>12</visualID>
+      <visualLable>vater</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>4</id>
+      <worldID>6</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Ett simpelt mapobjekt</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags>
+        <string>en</string>
+        <string>tagg</string>
+      </tags>
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIcontact</thisTrigger>
+          <ActionText>visa en paragraf</ActionText>
+          <ActionNrA>3</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>19</visualID>
+      <visualLable>tallus</visualLable>
+      <other>Den har actions</other>
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>5</id>
+      <worldID>12</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Krach</lable>
+      <description>Testar om det krachar.</description>
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIcontact</thisTrigger>
+          <ActionText>En parra som ej finns</ActionText>
+          <ActionNrA>213</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>19</visualID>
+      <visualLable>jappjau</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+  </Mapobjects>
+</SavedataMapObj>
