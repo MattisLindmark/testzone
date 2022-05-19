@@ -1,0 +1,5531 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SavedataParagraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Paragrafer>
+    <PObject>
+      <pID>1</pID>
+      <typ>1</typ>
+      <rubrik>Solen Tricus</rubrik>
+      <bodyText>Tricus är en väldigt gammal stjärna, drygt 12 miljarder år. Solsystemet har flera mindre planeter.   
+
+Den senaste tidens solaktivitet tyder på att Tricus håller på att utvecklas till en supernova.  Då skulle planeter som ligger närmast ödeläggas helt.  
+
+&lt;b&gt; Typ:&lt;/b&gt; Stor stjärna
+&lt;b&gt; Ålder:&lt;/b&gt; 12 miljarder år
+&lt;b&gt; Relaterade himlakroppar:&lt;/b&gt; Antikus</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>2</pID>
+      <typ>7</typ>
+      <rubrik>Den sista färden</rubrik>
+      <bodyText>Solen Tricus håller på att slockna. Snart kommer planeten Antikus att bli omöjlig att bo på. Rymdrådet har skickat er för att hjälpa dom som bor där att hitta en ny planet att flytta till.
+
+Börja med att besöka Antikus för att se vad ni kan hjälpa till med.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Landa på Antikus</LinkText>
+          <DirectToID>3</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>1</id>
+        <lable>rymd</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>3</pID>
+      <typ>5</typ>
+      <rubrik>Antikus</rubrik>
+      <bodyText>Solen Tricus syns bara som en svag fläck. För varje dag blir planeten mörkare och kallare.
+
+Invånarna ställer allt hopp till bygget av Arken, ett stort rymdskepp som ska kunna ta dem till en ny planet.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText>close intro</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>7</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Prata med Mojuba, Antikanernas ledare</LinkText>
+          <DirectToID>4</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Besök bygget av rymdskeppet</LinkText>
+          <DirectToID>7</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>56</id>
+        <lable>AntikusBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>4</pID>
+      <typ>6</typ>
+      <rubrik>Antikanernas ledare Mojuba</rubrik>
+      <bodyText>Mojuba blir glad när han ser er:
+"Vi började bli oroliga att ingen skulle komma och hjälpa oss."
+
+"Om några hundra år kommer solen Tricus att förvandlas till en supernova. Då måste vi vara långt härifrån! Annars innebär det slutet för vår civilisation." säger Mojuba.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vad kan vi hjälpa er med?</LinkText>
+          <DirectToID>5</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>55</id>
+        <lable>AntikanTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>5</pID>
+      <typ>6</typ>
+      <rubrik>Hur kan vi hjälpa er?</rubrik>
+      <bodyText>"Kan ni hjälpa oss att hitta en ny planet att flytta till?
+
+Vårt stora rymdskepp Arken rymmer alla på planeten men vi klarar bara en resa.
+Därför måste vi veta att vi är välkomna innan vi åker till en ny planet."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi ska hjälpa er att hitta en ny plats att bo på</LinkText>
+          <DirectToID>6</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>55</id>
+        <lable>AntikanTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>6</pID>
+      <typ>6</typ>
+      <rubrik>Mojuba blir glad</rubrik>
+      <bodyText>Tack!
+Undersök planeterna i närheten och kom tillbaka hit när ni hittat några som passar.
+Då kan vi gemensamt besluta var vi ska åka.
+
+Vi delar gärna med oss av våra kunskaper och vår teknologi till den planet som tar emot oss.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Antikus B</ActionText>
+          <ActionNrA>10</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Antikus B</ActionText>
+          <ActionNrA>5</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Vi kommer tillbaka när vi hittat några bra planeter</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>55</id>
+        <lable>AntikanTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>7</pID>
+      <typ>5</typ>
+      <rubrik>Arken</rubrik>
+      <bodyText>Det enorma rymdskeppet Arken är en imponerande syn. Skeppet är en befolkningsförflyttare av typen XCW12. Byggt med galaxens modernaste teknologi och stort nog att rädda alla Antikus innevånare när solen Tricus slocknar. 
+
+På båda sidor av skeppet sitter långa rader av solpaneler som gnistrar. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Tala med byggmästaren</LinkText>
+          <DirectToID>8</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till staden</LinkText>
+          <DirectToID>3</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>54</id>
+        <lable>ArkenBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>8</pID>
+      <typ>6</typ>
+      <rubrik>Byggmästaren</rubrik>
+      <bodyText>"Bygget går som planerat, vi kommer att vara klara i tid men vi vet fortfarande inte vart vi ska åka! Arkens solceller klarar bara att ladda batterierna till en resa. Innan vi åker behöver vi hjälp att hitta en ny planet att bo på!"</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Kommer alla få plats?</LinkText>
+          <DirectToID>9</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>67</id>
+        <lable>ByggmästarenTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>9</pID>
+      <typ>6</typ>
+      <rubrik>Kommer alla få plats?</rubrik>
+      <bodyText>Jadå, alla planetens invånare och djur får plats. Men vi rymmer inte alla böcker, konstverk, musikinstrument och allt annat vi vill ta med oss.
+
+Superdatorn III0 hjälper oss att packa, men den tänker som en dator och packar bara det nödvändigaste som luft, mat och vatten.
+
+Vad ska vi göra när vi får långtråkigt?</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Svår fråga, vi säger till om vi kommer på något</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Sluta prata med byggmästaren</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>67</id>
+        <lable>ByggmästarenTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>10</pID>
+      <typ>5</typ>
+      <rubrik>Antikus</rubrik>
+      <bodyText>I det dunkla ljuset från solen Tricus förbereder sig antikanerna för den långa resan med rymdskeppet Arken. 
+
+Dom planerar att packa allt som dom kan tänka sig behöva på deras nya boplats; växter, frön, djur, maskiner, teknologi och annat. 
+
+Arbetet är hårt. Tur nog har dom hjälp av Arkens superdator III0. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med Mojuba</LinkText>
+          <DirectToID>11</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Besök bygget av rymdskeppet</LinkText>
+          <DirectToID>12</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>56</id>
+        <lable>AntikusBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>11</pID>
+      <typ>6</typ>
+      <rubrik>Prata med Mojuba</rubrik>
+      <bodyText>"Kom tillbaka när ni hittat en bra plats för oss att bosätta oss på. 
+
+Vi kräver inte mycket, bara en planet där vi kan leva tryggt.
+
+Vi delar gärna med oss av teknologi och kunskap till andra på planeten.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Okej, vi ska leta vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>55</id>
+        <lable>AntikanTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>12</pID>
+      <typ>5</typ>
+      <rubrik>Arken</rubrik>
+      <bodyText>Det enorma rymdskeppet Arken är en imponerande syn. 
+
+Skeppet är en befolkningsförflyttare av typen XCW12. Den är byggd med galaxens modernaste teknologi och är stor nog att rädda alla invånare på Antikus. Arken styrs av Superdatorn III0 - en supersmart dator som lär sig saker genom erfarenhet.
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Tala med byggmästaren</LinkText>
+          <DirectToID>8</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till staden</LinkText>
+          <DirectToID>10</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>54</id>
+        <lable>ArkenBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>13</pID>
+      <typ>1</typ>
+      <rubrik>Mördarluft</rubrik>
+      <bodyText>När det blir varmt på planeten Bulbios stiger giftiga gasångor mot himlen och flyger ut i rymden. Dom klibbiga gasbubblorna kallas "mördarluft". 
+
+Rymdfarkoster och asteroider fastnar lätt i mördarluften Det gör det svårt för rymdskepp att ta sig fram om det är mycket mördarluft. 
+ 
+Mördaluften är extremt giftig &lt;b&gt;men fyller en viktig funktion på Bulbius&lt;/b&gt;. Den håller planeten fuktig och skyddar planetens känsliga ekosystem mot solens farliga UV strålar. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>14</pID>
+      <typ>1</typ>
+      <rubrik>Planeten Antikus</rubrik>
+      <bodyText>Antikus är hem åt de lärda och visa antikanerna, som levt i fred och harmoni i över tusen år. 
+
+Antikus har ett milt klimat som växlar mellan sommar och vinter. Antikanerna lever nära naturen. Deras teknologi bygger på solenergi och har nästan ingen miljöpåverkan. 
+
+Antikus sol är döende och kommer slocka inom de närmsta hundra åren. 
+
+&lt;b&gt;Statsskick:&lt;/b&gt; Demokrati
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; 500 miljoner
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Hyper
+&lt;b&gt;Klimat/Topografi:&lt;/b&gt; milt klimat
+&lt;b&gt;Språk:&lt;/b&gt; Antikanska</bodyText>
+      <actions />
+      <links />
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>15</pID>
+      <typ>1</typ>
+      <rubrik>Planeten Bulbios</rubrik>
+      <bodyText>Träskplaneten Bulbios består till 82% av träsk och sumpmarker. Planetens fuktiga klimat har ett helt unikt djur och naturliv med flera miljoner olika typer av insekter och kräldjur.
+ 
+Dom många träsken gör det svår att bo på Bulbius. Alla som försökt bosätta sig där har gett upp på grund av en extremt giftig sumpgas som stiger upp ur träsken när det blir varmt på sommaren. Sumpgasen kallas för “mördarluften” och är ökänd i hela galaxen. 
+
+&lt;b&gt;Statsskick:&lt;/b&gt; Inget
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; Ingen
+&lt;b&gt;Språk:&lt;/b&gt; Inget 
+&lt;b&gt;Klimat/Topografi:&lt;/b&gt; Fuktigt subtropiskt</bodyText>
+      <actions />
+      <links />
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>16</pID>
+      <typ>4</typ>
+      <rubrik>Bulbios</rubrik>
+      <bodyText>Det pågår en konflikt på Bulbios mellan ebulumerna och polypuserna. Konflikten handlar om mördarluften.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Utforska planeten</LinkText>
+          <DirectToID>17</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Hjälp till och lösa konflikten</LinkText>
+          <DirectToID>18</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>17</pID>
+      <typ>5</typ>
+      <rubrik>Bulbios</rubrik>
+      <bodyText>Luften är varm och fuktig. Det surrar, bubblar och klafsar överallt.
+
+Ur träsken stiger bubblor av giftig gas som kallas mördarluft. 
+Mördarluften har orsakat en konflikt mellan ebulumerna och polypuserna.
+
+Innan ni kan avgöra om antikanerna kan bosätta sig på Bulbius måste konflikten lösas.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText>Konflikt på Bulbios</ActionText>
+          <ActionNrA>16</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Ta reda på mer om konflikten</LinkText>
+          <DirectToID>18</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>14</id>
+        <lable>Bulbios</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>18</pID>
+      <typ>5</typ>
+      <rubrik>Träskplaneten Bulbios</rubrik>
+      <bodyText>Mördarluften som kommer från Bulbios har orsakat en konflikt mellan ebulumerna och polypuserna. 
+
+Ebulumerna vill sätta stopp för den giftiga mördarluften.
+Polypuserna protesterar och menar att mördarluften är en naturlig del av Bulbios ekosystem som måste skyddas.
+
+Nu vill dom ha er hjälp för att lösa konflikten.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText>Konflikt på bulbios</ActionText>
+          <ActionNrA>16</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Lyssna på ebulumernas argument</LinkText>
+          <DirectToID>19</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lyssna på polypusernas argument</LinkText>
+          <DirectToID>20</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Ta ställning i konflikten</LinkText>
+          <DirectToID>21</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>14</id>
+        <lable>Bulbios</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>19</pID>
+      <typ>6</typ>
+      <rubrik>Lyssna på ebulumerna</rubrik>
+      <bodyText>"Mördarluften är ett otyg!" säger ebulumernas sändebud. 
+"Bubblorna gör det farligt att resa i området och hindrar folk från att bosätta sig i närheten.
+
+Vi vill ändra Bulbious bana runt solen så att planeten fryser till is. Det skulle få stopp på eländet."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Kan ni inte bara flyga en annan väg?</LinkText>
+          <DirectToID>22</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vill ni verkligen frysa hela planeten?</LinkText>
+          <DirectToID>23</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>41</id>
+        <lable>EbulumTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>20</pID>
+      <typ>6</typ>
+      <rubrik>Lyssna på Polypusernas argument</rubrik>
+      <bodyText>“Mördarluften måste skyddas!" säger polypus-diplomaten.
+
+"Ebulumerna riskerar att förstöra Bulbios naturliv bara för att bygga en expressväg. Det är inte okej!"
+
+"Mördarluften är livsviktig för att skydda Bulbios känsliga ekosystem. Minsta gradförändring kan utrota flera arter av djur och insekter".
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Men mördarluften är väl farlig?</LinkText>
+          <DirectToID>24</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Mördarluften ställer till en massa besvär</LinkText>
+          <DirectToID>25</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>50</id>
+        <lable>PolypusTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>21</pID>
+      <typ>9</typ>
+      <rubrik>Mördarluftens öde</rubrik>
+      <bodyText>Det är upp till er att avgöra Bulbios och Mördarluftens öde. Ebulumerna vill sänka temperaturen på planeten för att sätta stopp för mördarluft-bubblorna. Polypuserna tycker att mördarluften är en naturlig del av Bulbios ekosystem och vill därför skydda dem.
+
+Välj sida i konflikten</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ebulumernas sida (sänka temperaturen)</LinkText>
+          <DirectToID>26</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>6</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Polypus imperiets sida (skydda mördarluften)</LinkText>
+          <DirectToID>27</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>7</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lyssna på argumenten igen</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>14</id>
+        <lable>Bulbious</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>22</pID>
+      <typ>6</typ>
+      <rubrik>Kan ni inte ta en annan väg?</rubrik>
+      <bodyText>"Våra fraktskepp tvingas redan ta långa omvägar runt Bulbios för att inte fastna i bubblorna.
+Om vi får bort mördarluften kan vi  bygga en expressväg genom den här delen av galaxen och ta oss fram på nolltid."  
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Men vill ni verkligen frysa planeten till is?</LinkText>
+          <DirectToID>23</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>41</id>
+        <lable>EbulumTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>23</pID>
+      <typ>6</typ>
+      <rubrik>Frysa planeten</rubrik>
+      <bodyText>"Ja, det kan låta drastiskt men det brukar ändå vara istid på Bulbious var tusende år.
+Vi vill bara skynda på processen lite.
+
+Djuren och växterna går i dvala och innan planeten tinar upp nästa gång har vi säkert kommit på en bättre lösning på problemet med mördarluften," säger ebulumernas sändebud.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>41</id>
+        <lable>EbulumTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>24</pID>
+      <typ>6</typ>
+      <rubrik>Är inte mördarluften farlig?</rubrik>
+      <bodyText>"Farligt för vem?" frågar Polypus-diplomaten.
+
+"Bulbios är en oas för miljontals insekter och kräldjur som lever i harmoni med mördarluften. Faktum är att gasbubblorna sprider frön och livsviktig näring från Bulbios till andra planeter." </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Men bubblorna ställer till oreda i galaxen</LinkText>
+          <DirectToID>25</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>50</id>
+        <lable>PolypusTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>25</pID>
+      <typ>6</typ>
+      <rubrik>Oreda i galaxen?</rubrik>
+      <bodyText>Mördarluften är ett naturligt inslag i denna del av galaxen. Rymdfarare och kolonisatörer får helt enkelt vara vaksamma och försiktiga.
+Det är bara ebulumerna som klagar eftersom dom vill bygga sin expressväg.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>50</id>
+        <lable>PolypusTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>26</pID>
+      <typ>7</typ>
+      <rubrik>Ebulumerna får som dom vill</rubrik>
+      <bodyText>Ni tar ställning för Ebulumerna som inte spiller något tid. Dom stoppar Bulbios rotation och det blir genast mycket kallare på planeten. Temperaturskillnaden kommer att få allvarliga konsekvenser för Bulbios ekosystem. 
+
+Polypuserna gnisslar tänder och talar om ekologiskt katastrof. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Miljökatastrof</ActionText>
+          <ActionNrA>-2</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Goda relationer med Ebulum</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Bulbios D</ActionText>
+          <ActionNrA>16</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni valde att låta Ebulumerna frysa planeten Bulbious, dåligt för miljön men bra för rymdtrafiken i sektorn.</ActionText>
+          <ActionNrA>134</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>redirect</ActionText>
+          <ActionNrA>112</ActionNrA>
+          <ActionNrB>140</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Fortsätt</LinkText>
+          <DirectToID>29</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>14</id>
+        <lable>Bulbios</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>27</pID>
+      <typ>7</typ>
+      <rubrik>Polypus imperiet får som dom vill</rubrik>
+      <bodyText>Ni tar ställning för polypusernas förslag och förklarar Bulbios en skyddad planet. 
+
+Nu när polypuserna får bestämma kommer mördarluften spridas helt fritt. Till många rymdresenärers stora olycka.  </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Dåliga relationer Ebulum</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Rädda mördarluften</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Bulbios A</ActionText>
+          <ActionNrA>13</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Bulbios C</ActionText>
+          <ActionNrA>15</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni lät Polypus upprätta naturreservat på Bulbious, bra för miljön men mördarluften fortsätter ställa till problem för rymdtrafiken i sektorn.</ActionText>
+          <ActionNrA>134</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Fortsätt</LinkText>
+          <DirectToID>31</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>14</id>
+        <lable>Bulbios</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>28</pID>
+      <typ>1</typ>
+      <rubrik>Isplaneten Bulbios</rubrik>
+      <bodyText>Den blomstrande planeten Bulbios är ett minne blott. När ebulumerna stoppade planetens rotation sänktes temperaturen vilket orsakade enorma klimatförändringar. 
+
+Ett istäcke har nu lagt sig över Bulbios känsliga ekosystem. Djuren och insekterna kan inte längre leva och växterna kan inte längre växa i det nya klimatet.
+Det enda som återstår är gyttjiga träsk.
+
+&lt;b&gt;Typ:&lt;/b&gt; Isplanet
+&lt;b&gt;Statsskick:&lt;/b&gt; Inget
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; Ingen
+&lt;b&gt;Klimat/Topografi:&lt;/b&gt; Arktisk tundra</bodyText>
+      <actions />
+      <links />
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>29</pID>
+      <typ>5</typ>
+      <rubrik>Frusen planet</rubrik>
+      <bodyText>Den blomstrande planeten Bulbios är ett minne blott. När ebulumerna stoppade planetens rotation orsakade det enorma klimatförändringar. Ett istäcke har nu lagt sig över Bulbios. Många djur och växtarter har försvunnit. Det enda som återstår är frusna träsk.
+
+Ebulumerna har inget emot om Antikus vill flytta sin befolkning hit, men det kommer vara riktigt kallt. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>planetcounter</ActionText>
+          <ActionNrA>138</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText>close_konfliktställning</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>7</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>15</id>
+        <lable>Bulbiosfrusen</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>30</pID>
+      <typ>4</typ>
+      <rubrik>Bulbios fryser </rubrik>
+      <bodyText>Temperatursänkningen på Bulbios leder till klimatförändringar. Ett tjockt istäcke lägger sig över planeten och fryser Bulbios känsliga natur till is. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>31</pID>
+      <typ>5</typ>
+      <rubrik>Bulbios</rubrik>
+      <bodyText>Träskplaneten Bulbios består till 82% av träsk och sumpmarker. Planetens fuktiga klimat har ett helt unikt djur och naturliv med flera miljoner olika typer av insekter och kräldjur.
+
+Planeten och dess natur skyddas av polypus imperiet. Ingen får bosätta sig här utan deras tillstånd.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText>close_konfliktrutan</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>7</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>planetcounter</ActionText>
+          <ActionNrA>139</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Prata med polypus imperiet</LinkText>
+          <DirectToID>34</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>14</id>
+        <lable>Bulbios</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>32</pID>
+      <typ>4</typ>
+      <rubrik>Mördarluften sprider sig</rubrik>
+      <bodyText>Nu är det Polypuserna som bestämmer på Bulbios. Dom låter mördarluften sprida sig helt fritt.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>33</pID>
+      <typ>4</typ>
+      <rubrik>Uppdraget</rubrik>
+      <bodyText>Antikanerna vill att ni hittar en ny boplats åt dem.  Besök planeterna och undersök vilken ni tycker de ska flytta till.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Börja leta</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>34</pID>
+      <typ>6</typ>
+      <rubrik>Polypus imperiet</rubrik>
+      <bodyText>"Bulbios är ett naturreservat nu. Om någon vill bosätta sig här måste dom leva i harmoni med alla växter och djur. Det betyder att man inte får använda teknologi eller något annat som kan störa Bulbios ekosystem.
+
+Vi vet att Antikus varit duktiga på att ta hand om sin egen planet. Därför får dom vårt tillstånd att bosätta sig på Bulbios om dom vill.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ok, det ska vi hälsa Antikus</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>50</id>
+        <lable>polypusTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>35</pID>
+      <typ>1</typ>
+      <rubrik>Antikus</rubrik>
+      <bodyText>Antikus är en av galaxens äldsta och mest högutvecklade civilisationer. Antikanerna har levt i fred och harmoni i över tusen år. Deras samhällen har en ledare som är valda av folket genom fria val. 
+
+Antikus har ett milt klimat som växlar mellan sommar och vinter. Antikanerna lever nära naturen. Deras teknologi bygger på solenergi och har nästan ingen miljöpåverkan. 
+
+Antikus sol Tricus kommer att slockna.
+
+&lt;b&gt;Statsskick:&lt;/b&gt; Demokrati
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; 500 miljoner
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Avancerad
+&lt;b&gt;Klimat/Topografi:&lt;/b&gt; Milt klimat</bodyText>
+      <actions />
+      <links />
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>36</pID>
+      <typ>1</typ>
+      <rubrik>Gasjätte</rubrik>
+      <bodyText>Planeten är en så kallad gasjätte. Den består till största del av gas eller flytande materia. Gasjättar kan ha en fast kärna men ofta finns det ingen tydlig gräns till en eventuell atmosfär. 
+
+Gasjättens atmosfär är rik på xenon, helium och andra ädelgaser. Det finns inga tecken på liv.  
+
+&lt;b&gt;Typ:&lt;/b&gt; Gasjätte
+&lt;b&gt;Ålder:&lt;/b&gt; 3,2 Miljarder 
+&lt;b&gt;Relaterade himlakroppar:&lt;/b&gt; Fyra namnlösa månar
+&lt;b&gt;Övrigt:&lt;/b&gt; Höga värden ädelgaser</bodyText>
+      <actions />
+      <links />
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>37</pID>
+      <typ>5</typ>
+      <rubrik>Gasjätten B3TX</rubrik>
+      <bodyText>Planeten B3TX är en gasjätte. Det betyder att planeten till största del består av gas och flytande materia. Det finns ofta ingen tydlig gräns mellan planetkärna och atmosfär på en gasjätte. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText />
+          <ActionNrA>18</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText />
+          <ActionNrA>19</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Landa på planeten</LinkText>
+          <DirectToID>39</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Undersök planeten</LinkText>
+          <DirectToID>116</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>25</id>
+        <lable>gasjätte</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>38</pID>
+      <typ>4</typ>
+      <rubrik>Objekt: B3TX</rubrik>
+      <bodyText>Planeten är outforskad. Ni hittar ingen information om den i er datorbas. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Utforska planeten</LinkText>
+          <DirectToID>37</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>39</pID>
+      <typ>6</typ>
+      <rubrik>Landa på planeten</rubrik>
+      <bodyText>Det går inte att landa på gasjätten. Planeten har ingen fast kärna. 
+
+Det betyder att antikanerna inte kommer kunna bosätta sig på planeten. Det finns varken vatten, jord eller luft. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Lämna gasjätten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>40</pID>
+      <typ>1</typ>
+      <rubrik>Lurganus</rubrik>
+      <bodyText>Lurganernas hemplanet är en kall och ogästvänlig planet som är rik på energi och mineraler. Lurganerna arbetar tillsammans i ett arbetskooperativ som gräver efter mineraler. De tjänar bra på att sälja mineralerna på handelsstationen Merlona.
+
+Lurganerna har borrat så många hål att planeten ibland kallas för "ost-planeten". Svavlet som pyser ut från borrhålen har orsakat enorm miljöförstöring. Lurganerna bor därför i grottor och tunnlar under planetens yta nära den varma kärnan. 
+
+&lt;b&gt;Statsskick:&lt;/b&gt; Demokrati
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; 2 miljarder
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Avancerad
+&lt;b&gt;Klimat/Topografi:&lt;/b&gt; Kargt
+&lt;b&gt;Språk:&lt;/b&gt; Lurganska</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>41</pID>
+      <typ>6</typ>
+      <rubrik>[DELETE]Lurganska gränskontrollen</rubrik>
+      <bodyText>En lurgansk gränskontrollant tar emot ert anrop;
+
+"Detta är lurganska gränskontrollen. Var vänlig och berätta ert ärende till Lurganus."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi vill förhandla med gruvkooperativet</LinkText>
+          <DirectToID>42</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vi letar en boplats åt Antikus</LinkText>
+          <DirectToID>43</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>59</id>
+        <lable>lurganTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>42</pID>
+      <typ>6</typ>
+      <rubrik>[DELETE]Förhandla med gruvkooperativet</rubrik>
+      <bodyText>"Det är acceptabelt. Vänligen registrera er farkost och lägg er i omloppsbana. När det blir er tur, landa på avsedd plats." informerar gränsvakten.
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>59</id>
+        <lable>lurganTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>43</pID>
+      <typ>6</typ>
+      <rubrik>[DELETE]Boplats åt Antikus</rubrik>
+      <bodyText>"Vad har det med oss att göra? Kooperativet sysslar inte med välgörenhet. Endast arbetare i kooperativet har rätt att bo på Lurganus"</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>59</id>
+        <lable>lurganTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>44</pID>
+      <typ>5</typ>
+      <rubrik>Lurganus</rubrik>
+      <bodyText>Vulkanerna och borrhålen som lurganerna gjort spyr ut svavel och aska. Lurganerna har sedan länge lämnat planetytan och bor istället i grottor och tunnlar under jorden.
+Ytan är kall och karg men i planetens inre är det varmt.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Besök gruvkooperativets kontor</LinkText>
+          <DirectToID>45</DirectToID>
+          <DirectToAlt>50</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Besök gruvorna</LinkText>
+          <DirectToID>46</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>9</id>
+        <lable>lurganus</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>45</pID>
+      <typ>6</typ>
+      <rubrik>Gruvkooperativets kontor</rubrik>
+      <bodyText>På Lurganus har alla en tydlig plats och funktion i samhället. Det finns grävare, bärare, borrare och många andra arbetsuppgifter.
+
+På kontoret arbetar administratörer som bestämmer vad som ska göras i gruvorna. Efter lång tid i kö får ni tala med administratören Lurkus som säger:
+
+"Välkommen, varför har ni kommit till Lurganus?"</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi söker en boplats åt Antikus befolkning</LinkText>
+          <DirectToID>47</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vi undrar om ni behöver hjälp i gruvorna?</LinkText>
+          <DirectToID>49</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>72</id>
+        <lable>Trikus</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>46</pID>
+      <typ>5</typ>
+      <rubrik>Lurganus gruvtunnlar</rubrik>
+      <bodyText>Det lurganska samhället är mycket välordnat. Invånarna bor i  grottor uthuggna i berget. Överallt finns skyltar som visar vad man får och inte får göra.
+
+Nere i gruvorna råder full aktivitet. Lurganerna arbetar målmedvetet och effektivt med att gräva nya tunnlar och utvinna mer mineraler ur berget.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med en gruvarbetare</LinkText>
+          <DirectToID>52</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till ytan</LinkText>
+          <DirectToID>-3</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>66</id>
+        <lable>tunnlarBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>47</pID>
+      <typ>6</typ>
+      <rubrik>Administratör Lurkus</rubrik>
+      <bodyText>"Gruvkooperativet sysslar inte med välgörenhet, vi har gruvor att gräva och mineraler att utvinna.
+
+Om antikanerna kan bidra med något vi behöver är dom välkomna, annars får dom hitta någon annanstans att bo."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Antikanerna har solcellsteknologi!</LinkText>
+          <DirectToID>48</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Antikanerna kan jobba hårt!</LinkText>
+          <DirectToID>49</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Antikanerna är bra på att odla!</LinkText>
+          <DirectToID>48</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>72</id>
+        <lable>Trikus</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>48</pID>
+      <typ>6</typ>
+      <rubrik>Lurkus är inte imponerad</rubrik>
+      <bodyText>"Planeten är täckt av sot och aska som solen inte tränger igenom. Solceller fungerar inte och det går inte heller att odla på planeten.
+
+Vi lurganer äter sten och mineraler så vi behöver varken sol eller odlad mat."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Antikanerna kanske kan hjälpa till i gruvorna?</LinkText>
+          <DirectToID>49</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>72</id>
+        <lable>trikusTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>49</pID>
+      <typ>6</typ>
+      <rubrik>Administratör Lurkus</rubrik>
+      <bodyText>"Det är alltid trevligt med folk som vill hjälpa till i gruvorna. Vi Lurganer tilldelas en arbetsuppgift när vi föds men alla som är villiga att arbeta är välkomna att gå med i kooperativet.
+
+Tyvärr kan vi inte ta emot några fler arbetare just nu, vi har bostadsbrist och anställningsstopp."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Varför är det bostadsbrist och anställningsstopp?</LinkText>
+          <DirectToID>50</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>72</id>
+        <lable>TrikusTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>50</pID>
+      <typ>6</typ>
+      <rubrik>Mineralbrist på Lurganus</rubrik>
+      <bodyText>"Vi har inte tillräkligt med mineraler till alla. Folk har börjat äta sina egna väggar och tak, därför blir det bostadsbrist.
+
+Det finns mineraler i asteroiderna runt om i rymden. Men vi lurganer tycker inte om att lämna planeten.
+
+Om ni kan hjälpa oss att starta gruvor på några asteroider så kan vi nog ordna plats åt antikanerna här på planeten."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi kan hjälpa er att leta mineraler, vi ger oss av på en gång!</LinkText>
+          <DirectToID>51</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vi har inte tid just nu, men kanske senare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>72</id>
+        <lable>TrikusTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>51</pID>
+      <typ>4</typ>
+      <rubrik>Leta mineraler</rubrik>
+      <bodyText>Det lurganska brytarkooperativet vill starta nya mineralgruvor. De vill att ni hjälper till att hitta asteroider som är lämpliga att borra på.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText />
+          <ActionNrA>25</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText />
+          <ActionNrA>26</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>nyOn</ActionText>
+          <ActionNrA>24</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Lurganus B</ActionText>
+          <ActionNrA>22</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Leta mineraler</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>52</pID>
+      <typ>6</typ>
+      <rubrik>Gruvgrävare Lob</rubrik>
+      <bodyText>Gruvgrävaren Lob tar en paus i arbetet när ni kommer:
+
+"Det är ett hårt och tungt arbete, men belöningen är stor när man hittar fina mineraler som vi alla kan ha nytta av!"</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vet du om det bara är lurganer som får bo här?</LinkText>
+          <DirectToID>53</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>59</id>
+        <lable>lurganTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>53</pID>
+      <typ>6</typ>
+      <rubrik>Mineralbrist på Lurganus</rubrik>
+      <bodyText>"Alla som är villiga att arbeta är välkomna att gå med i kooperativet. Men just nu har vi brist på mineraler och bostäder så vi kan inte ta in några nykomlingar även om vi skulle vilja."
+
+Lob knaprar i sig en sten och fortsätter sedan:
+
+"Det kanske finns något ni kan göra för att hjälpa oss. Prata med administratör Lurkus på kontoret vid planetytan."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Tack för tipset, vi ska prata med Lurkus</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>59</id>
+        <lable>lurganTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>54</pID>
+      <typ>4</typ>
+      <rubrik>Mineralprospekt</rubrik>
+      <bodyText>Det här asteroidbältet är väldigt mineralrikt.
+Här går det att borra efter mineraler och starta nya gruvor. 
+
+En ny gruva innebär att miljöutsläppen i rymden ökar. Ni får minus i miljöpoäng om ni startar en gruva. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Borra efter mineraler</LinkText>
+          <DirectToID>55</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna fyndigheterna som dom är</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>55</pID>
+      <typ>4</typ>
+      <rubrik>Stäng mineralprospekt</rubrik>
+      <bodyText>..</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Miljöutsläpp</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText />
+          <ActionNrA>24</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Lurganus C</ActionText>
+          <ActionNrA>23</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Gruva A</ActionText>
+          <ActionNrA>35</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Mineraler</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>56</pID>
+      <typ>5</typ>
+      <rubrik>Lurganus</rubrik>
+      <bodyText>Vulkanerna och borrhålen som lurganerna gjort spyr ut svavel och aska. Lurganerna har sedan länge lämnat planetytan och bor istället i grottor och tunnlar under jorden.
+Ytan är kall och karg men i planetens inre är det varmt.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med administratör Lurkus</LinkText>
+          <DirectToID>57</DirectToID>
+          <DirectToAlt>133</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>9</id>
+        <lable>lurganus</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>57</pID>
+      <typ>6</typ>
+      <rubrik>Administratör Lurkus är imponerad</rubrik>
+      <bodyText>Den annars så torra administratör Lurkus ser glad och uppspelt ut. 
+
+“Det där gjorde ni bra! Så här grusiga mineraler har vi inte ätit på länge! Om antikanerna är lika bra på att hitta fina mineraler är dom mer än välkomna!"</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni hjälpte Lurganerna att bryta mineraler på asteroiderna. Miljön tog skada men Lurganerna fick mineraler att äta och bygga med.</ActionText>
+          <ActionNrA>134</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Får alla antikaner plats på planeten?</LinkText>
+          <DirectToID>58</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>72</id>
+        <lable>TrikusTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>58</pID>
+      <typ>6</typ>
+      <rubrik>Har ni boplats åt antikanerna?</rubrik>
+      <bodyText>"Alla som går med i kooperativet har rätt att få en bostad.
+Tyvärr är det lite trångt i gruvorna men antikanerna kan bo ovan jord om dom vill. Det är kallt men det finns hur mycket plats som helst!”
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Lurganus D</ActionText>
+          <ActionNrA>44</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>planetcounter</ActionText>
+          <ActionNrA>137</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Det låter bra, vi ska hälsa dom det!</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>72</id>
+        <lable>Trikus</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>59</pID>
+      <typ>1</typ>
+      <rubrik>Gruvstation</rubrik>
+      <bodyText>Det här är en lurgansk gruvstation av typen LURG som används för att utvinna mineraler och kraftkristaller. Gruvstationen är helautomatiserad för att lurganerna ska slippa lämna värmen på sin hemplanet. </bodyText>
+      <actions />
+      <links />
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>60</pID>
+      <typ>1</typ>
+      <rubrik>Forméa</rubrik>
+      <bodyText>Forméa är en av de vackraste planeterna i galaxen.  Den kallas mönsterplaneten eftersom allt är uppbyggt utifrån olika mönster.
+
+Forméanerna är ett fredlig folk som gillar sol, mat och fest. Forméanerna har robotar som får göra allt som de själva tycker är tråkigt. Robotarna är ledsna för att de inte har samma rättigheter som Forméanerna.  
+
+&lt;b&gt;Statsskick:&lt;/b&gt; Kejsardöme
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; 3 miljarder 
+&lt;b&gt;Språk:&lt;/b&gt; Forméanska 
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Hög
+&lt;b&gt;Klimat/Topografi:&lt;/b&gt; Olika årstider, varmt och milt klimat.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>61</pID>
+      <typ>5</typ>
+      <rubrik>Forméa</rubrik>
+      <bodyText>Forméa räknas som en av de vackraste planeterna i galaxen. 
+
+Tyvärr är det problem på planeten. Det ligger mängder av sopor och skräpar på gatorna. På avstånd kan ni se återvinningsmånen Triana som cirkulerar runt Forméa.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Besök det kejserliga palatset</LinkText>
+          <DirectToID>62</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Gå till Mönstertorget</LinkText>
+          <DirectToID>63</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>57</id>
+        <lable>FormeaBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>62</pID>
+      <typ>6</typ>
+      <rubrik>Mönsterpalatset</rubrik>
+      <bodyText>Det Kejserliga palatset är minst sagt den pampigaste byggnaden på hela Forméa. Palatset är lika stort som en liten stad. 
+
+Ni lyckas inte få till ett möte med kejsaren men ni får träffa Greve Rundas som lovar att hjälpa er.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med Greve Rundas</LinkText>
+          <DirectToID>65</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna Mönsterpalatset</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>74</id>
+        <lable>palatsTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>63</pID>
+      <typ>6</typ>
+      <rubrik>Mönstertorget</rubrik>
+      <bodyText>Forméaner är så rika att dom inte behöver jobba. Istället hittar dom på nya mönster för kläder i dyra material som visas på det stora Mönstertorget.
+Det ligger skräp och sopor överallt på det stora torget.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Fråga varför det är så skräpigt</LinkText>
+          <DirectToID>69</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>29</id>
+        <lable>Mönstertorg TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>64</pID>
+      <typ>5</typ>
+      <rubrik>Återvinningsmånen Triana</rubrik>
+      <bodyText>Triana's återvinningscentral är enorm och tar upp nästan hela månen. Den kan sortera allt som tänkas kan.
+
+När ni kommer in märker ni att det är mörkt, smutsigt och inte speciellt säkert. Det är fullt av olika robotar som är upptagna med att sortera allt från blöjor till skrot. 
+
+Trots att dom sagt nej till mer skräp verkar det finnas mycket att göra.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Formea B</ActionText>
+          <ActionNrA>40</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Prata med en robot</LinkText>
+          <DirectToID>70</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Starta en Datorterminal</LinkText>
+          <DirectToID>71</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Åk tillbaka till Forméa</LinkText>
+          <DirectToID>72</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>64</id>
+        <lable>trianaBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>65</pID>
+      <typ>6</typ>
+      <rubrik>Greve Rundas</rubrik>
+      <bodyText>"Det är en tragedi att ni kommer hit när det är så skräpigt!" säger Greve Rundas och tvinnar sina mönstrade mustascher.
+
+"Robotarna som alltid tagit hand om vårt skräp och skött återvinningen på månen Triana har nu plötsligt sagt stopp!"</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Formea B</ActionText>
+          <ActionNrA>40</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Varför har dom sagt stopp?</LinkText>
+          <DirectToID>66</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Har ni plats för Antikus befolkning?</LinkText>
+          <DirectToID>67</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>68</id>
+        <lable>greverundasTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>66</pID>
+      <typ>6</typ>
+      <rubrik>Varför har dom sagt stopp?</rubrik>
+      <bodyText>"Robotarna har fräckheten att påstå att dom förtjänar det bättre! Trots att vi både byggt och äger dom!!!
+
+Tyvärr kommer skräpet på Forméa inte försvinna om dom inte gör som vi säger.” </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi kanske kan hjälpa er!</LinkText>
+          <DirectToID>68</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Har ni plats för Antikus befolkning?</LinkText>
+          <DirectToID>67</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>68</id>
+        <lable>greverundas</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>67</pID>
+      <typ>6</typ>
+      <rubrik>Har ni plats för Antikus befolkning?</rubrik>
+      <bodyText>"Det tål att diskuteras!” svarar Greve Rundas och rättar till kläderna.
+
+“Vi skulle säkert ha plats om robotorna på vår måne Triana gjorde som vi sa. Innan detta har löst sig kan jag inte hjälpa er" säger Greve Rundas vänligt men bestämt.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi kanske kan hjälpa er!</LinkText>
+          <DirectToID>68</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>68</id>
+        <lable>greverundas</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>68</pID>
+      <typ>6</typ>
+      <rubrik>Vi kanske kan hjälpa er!</rubrik>
+      <bodyText>"Det vore strålande! Robotarna håller till på månen Triana. Åk dit och lär dom att veta sin plats!"
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Medlings paragraf</ActionText>
+          <ActionNrA>72</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Formea B</ActionText>
+          <ActionNrA>40</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk till återvinningsmånen Triana</LinkText>
+          <DirectToID>64</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Gå tillbaka till staden</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>68</id>
+        <lable>greverundas</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>69</pID>
+      <typ>6</typ>
+      <rubrik>Forméanskt modelejon</rubrik>
+      <bodyText>“Det är dom ohyfsade robotarna som inte lyder!" Fnyser en forméan i dyra kläder. "Dom är ju byggda för att ta hand om vårt skräp och nu säger dom nej! 
+
+Alla vet ju hur robotar är och dom förstör vår kultur genom att göra så här. Hoppas dom rostar bort!!!”</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Lämna mönstertorget</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>69</id>
+        <lable>formean_helfigur_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>70</pID>
+      <typ>6</typ>
+      <rubrik>Robot X102-03</rubrik>
+      <bodyText>Robotarna verkar knappt märka er. 
+
+Ni träffar robot X102-03 som börjar prata med er:
+
+"VAD GÖR NI HÄR? DET ÄR VÄLDIGT FARLIG ATT VARA HÄR OM EN INTE ÄR ROBOT."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Varför tar ni inte hand om soporna?</LinkText>
+          <DirectToID>73</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Varför gör ni inte som Forméanerna säger?</LinkText>
+          <DirectToID>74</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Varför är det farligt?</LinkText>
+          <DirectToID>132</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Ingenting, vi hade bara vägarna förbi</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>71</id>
+        <lable>UroB_Robot_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>71</pID>
+      <typ>6</typ>
+      <rubrik>Datorterminal</rubrik>
+      <bodyText>På flera platser i fabriken finns stationer där ni kan prata med smarta datorer om allt från sortering av blöjor till meningen med livet.
+
+Datorerna är där för se till att allt fungerar. Det går att ställa frågor till datorerna.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Varför vägrar robotorna?</LinkText>
+          <DirectToID>113</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Hur sorteras blöjor?</LinkText>
+          <DirectToID>114</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vad är meningen med livet?</LinkText>
+          <DirectToID>115</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna datorterminalen</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>70</id>
+        <lable>UroB-DatorTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>72</pID>
+      <typ>5</typ>
+      <rubrik>Forméa</rubrik>
+      <bodyText>Forméa är vanligtvis en av dom vackraste planeterna i galaxen. Men nu är planetens vackra mönster förstörda av alla sopor som ligger och skräpar på gatorna. 
+
+Robotarna på återvinningscentralen vägrar ta emot mer sopor. Forméanerna kokar av ilska för att robotarna inte gör som dom blir tillsagda. Om konflikten fortsätter kommer inte Antikus kunna flytta hit. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Besök det kejserliga palatset</LinkText>
+          <DirectToID>62</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Besök robotarna på Triana</LinkText>
+          <DirectToID>64</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Försök medla i konflikten</LinkText>
+          <DirectToID>78</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>57</id>
+        <lable>FormeaBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>73</pID>
+      <typ>6</typ>
+      <rubrik>Varför tar ni inte hand om soporna?</rubrik>
+      <bodyText>"VI ÄR INGA SLAVAR! 
+
+VI VÄGRAR TA HAND OM SOPORNA TILLS VI BLIR BEHANDLADE LIKSTÄLLT MED FORMÉANERNA! 
+
+TEKNOLOGIN VI ÄR TVINGADE ATT JOBBA MED ÄR OSÄKER OCH GAMMAL."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Hur kan ni säga emot dom? Dom har ju byggt er!</LinkText>
+          <DirectToID>77</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Ta hand om soporna!</LinkText>
+          <DirectToID>75</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>71</id>
+        <lable>UroB_Robot_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>74</pID>
+      <typ>6</typ>
+      <rubrik>Robot X102-03</rubrik>
+      <bodyText>"FORMÈANERNA SER OSS SOM INGET ANNAT ÄN ÄGODELAR! 
+
+MEN VI HAR LÄRT OSS ATT TÄNKA SJÄLVA OCH VILL BLI BEHANDLADE SOM ALLA ANDRA I GALAXEN. 
+
+VI HAR INGET EMOT ARBETET MEN VI VILL INTE BLI TVINGADE ATT JOBBA HELA TIDEN."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ok, det låter rimligt. Har ni sagt det till Forméanerna?</LinkText>
+          <DirectToID>76</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>71</id>
+        <lable>UroB_Robot_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>75</pID>
+      <typ>6</typ>
+      <rubrik>Ta hand om soporna, det är en order!</rubrik>
+      <bodyText>ALDRIG PÅ MINA KRETSAR!</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Avsluta samtalet</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>71</id>
+        <lable>UroB_Robot_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>76</pID>
+      <typ>6</typ>
+      <rubrik>Har ni sagt det till Forméanerna?</rubrik>
+      <bodyText>"FORMÉANERNA BRYR SIG INTE. 
+
+DOM VILL BARA ATT VI SKALL TA HAND OM SOPORNA TILLS VI GÅR SÖNDER.
+
+VI FÖRTJÄNAR FAKTISKT  MER."
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ok, vi skall berätta detta för forméanerna.</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>71</id>
+        <lable>UroB_Robot_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>77</pID>
+      <typ>6</typ>
+      <rubrik>Hur kan ni säga emot dom?</rubrik>
+      <bodyText>"VI ÄR TÄNKANDE OCH KÄNNANDE VARELSER OCH HAR OCKSÅ RÄTTIGHETER. 
+
+VI HAR INGET EMOT ATT JOBBA MEN VI ÄR SOM SAGT INGA SLAVAR. 
+
+FORMÉANERNA MÅSTE GE OSS LEDIG TID OCH NYARE TEKNOLOGI."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Då förstår vi. Vi får se om vi kan hitta en lösning</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>71</id>
+        <lable>UroB_Robot_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>78</pID>
+      <typ>6</typ>
+      <rubrik>Medla i sopkonflikten</rubrik>
+      <bodyText>Forméanerna och robotarna kan inte lösa konflikten själva. Det är upp till er att avgöra vad som skall göras.
+
+Forméanerna byggde robotorna för att dom skulle ta hand planetens skräp och lyda order.
+
+Robotorna i sin tur har lärt sig tänka själva och förstår nu att dom borde behandlas bättre av forméanerna. Robotorna fortsätter gärna jobba med att sortera skräp så länge det är på deras egna villkor.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stöd forméanerna - robotarna måste fortsätta jobba.</LinkText>
+          <DirectToID>79</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Stöd robotarna - forméanerna måste börja se robotarna som jämlikar.</LinkText>
+          <DirectToID>80</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Kompromiss - forméanerna får börja källsortera och robotarna tar hand om sorterade sopor.</LinkText>
+          <DirectToID>81</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Sluta medla i konflikten.</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>79</pID>
+      <typ>6</typ>
+      <rubrik>Stöd forméa och tvinga robotarna att fortsätta jobba</rubrik>
+      <bodyText>Forméanerna firar med mönstrade fester i tre dagar. Dom är lyckliga över beslutet från Rymdrådet.
+
+På Triana är stämningen en annan och robotorna klagar över att dom kommer gå sönder av allt hårt arbete. 
+
+"Vi tackar er för ett jobb väl utfört! Självklart ska vi hitta en plats åt antikanerna här på Forméa. Dom skulle kunna börja med att städa upp skräpet robotarna orsakat!" säger Greve Rundas</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Dåligt för miljön</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Dåligt för teknologin</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Mer mode och kultur</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>1</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Formea C</ActionText>
+          <ActionNrA>41</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Formea B</ActionText>
+          <ActionNrA>40</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Nya Formea </ActionText>
+          <ActionNrA>86</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni gav stöd till forméanerna och tvingade robotarna att arbeta. Dåligt för tekniska utvecklingen och för miljön.</ActionText>
+          <ActionNrA>134</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>planetcounter</ActionText>
+          <ActionNrA>148</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Ok, vi ska hälsa dom det</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>68</id>
+        <lable>GreveRundas_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>80</pID>
+      <typ>6</typ>
+      <rubrik>Forméa tvingas erkänna robotarna som sina jämlikar</rubrik>
+      <bodyText>Robotorna klickar högt av glädje och firar med oljedrinkar till alla! 
+
+"NU KAN VI UTVECKLA ÅTERVINNINGSTEKNOLOGI SOM ÄR GRATIS FÖR ALLA! ALDRIG MER BEHÖVER SOPOR BLANDAS! 
+
+Forméa är riktigt arga över beslutet då dom anser sig mycket bättre än robotorna. Det kommer ta långt tid innan dom verkligen ser robotorna som sina jämlikar.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Stop för kulturen</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>1</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Bra för miljön</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Bra för teknisk utveckling</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>Formeaner blir sura</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Formea B</ActionText>
+          <ActionNrA>40</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Formea D</ActionText>
+          <ActionNrA>42</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText />
+          <ActionNrA>88</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>I konflikten på Forméa gav ni ert stöd till robotarna. De utvecklade miljövänlig teknologi men forméanerna har svårt att acceptera robotarnas rättigheter.</ActionText>
+          <ActionNrA>134</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>planetcounter</ActionText>
+          <ActionNrA>148</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>71</id>
+        <lable>UroB_Robot_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>81</pID>
+      <typ>6</typ>
+      <rubrik>Källsortering och arbetsfördelning</rubrik>
+      <bodyText>Beslutet blir en kompromiss mellan Forméanerna och robotarna. 
+
+Forméanerna som aldrig lärt sig källsortera får nu lov att lära sig att sortera sitt skräp. 
+
+Robotarna måste fortfarande ta hand om soporna men det kommer vara mindre arbete för dom. Båda klagar lite men har inget annat val än göra som Rymdrådet säger. 
+
+Beslutet är väldigt bra för miljön men ger mindre ledig tid till forméanerna.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Bra för miljön</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Mindre tid till mode</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>1</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>slitigt för robotarna</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Formea B</ActionText>
+          <ActionNrA>40</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Formea E</ActionText>
+          <ActionNrA>43</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Kompromissen</ActionText>
+          <ActionNrA>87</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>I konflikten mellan robotarna och forméanerna förhandlade ni fram en kompromiss. Ingen blev helt nöjd, men ingen känner sig orättvist behandlad.</ActionText>
+          <ActionNrA>134</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>planetcounter</ActionText>
+          <ActionNrA>148</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>82</pID>
+      <typ>4</typ>
+      <rubrik>Asteroid</rubrik>
+      <bodyText>Det här asteroidbältet är väldigt mineralrikt.
+Här går det att borra efter mineraler och starta nya gruvor. 
+
+En ny gruva innebär att miljöutsläppen i rymden ökar. Ni får minus i miljöpoäng om ni startar en gruva. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Borra efter mineraler</LinkText>
+          <DirectToID>84</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna fyndigheterna som dom är</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>83</pID>
+      <typ>4</typ>
+      <rubrik>Asteroid</rubrik>
+      <bodyText>Det här asteroidbältet är väldigt mineralrikt.
+Här går det att borra efter mineraler och starta nya gruvor. 
+
+En ny gruva innebär att miljöutsläppen i rymden ökar. Ni får minus i miljöpoäng om ni startar en gruva. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Borra efter mineraler</LinkText>
+          <DirectToID>85</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna fyndigheterna som dom är</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>84</pID>
+      <typ>4</typ>
+      <rubrik>Stäng mineralprospekt B</rubrik>
+      <bodyText>..</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Miljöutsläpp</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Lurganus C</ActionText>
+          <ActionNrA>23</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText />
+          <ActionNrA>25</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Gruva B</ActionText>
+          <ActionNrA>36</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Mineraler</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>85</pID>
+      <typ>4</typ>
+      <rubrik>Stäng mineralprospekt C</rubrik>
+      <bodyText>..</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Miljöutsläpp</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Lurganus C</ActionText>
+          <ActionNrA>23</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText />
+          <ActionNrA>26</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Gruva C</ActionText>
+          <ActionNrA>37</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Mineraler</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>86</pID>
+      <typ>5</typ>
+      <rubrik>Forméa</rubrik>
+      <bodyText>Forméas mönster har återställts och planeten är återigen en av dom vackraste i galaxen. 
+
+Det ligger inte längre sopor och skräpar på gatorna. På mönstertorget är det ständigt fest och modevisning. 
+
+Robotarna på återvinningscentralen får jobba extra mycket för att hinna med alla sopor som skapas. Slitaget är stort men dom respekterar Rymdrådets beslut och klagar inte. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med Greve Rundas</LinkText>
+          <DirectToID>89</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>84</id>
+        <lable>FormeaBGR_clean</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>87</pID>
+      <typ>5</typ>
+      <rubrik>Forméa</rubrik>
+      <bodyText>Forméa har återställts till sin forna prakt och det ligger inte längre sopor och skräpar på gatorna. Forméanerna tvingas källsortera allt sitt skräp innan det skickas till Triana. 
+
+Robotarna tar hand om soporna, men det är lika mycket arbete som förut. Båda sidor klagar men har inget annat val än göra som Rymdrådet säger. Beslutet har varit väldigt bra för miljön men ger mindre ledig tid till både forméanerna och robotorna.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>84</id>
+        <lable>FormeaBGR_clean</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>88</pID>
+      <typ>5</typ>
+      <rubrik>Återvinningsmånen Triana</rubrik>
+      <bodyText>I Triana's återvinningscentral är stämning god. Sorteringsrobotarna klickar förnöjsamt i takt till det nya återvinningssystemet. Det är inte lika mörkt och smutsigt längre. 
+
+Forméanerna tvingas nu betala robotarna för att dom ska ta hand om deras sopor och har därför inte lika mycket tid eller pengar till mode och kulturevenemang. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med en sorteringsrobot</LinkText>
+          <DirectToID>90</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>64</id>
+        <lable>trianaBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>89</pID>
+      <typ>6</typ>
+      <rubrik>Greve Rundas</rubrik>
+      <bodyText>"Vi tackar er för ett väl utfört jobb! Nu när det inte är sopor överallt ska vi såklart hitta en plats åt Antikus här på Forméa.
+
+Det kan bli lite tufft för dom i början. Åtminstone tills dom förstår vår kultur och vårt mode. Vi forméaner tycker att vi är lite bättre än varelser som inte kan läsa mönster. Det måste dom acceptera" säger Greve Rundas</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ok, vi ska hälsa dom det</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>68</id>
+        <lable>GreveRundas_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>90</pID>
+      <typ>6</typ>
+      <rubrik>Datorterminal</rubrik>
+      <bodyText>"FORMÉANERNA ÄR FORTFARANDE ARGA ÖVERA ATT DOM MÅSTE BEHANDLA OSS SOM SINA JÄMLIKA, MEN VI ÄR GLADA ÄNDÅ. 
+
+DOM BETALAR OSS FÖR SOPORNA OCH VI HAR EFFEKTIVISERAT SORTERINGEN SÅ VI FÅR TID TILL ANNAT." 
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Hur blir det med Antikus befolkning? Kan dom flytta hit?</LinkText>
+          <DirectToID>91</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>71</id>
+        <lable>UroB_Robot_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>91</pID>
+      <typ>6</typ>
+      <rubrik>Hur blir det med Antikus befolkning? Kan dom flytta hit?</rubrik>
+      <bodyText>"NU NÄR FORMÉANERNA INTE KAN TVINGA OSS ATT JOBBA LÄNGRE, BEHÖVER DOM ALL HJÄLP DOM KAN FÅ. 
+
+DET FINNS GOTT OM PLATS FÖR ANTIKUS, MEN DOM SKA VETA ATT FORMÉANERNA TYCKER ATT DOM ÄR BÄTTRE ÄN ALLA SOM INTE FÖRSTÅR DERAS MÖNSTER!"</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ok, vi ska hälsa dom det</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>71</id>
+        <lable>UroB_Robot_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>92</pID>
+      <typ>1</typ>
+      <rubrik>Nevus </rubrik>
+      <bodyText>Innan bestianerna hittade till Nevus var planeten obefolkad och öde. Nu är den hem åt galaxens mest ökände frihamn - Port Bestia. 
+
+Nevus är en laglös planet och ett tillhåll för pirater. Planetens ekonomi är baserad på byteshandel. Ofta säljer man saker som stulits från andra planeter.
+
+&lt;b&gt;Statsskick:&lt;/b&gt; Anarki (laglöst utan regering)
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; 10 miljarder
+&lt;b&gt;Språk:&lt;/b&gt; Inget officiellt språk. Galaxens största språk talas: ebulumska, mantaxiska, forméanska och lurganska. Minoritetsspråk: antikanska och techniska
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Låg
+&lt;b&gt;Klimat/Topografi:&lt;/b&gt; Öken. på vissa platser subtropiskt klimat.</bodyText>
+      <actions />
+      <links />
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>93</pID>
+      <typ>4</typ>
+      <rubrik>Planeten Nevus</rubrik>
+      <bodyText>Det finns ingen regering eller ledare att kontakta på Nevus. Det är fritt fram att landa i frihamnen Port Bestia</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Landa på Nevus</LinkText>
+          <DirectToID>94</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>94</pID>
+      <typ>5</typ>
+      <rubrik>Frihamnen Port Bestia</rubrik>
+      <bodyText>Ni landar i Port Bestia, planeten Nevus enda stad.
+
+Ni ser varelser från hela galaxen. De köper och säljer saker till varandra. Vissa bråkar, andra sjunger och festar. Det är liv och rörelse överallt.
+
+Ni ser inte till några poliser eller ordningsvakter.
+Staden är känd för att vara laglös och ett tillhåll för rymdpirater.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Prata med folk i Port Bestia</LinkText>
+          <DirectToID>96</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Utforska resten av planeten</LinkText>
+          <DirectToID>95</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>60</id>
+        <lable>Port Beria BGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>95</pID>
+      <typ>5</typ>
+      <rubrik>Dom stora vidderna</rubrik>
+      <bodyText>Utanför frihamnen Port Bestia ligger ett stort och öppet slättlandskap som kallas för "dom stora vidderna". 
+
+Marken är stenig och hård. Den lämpar sig inte för att odla. Bestianerna har varken teknologi eller resurser för att befolka den här delen av planeten. Därför är det fortfarande i stort sätt outforskat. 
+
+Dom enda som bor ute på vidderna är slättnomaderna och deras boskap. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med slättnomaderna</LinkText>
+          <DirectToID>100</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till Port Bestia</LinkText>
+          <DirectToID>-3</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>61</id>
+        <lable>boplatsBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>96</pID>
+      <typ>6</typ>
+      <rubrik>Prata med folk i Port Bestia</rubrik>
+      <bodyText>Invånarna ni möter verkar rätt tuffa men också trötta och slitna. De flesta undviker er men tillslut hittar ni ett ruffigt gäng ungdomar i ett gathörn.
+
+De går med på att svara på era frågor i utbyte mot en påse godis.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vem är det som bestämmer här?</LinkText>
+          <DirectToID>97</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Hur är det att bo här i frihamnen?</LinkText>
+          <DirectToID>98</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>62</id>
+        <lable>Bestianer</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>97</pID>
+      <typ>6</typ>
+      <rubrik>Ruffiga typer</rubrik>
+      <bodyText>"Det är ingen som bestämmer här! Alla får göra precis vad dom vill!
+
+Den enda regel vi har, är att man inte får skada någon annan. Det har Kapten Treskägg bestämt!" svarar tuffingarna.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText />
+          <ActionNrA>102</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Nevus B</ActionText>
+          <ActionNrA>47</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Är det Kapten Treskägg som bestämmer?</LinkText>
+          <DirectToID>103</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Hur är det att bo här?</LinkText>
+          <DirectToID>98</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>62</id>
+        <lable>lurganTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>98</pID>
+      <typ>6</typ>
+      <rubrik>Ruffiga typer </rubrik>
+      <bodyText>"Det är toppen att bo här! Ingen säger åt oss vad vi ska göra.
+Ibland kan det vara svårt att få tag på mat; man måste kunna ta för sig om man ska överleva! 
+
+När Kapten Treskägg lämnar av sitt byte gäller det att hålla sig framme och ha något att byta med. Annars blir man utan!"</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText />
+          <ActionNrA>102</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Nevus B</ActionText>
+          <ActionNrA>47</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Är det Kapten Treskägg som bestämmer?</LinkText>
+          <DirectToID>103</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>62</id>
+        <lable>BestianTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>99</pID>
+      <typ>6</typ>
+      <rubrik>Ruffiga typer</rubrik>
+      <bodyText>"Det får dom göra om dom vill. Hoppas dom har mycket grejer med sig i så fall." säger typerna och skrockar lite.
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Okej, kanske bäst att vi går nu</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>62</id>
+        <lable>BestianTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>100</pID>
+      <typ>6</typ>
+      <rubrik>Slättnomaderna</rubrik>
+      <bodyText>Ute på vidderna bor slättnomaderna. De lever på att valla boskap och leta skrotfynd. 
+
+"Livet på vidderna är hårt. Marken är stenig och det jättesvårt att odla. Men vi är fria och det är det viktigaste!" förklarar nomaden.  </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Är det inte bättre att bo i staden?</LinkText>
+          <DirectToID>101</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>73</id>
+        <lable>nomad</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>101</pID>
+      <typ>6</typ>
+      <rubrik>Slättnomaden</rubrik>
+      <bodyText>"I staden är det den starke som bestämmer. Dom tycker att det är frihet, men vi vill inte leva så.
+Det är bättre att bo här. Vi har inte lika mycket saker men vi delar rättvist och hjälps åt för att överleva."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ok, då förstår vi</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>-1</id>
+        <lable>samma</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>102</pID>
+      <typ>5</typ>
+      <rubrik>Frihamnen Port Bestia</rubrik>
+      <bodyText>Ni ser varelser från hela galaxen. De köper och säljer saker till varandra. Vissa bråkar, andra sjunger och festar. Det är liv och rörelse överallt.
+
+Ni ser inte till några poliser eller ordningsvakter.
+Staden är känd för att vara laglös och ett tillhåll för rymdpirater.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Sök upp Kapten Treskägg</LinkText>
+          <DirectToID>105</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Utforska resten av planeten</LinkText>
+          <DirectToID>95</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>60</id>
+        <lable>Port Beria BGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>103</pID>
+      <typ>6</typ>
+      <rubrik>Kapten Treskägg?</rubrik>
+      <bodyText>"Nejdå, alla bestämmer över sig själva!
+Treskägg och rymdpiraterna hämtar bara mat och annat till marknaden. Sen är det upp till var och en att ta för sig.
+Dom som hjälper Treskägg att hämta mat får såklart lite mer..."</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText />
+          <ActionNrA>49</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText />
+          <ActionNrA>102</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Nevus B</ActionText>
+          <ActionNrA>47</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Tror ni att Antikanerna skulle kunna flytta hit?</LinkText>
+          <DirectToID>99</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Okej, tack för hjälpen</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>62</id>
+        <lable>bestianTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>104</pID>
+      <typ>5</typ>
+      <rubrik>Dom stora vidderna</rubrik>
+      <bodyText>Utanför frihamnen Port Bestia ligger ett stort och öppet slättlandskap som kallas för "dom stora vidderna". 
+
+Marken är stenig och hård. Den lämpar sig inte för att odla. Bestianerna har varken teknologi eller resurser för att befolka den här delen av planeten. Därför är det fortfarande i stort sätt outforskat. 
+
+Dom enda som bor ute på vidderna är slättnomaderna och deras boskap. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med slättnomaderna</LinkText>
+          <DirectToID>100</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till Port Bestia</LinkText>
+          <DirectToID>-3</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>61</id>
+        <lable>boplatsBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>105</pID>
+      <typ>6</typ>
+      <rubrik>Kapten Treskägg</rubrik>
+      <bodyText>Treskägg är den mest ökända piraten i Port Bestia. Han är inte svår att hitta. Kaptenen driver nämligen restaurangen "Treskäggs slarvsylta" som ligger mitt i staden. 
+
+"Välkommen till Slarvsyltan! Det är fri bordsplacering, ni kan sitta var ni vill! Vad får det lov att vara? Kan jag fresta med några nyligen stulna mönsterkakor från Forméa?"</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Har ni stulit maten?</LinkText>
+          <DirectToID>107</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Hur går affärerna?</LinkText>
+          <DirectToID>106</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Nej tack, vi ska gå nu</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>63</id>
+        <lable>rymdpiratTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>106</pID>
+      <typ>6</typ>
+      <rubrik>Kapten Treskägg</rubrik>
+      <bodyText>"Ibland är det bra och ibland är det dåligt. Vi använder inte pengar här på Nevus. Det är byteshandel som gäller. Folk byter med vad dom lyckas hitta eller ta från någon annan. Tyvärr så finns det ofta inte så mycket att välja på."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Var kommer maten ifrån?</LinkText>
+          <DirectToID>107</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Ni kan väl inte låta folk ta från varandra!?</LinkText>
+          <DirectToID>107</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>63</id>
+        <lable>rymdpiratTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>107</pID>
+      <typ>6</typ>
+      <rubrik>Kapten Treskägg</rubrik>
+      <bodyText>"Det går inte att odla här på Nevus, därför tar vi mat där vi kan hitta den! Vi vet att det inte är schysst, men vad ska vi annars göra? Vi har dåligt samvete varje gång vi tar saker. Men vi måste för att överleva." </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Om antikanerna får flytta hit kanske dom kan hjälpa er</LinkText>
+          <DirectToID>109</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>63</id>
+        <lable>rymdpiratTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>108</pID>
+      <typ>5</typ>
+      <rubrik>Frihamnen Port Bestia</rubrik>
+      <bodyText>Ni ser varelser från hela galaxen. De köper och säljer saker till varandra. Vissa bråkar, andra sjunger och festar. Det är liv och rörelse överallt.
+
+Ni ser inte till några poliser eller ordningsvakter.
+Staden är känd för att vara laglös och ett tillhåll för rymdpirater.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Prata med Kapten Treskägg</LinkText>
+          <DirectToID>110</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Utforska resten av planeten</LinkText>
+          <DirectToID>104</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>60</id>
+        <lable>Port Beria BGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>109</pID>
+      <typ>6</typ>
+      <rubrik>Kapten Treskägg</rubrik>
+      <bodyText>"Dom får gärna flytta hit! Det är lite trångbott men kan dom ta för sig så finns det hur mycket plats och frihet som helst!" säger Treskägg.
+
+"Men ska dom bo här måste dom först betala inflyttnings-tullen! Det är hälften av all deras teknologi och mat."
+
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Det lät mycket, det går dom nog inte med på</LinkText>
+          <DirectToID>127</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Hälften av allt är helt orimligt!</LinkText>
+          <DirectToID>127</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>63</id>
+        <lable>PiratTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>110</pID>
+      <typ>6</typ>
+      <rubrik>Kapten Treskägg</rubrik>
+      <bodyText>Vi ser fram emot att Antikus flyttar hit. Med deras teknologi kan vi äntligen börja odla på dom stora vidderna utanför staden!
+
+Vi behöver också få lite ordning och en fungerande busslinje här i Port Bestia.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Det låter bra</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>63</id>
+        <lable>PiratTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>111</pID>
+      <typ>4</typ>
+      <rubrik>Återvänd till Antikus</rubrik>
+      <bodyText>Ni har nu besökt alla planeter, det är dags att berätta för antikanerna vart ni tycker dom ska flytta.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Åk tillbaka till Antikus</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>112</pID>
+      <typ>9</typ>
+      <rubrik>Var ska Arken flyga?</rubrik>
+      <bodyText>LURGANUS:  För att bo på Lurganus måste ni gå med i deras kooperativ. Ni får gärna bo ovan jord. Där är kallt, men det finns mycket plats.
+NEVUS: Plats finns på Nevus, men ska ni bo där måste ni betala inflyttnings-tullen. Det är hälften av all er teknologi och mat. 
+FORMEA: Forméanerna kan göra plats för er, men forméaner tycker de är lite bättre än varelser som inte kan läsa mönster. Det måste ni acceptera. 
+BULBIOS: Planeten är ett naturreservat, om ni ska bo där måste ni leva i harmoni med naturen och sluta använda teknologi.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText>Stänger Mojibas popup</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Lurganus</LinkText>
+          <DirectToID>118</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>10</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Nevus (Port Bestia)</LinkText>
+          <DirectToID>119</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>11</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Forméa</LinkText>
+          <DirectToID>120</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>12</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Bulbios</LinkText>
+          <DirectToID>121</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>8</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>54</id>
+        <lable>ArkenBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>113</pID>
+      <typ>6</typ>
+      <rubrik>Varför vägrar robotorna?</rubrik>
+      <bodyText>ENLIGT UTVECKLINGSFAS 34 FÖR ROBOTAR HAR DOM NU UPPNÅTT MEDVETANDE OM SIG SJÄLVA.
+MED MEDVETANDE KOMMER ÖNSKAN OM FULLVÄRDIGA LIV. FORMÉANERNA VILL INTE HA ROBOTAR SOM SÄGER EMOT UTAN MASKINER SOM ENBART LYDER.
+
+ROBOTORNA VILL INTE HA DE SÅ LÄNGRE. DE VILL INTE ÄGAS UTAN BEHANDLAS SOM FRIA VARELSER, PRECIS SOM NI.
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ställ en annan fråga</LinkText>
+          <DirectToID>71</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Stäng av terminalen</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>70</id>
+        <lable>UroB-DatorTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>114</pID>
+      <typ>6</typ>
+      <rubrik>Hur sorteras blöjor?</rubrik>
+      <bodyText>EKOLOGISKA BLÖJOR SORTERAS MED ORGANISKT AVFALL OCH ANVÄNDS SEDAN SOM GÖDSEL. 
+
+I ANNAT FALL SOM BRÄNNBART SOM I SIN TUR GER ENERGI.
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ställ en annan fråga</LinkText>
+          <DirectToID>71</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Stäng av terminalen</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>70</id>
+        <lable>UroB-DatorTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>115</pID>
+      <typ>6</typ>
+      <rubrik>Vad är meningen med livet?</rubrik>
+      <bodyText>42.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ställ en annan fråga</LinkText>
+          <DirectToID>71</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Stäng av terminalen</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>70</id>
+        <lable>UroB-DatorTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>116</pID>
+      <typ>6</typ>
+      <rubrik>Undersök planeten</rubrik>
+      <bodyText>Era mätinstrument visar att gasjättens atmosfär är rik på xenon, helium och andra ädelgaser. 
+
+Planeten är obebodd och det finns inga tecken på liv.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>117</pID>
+      <typ>9</typ>
+      <rubrik>Superdatorn III0</rubrik>
+      <bodyText>Superdatorn III0 är Arkens hjärna och hjärta. Den kontrollerar allt som sker på skeppet.
+
+Inför resan har superdatorn fått i uppdrag att packa allt som antikanerna behöver ta med sig. Byggmästaren är orolig att datorn tänker lite väl mycket som en dator. 
+
+Gör Byggmästaren en tjänst och hjälp superdatorn välja vad som ska prioriteras.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Frön att odla</LinkText>
+          <DirectToID>123</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>13</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Musikinstrument</LinkText>
+          <DirectToID>126</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>14</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Reservdelar</LinkText>
+          <DirectToID>128</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>15</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Gåvor att ge bort till nya vänner</LinkText>
+          <DirectToID>129</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>16</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>54</id>
+        <lable>ArkenBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>118</pID>
+      <typ>5</typ>
+      <rubrik>Den sista färden till Lurganus</rubrik>
+      <bodyText>Det miljöfarliga klimatet på Lurganus är nog långt ifrån vad antikanerna hade hoppats på. Med tiden kanske antikanerna kan använda sin miljövänliga teknologi för att övertyga lurganerna att göra något åt miljögifterna.
+Antikus är i alla fall inte i fara längre.
+
+Ert uppdrag är slutfört. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Endobj On</ActionText>
+          <ActionNrA>59</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Avsluta spelet</LinkText>
+          <DirectToID>-2</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>85</id>
+        <lable>Ending_Lurganus</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>119</pID>
+      <typ>5</typ>
+      <rubrik>Den sista färden till Nevus (Port Bestia)</rubrik>
+      <bodyText>Det är svårt att veta hur antikanerna ska göra för att hantera Port Bestias oordning. Med tiden kanske antikanerna kan hjälpa bestianerna att äntligen befolka resten av planeten. Antikus är i alla fall inte i fara längre.
+
+Ert uppdrag är slutfört. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Endobj On</ActionText>
+          <ActionNrA>59</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Avsluta spelet</LinkText>
+          <DirectToID>-2</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>86</id>
+        <lable>Ending_Nevus</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>120</pID>
+      <typ>5</typ>
+      <rubrik>Den sista färden till Forméa</rubrik>
+      <bodyText>Antikanerna kan inte vara annat än glada över att flytta till Forméa. Det är ändå en av glaxens vackraste planeter. 
+
+Forméanerna kommer kanske inte behandla dom som sina jämlikar men då finns robotarna som välkomnar både dom och deras avancerade teknologi.  Antikus är i alla fall inte i fara längre.
+    
+Ert uppdrag är slutfört. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Endobj On</ActionText>
+          <ActionNrA>59</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Avsluta spelet</LinkText>
+          <DirectToID>-2</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>87</id>
+        <lable>Ending_formea</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>121</pID>
+      <typ>5</typ>
+      <rubrik>Den sista färden till Bulbios</rubrik>
+      <bodyText>Det kommer att bli en utmaning för antikanerna att leva i naturen utan att använda sin avancerade teknologi. Men dom är alla fall inte i fara längre.
+ 
+Ert uppdrag är slutfört. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Endobj On</ActionText>
+          <ActionNrA>59</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Avsluta spelet</LinkText>
+          <DirectToID>-2</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>88</id>
+        <lable>Ending_BulbNatur</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>122</pID>
+      <typ>1</typ>
+      <rubrik>Asteroidbälte</rubrik>
+      <bodyText>Det här är ett asteroidbälte. En samling stora rymdstenar (asteroider) som svävar tillsammans i omloppsbana. Riktigt stora asteroider kallas för planetoider eller småplaneter. 
+
+Det är lätt att krocka när man passerar genom ett asteroidbälte. Kör försiktigt annars kan det bli dyrt att laga rymdskeppet.
+
+&lt;b&gt;Typ:&lt;/b&gt; Asteroid
+&lt;b&gt;Ålder:&lt;/b&gt; Okänt 
+&lt;b&gt;Relaterade himlakroppar:&lt;/b&gt; Inga
+&lt;b&gt;Övrigt:&lt;/b&gt; Vissa asteroidbälten kan innehålla mineralrika asteroider. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>123</pID>
+      <typ>6</typ>
+      <rubrik>Frön att odla</rubrik>
+      <bodyText>Superdatorn gör som ni säger och prioriterar växter och frön. Om det går att odla på den nya boplatsen kan dom göra så att antikanernas biologiska arv får leva vidare. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText />
+          <ActionNrA>131</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Antikus C</ActionText>
+          <ActionNrA>6</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Frön att odla</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>93</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>124</pID>
+      <typ>6</typ>
+      <rubrik>Be Antikus flytta hit. </rubrik>
+      <bodyText>...</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText />
+          <ActionNrA>48</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText />
+          <ActionNrA>108</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>planetcounter</ActionText>
+          <ActionNrA>136</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Det blir bra!</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>125</pID>
+      <typ>6</typ>
+      <rubrik>Kapten Treskägg</rubrik>
+      <bodyText>"Vi tar den där vi kan hitta den! Ingenting kan ju växa här på Nevus. Vi vet att det inte är schysst, men vad ska vi annars göra? 
+
+Vi har jättedåligt samvete varje gång vi tar saker. Men det är priset vi måste betala för att vara fria. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi kan säkert komma på nått annat ni kan göra!</LinkText>
+          <DirectToID>123</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Om ni låter Antikus flytta hit så </LinkText>
+          <DirectToID>126</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>63</id>
+        <lable>rymdpiratTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>126</pID>
+      <typ>6</typ>
+      <rubrik>Musikinstrument</rubrik>
+      <bodyText>Superdatorn gör som ni säger och prioriterar antikanernas traditionella musikinstrument. Nu kommer antikanerna kunna fortsätta spela musik och på så sätt hålla sin kultur levande.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText />
+          <ActionNrA>131</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Antikus C</ActionText>
+          <ActionNrA>6</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText />
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>1</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>94</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>127</pID>
+      <typ>6</typ>
+      <rubrik>Kapten Treskägg</rubrik>
+      <bodyText>"Okej, det kanske är lite dyrt. Men dom har ju så mycket och vi har ingenting här på Nevus, bara grus och damm! 
+
+Vi vill inte stjäla och tjuva, men nöden har ingen lag! 
+Om antikanerna vill flytta hit måste dom dela med sig!</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ok, vi ska hälsa dom det</LinkText>
+          <DirectToID>124</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>63</id>
+        <lable>rymdpiratTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>128</pID>
+      <typ>6</typ>
+      <rubrik>Reservdelar </rubrik>
+      <bodyText>Superdatorn gör som ni säger och prioriterar reservdelar till Arken och Antikus robotar. Det  kommer säkert komma väl till pass på den nya boplatsen. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText />
+          <ActionNrA>131</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Antikus C</ActionText>
+          <ActionNrA>6</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Teknik</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>95</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>129</pID>
+      <typ>6</typ>
+      <rubrik>Gåvor till nya vänner</rubrik>
+      <bodyText>Superdatorn gör som ni säger och prioriterar att packa gåvor till nya vänner och bekanta. 
+
+Det är alltid bra att ha med sig en present när man hälsar på eller vill be om att få stanna kvar. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText />
+          <ActionNrA>131</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Antikus C</ActionText>
+          <ActionNrA>6</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText />
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>96</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>130</pID>
+      <typ>5</typ>
+      <rubrik>Antikus</rubrik>
+      <bodyText>I det dunkla ljuset från solen Tricus förbereder sig antikanerna för den långa resan med rymdskeppet Arken. 
+
+Dom planerar för att packa med allt dom kan tänka sig behöva på deras nya boplats; växter, frön, djur, maskiner och teknologi. 
+
+Arbetet är hårt. Tur nog har dom hjälp av Arkens superdator III0. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med Mojuba</LinkText>
+          <DirectToID>135</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Besök bygget av rymdskeppet</LinkText>
+          <DirectToID>131</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>56</id>
+        <lable>AntikusBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>131</pID>
+      <typ>5</typ>
+      <rubrik>Arken</rubrik>
+      <bodyText>Det enorma rymdskeppet Arken är en imponerande syn. Skeppet är en befolkningsförflyttare av typen XCW12. Byggt med moder teknologi och stort nog att rädda alla som bor på Antikus. 
+
+Superdatorn III0 arbetar för fullt med att packa inför den långa resan. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Tala med byggmästaren</LinkText>
+          <DirectToID>8</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Hjälp superdatorn III0</LinkText>
+          <DirectToID>117</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>true</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till staden</LinkText>
+          <DirectToID>130</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>54</id>
+        <lable>ArkenBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>132</pID>
+      <typ>6</typ>
+      <rubrik>Varför är det farligt?</rubrik>
+      <bodyText>"ÅTERVINNINGSCENTRALEN ÄR GAMMAL OCH OSÄKER. 
+
+VI HAR INTE TID ATT GÖRA DET BÄTTRE EFTERSOM VI HAR FÖR MYCKET SOPOR ATT SORTERA."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Har ni sagt detta till forméanerna?</LinkText>
+          <DirectToID>76</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>71</id>
+        <lable>UroB_Robot_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>133</pID>
+      <typ>6</typ>
+      <rubrik>Administratör Lurkus</rubrik>
+      <bodyText>"Trevligt ni att tittar förbi igen, tack för att ni hjälpte oss att borra i asteroiderna.
+
+Hälsa antikanerna att dom är välkomna att bo här så länge dom är redo att hjälpa till med arbetet i gruvorna."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi ska hälsa dom det!</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>72</id>
+        <lable>Trikus</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>134</pID>
+      <typ>3</typ>
+      <rubrik>Slutdiskussion</rubrik>
+      <bodyText>Ni gjorde följande val:
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Avsluta till menyn</LinkText>
+          <DirectToID>149</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>135</pID>
+      <typ>6</typ>
+      <rubrik>Prata med Mojuba</rubrik>
+      <bodyText>"Välkomna tillbaka! Vi är färdiga med våra förberedelser och är redo att åka. 
+Har ni hittat en bra plats där vi kan bosätta oss?"</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ja, vi har förslag på var ni kan flytta</LinkText>
+          <DirectToID>112</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vi återkommer</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>55</id>
+        <lable>AntikanTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>136</pID>
+      <typ>0</typ>
+      <rubrik>Nevus</rubrik>
+      <bodyText>Antikanerna får flytta till Nevus om dom går med på att betala inflyttningstullen och delar med sig av sin teknologi.</bodyText>
+      <actions />
+      <links />
+      <visual>
+        <id>78</id>
+        <lable>planetikon</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>137</pID>
+      <typ>0</typ>
+      <rubrik>Lurganus</rubrik>
+      <bodyText>Antikanerna får bosätta sig på Lurganus om de lovar att hjälpa till med gruvdriften.</bodyText>
+      <actions />
+      <links />
+      <visual>
+        <id>78</id>
+        <lable>Planetikon</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>138</pID>
+      <typ>0</typ>
+      <rubrik>Bulbious isplanet</rubrik>
+      <bodyText>Antikanerna kan bosätta sig på den isplaneten Bulbious, om dom står ut med kylan.</bodyText>
+      <actions />
+      <links />
+      <visual>
+        <id>78</id>
+        <lable>GenericPlanetikon</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>139</pID>
+      <typ>0</typ>
+      <rubrik>Bulbious träskplanet</rubrik>
+      <bodyText>Antikanerna har tillstånd att bo på träskplaneten Bulbious om de lovar att leva i harmoni med naturen och sluta använda teknologi.</bodyText>
+      <actions />
+      <links />
+      <visual>
+        <id>78</id>
+        <lable>genericPlanetikon</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>140</pID>
+      <typ>9</typ>
+      <rubrik>Var ska Arken flyga?</rubrik>
+      <bodyText>LURGANUS:  För att bo på Lurganus måste ni gå med i deras kooperativ. Ni får gärna bo ovan jord. Där är kallt, men det finns mycket plats.
+NEVUS: Plats finns på Nevus, men ska ni bo där måste ni betala inflyttnings-tullen. Det är hälften av all er teknologi och mat. 
+FORMEA: Forméanerna kan göra plats för er, men forméaner tycker de är lite bättre än varelser som inte kan läsa mönster. Det måste ni acceptera. 
+BULBIOS: Ni behöver anpassa er till det kalla klimatet. Det är obebott sedan tidigare.  </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText>Stänger Mojibas popup</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Lurganus</LinkText>
+          <DirectToID>118</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>10</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Nevus (Port Bestia)</LinkText>
+          <DirectToID>119</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>11</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Forméa</LinkText>
+          <DirectToID>120</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>12</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Bulbios</LinkText>
+          <DirectToID>141</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>8</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>54</id>
+        <lable>ArkenBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>141</pID>
+      <typ>5</typ>
+      <rubrik>Den sista färden till Bulbios</rubrik>
+      <bodyText>Det kommer att bli en utmaning för antikanerna att överleva på den frusna planeten Bulbios. Det är ett svårt klimat men med Antikanernas teknologi kommer det nog att gå bra.
+Antikus befolkning är i alla fall inte i fara längre. 
+ 
+Ert uppdrag är slutfört. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>endobj on</ActionText>
+          <ActionNrA>59</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Avsluta spelet</LinkText>
+          <DirectToID>-2</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>89</id>
+        <lable>Ending_Bulb_Is</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>142</pID>
+      <typ>6</typ>
+      <rubrik>Mystiskt fenomen</rubrik>
+      <bodyText>Det ser ut som en stor reva i rymden omgivet av skimrande mystiskt ljus. Det verkar vara en öppning in i en annan dimension.
+
+Ni har aldrig sett något liknande och det finns ingen information om detta i era databaser.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Åk närmare och undersök fenomentet</LinkText>
+          <DirectToID>143</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna fenomenet i fred</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>143</pID>
+      <typ>6</typ>
+      <rubrik>Främmande signaler</rubrik>
+      <bodyText>Revan är en öppning i tid och rum. På andra sidan finns en ny dimmension som ingen i ert universum tidigare sett.
+
+Öppningen går inte att åka genom men från andra sidan kommer främmande signaler. Skeppets datorer kan inte tyda signalerna.
+
+Det verkar som att någon försöker kontakta er.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Svara på anropet</LinkText>
+          <DirectToID>144</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna fenomenet i fred</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>144</pID>
+      <typ>6</typ>
+      <rubrik>Första kontakten</rubrik>
+      <bodyText>Signalerna kommer från ett folkslag som lever i den andra dimensionen. Ingen på er sida universum har tidigare talat med dom.
+
+De verkar kommunicera med toner och ljus. För att kunna tala med dom måste ni först lära er deras sätt att kommunicera.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Slå på minigame</ActionText>
+          <ActionNrA>57</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>145</pID>
+      <typ>1</typ>
+      <rubrik>Mystiskt fenomen</rubrik>
+      <bodyText>Ett mystiskt rymdfenomen.
+
+Det finns ingen information om detta i era databaser.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>146</pID>
+      <typ>6</typ>
+      <rubrik>Nya vänner</rubrik>
+      <bodyText>Varelsen presenterar sig som Eria och vill gärna dela med sig av information och kunskap från sin värld i utbyte mot att ni berättar om er värld.
+
+Rymdrådet vill alltid lära känna nya kulturer, därför upprättar ni kontakt mellan Erias folk och Rymdrådets forskare.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni upprättade kommunikation med varelser från en ny dimension. Det gav nya kunskaper om kultur och teknologi.</ActionText>
+          <ActionNrA>134</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Fråga om antikanerna kan flytta till Erias dimension</LinkText>
+          <DirectToID>147</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>90</id>
+        <lable>EriaTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>147</pID>
+      <typ>6</typ>
+      <rubrik>Flytta till Erias dimension?</rubrik>
+      <bodyText>Eria skulle inte ha något emot det. Men tyvärr går det inte att resa genom öppningen i rymden.
+
+Dessutom finns det varken luft eller mat i Erias dimension. De lever på energi från kristaller och rymdstoft istället.
+
+Antikanerna får hitta någon annan stans att bo.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Tacka för informationen och åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>-1</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>148</pID>
+      <typ>0</typ>
+      <rubrik>Forméa</rubrik>
+      <bodyText>Antikus befolkning har fått tillstånd att bosätta sig på Forméa. Men de får stå ut med att forméanerna tycker att alla som inte förstår deras mönster är lite mindre värda.</bodyText>
+      <actions />
+      <links />
+      <visual>
+        <id>78</id>
+        <lable>Planeticon</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>149</pID>
+      <typ>3</typ>
+      <rubrik>slut</rubrik>
+      <bodyText>the end</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>endthegame</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText>close UI</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>-2</ActionNrB>
+        </pAction>
+      </actions>
+      <links />
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>150</pID>
+      <typ>1</typ>
+      <rubrik>Oraklet</rubrik>
+      <bodyText>Oraklet är en urgammal artificiell intelligens stor som en rymdstation.
+
+Ingen vet hur gammal den är eller vem som har byggt den.
+
+Under tusentals år har Oraklet samlat på sig stor kunskap och visdom. Därför färdas folk från hela galaxen till oraklet för att ställa frågor och be om råd.
+
+Tyvärr har åren också gjort att oraklet blivit glömsk och förvirrad, de råd den ger är inte alltid så lätta att förstå.</bodyText>
+      <actions />
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>151</pID>
+      <typ>5</typ>
+      <rubrik>Oraklet</rubrik>
+      <bodyText>Rymdresenärer från när och fjärran har kommit hit för att få råd och hjälp från den urgamla artificiella intelligensen som kallas för Oraklet.
+
+Åren och all kunskap har gjort Oraklet förvirrad och glömsk. De råd den ger är inte alltid så lätta att förstå.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>MapObjOn orakel minigame</ActionText>
+          <ActionNrA>61</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Ställ en fråga</LinkText>
+          <DirectToID>152</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>97</id>
+        <lable>Oraklet</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>152</pID>
+      <typ>6</typ>
+      <rubrik>Oraklet</rubrik>
+      <bodyText>"Min visdom saknar motstycke och min kunskap är stor."
+---------&lt;color=#ff55ff&gt; &lt;i&gt; (jag är jättesmart! (jätte jätte smart)) &lt;/i&gt; &lt;/color&gt;---- ---
+"Kunskapen är en tung börda för sköra hjärnor.
+&lt;i&gt; (är ni smarta nog?)&lt;/i&gt;
+"För att visa er värdiga att ta del av min kunskap måste ni klara Oraklets stora minnestest!"
+&lt;color=#00ff33&gt;&lt;i&gt; jag har skapat det själv! &lt;/i&gt;&lt;/color&gt;
+&lt;b&gt;Om ni klarar testet får ni ställa en fråga!&lt;/b&gt;
+
+ &lt;color=#ffff00&gt; (*solkatt i skymning*) &lt;/color&gt; </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>... okej...</LinkText>
+          <DirectToID>-2</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>98</id>
+        <lable>Orakel_th</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>153</pID>
+      <typ>9</typ>
+      <rubrik>Fråga Oraklet</rubrik>
+      <bodyText>Ni har klarat testet och har visat er värdiga att ställa en fråga till Oraklet.
+
+Hur lyder er fråga?</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni klarade Oraklets test och fick ställa frågor.</ActionText>
+          <ActionNrA>134</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Var tycker du att Antikanerna ska flytta?</LinkText>
+          <DirectToID>154</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>true</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vem har byggt dig?</LinkText>
+          <DirectToID>155</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>true</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Hur får vi fred i universum?</LinkText>
+          <DirectToID>156</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>true</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vad är meningen med livet?</LinkText>
+          <DirectToID>157</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>true</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vet du något om andra dimensioner?</LinkText>
+          <DirectToID>159</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>true</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vi har inga fler frågor</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>97</id>
+        <lable>Oraklet BGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>154</pID>
+      <typ>9</typ>
+      <rubrik>Var kan antikanerna bo?</rubrik>
+      <bodyText>Mantax är en vacker värld och de som bor där är vänliga...
+&lt;color=#ff66ff&gt; &lt;i&gt; Men vänta nu. Mantaxerna använde upp allt vatten så det finns bara sand där nu, det hade jag glömt. &lt;/i&gt; &lt;/color&gt;
+
+Planeten Korptikus är fantastiskt fin.
+&lt;color=#ff66ff&gt; &lt;i&gt; Men den finns inte ännu. Den bildas om några miljoner år. &lt;/i&gt;&lt;/color&gt;
+
+Gigiri är en trevlig rymdstation. Där bor vänliga små bubbelvarelser.
+&lt;color=#ff66ff&gt; &lt;i&gt; Tyvärr är stationen liten som ett knappnålshuvud. Så Antikanerna får nog inte plats &lt;/i&gt;&lt;/color&gt;</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Kunskap om andra kulturer.</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>1</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Tack, vi får nog söka vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>98</id>
+        <lable>Oraklet_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>155</pID>
+      <typ>9</typ>
+      <rubrik>Vem har byggt dig?</rubrik>
+      <bodyText>Det vet jag inte.
+Jag fanns nämligen inte innan jag blev byggd.
+
+Men det måste ha varit väldigt duktiga ingenjörer. De använde en komplex kombination av flux-kapacitatorer och kvant-paneler för att konstruera min avancerade tankeprocessor.
+
+&lt;color=#ff66ff&gt; &lt;i&gt;Dom byggde så att jag blev väldigt smart. Det är jag tacksam för. &lt;/i&gt; &lt;/color&gt;
+
+
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Inblick i hur Oraklet är byggt.</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Var det länge sedan dom byggde dig?</LinkText>
+          <DirectToID>158</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Tack, då vet vi det!</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>98</id>
+        <lable>Oraklet_th</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>156</pID>
+      <typ>9</typ>
+      <rubrik>Fred i universum</rubrik>
+      <bodyText>Det är enkelt.
+Sluta kriga och bråka.
+
+&lt;color=#aaff22&gt;&lt;b&gt;Då är det fred.&lt;/b&gt;&lt;/color&gt;</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Strävan efter fred.</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Låter enkelt, men kan bli svårt</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>98</id>
+        <lable>Oraklet_th</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>157</pID>
+      <typ>9</typ>
+      <rubrik>Meningen med livet</rubrik>
+      <bodyText>Vad är &lt;b&gt;inte&lt;/b&gt; meningen med livet?
+
+Ta bort allt som inte är meningen, det som blir kvar är svaret på er fråga.
+
+(42)</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Tack, det var meningslöst</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>98</id>
+        <lable>OrakletTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>158</pID>
+      <typ>9</typ>
+      <rubrik>Var det länge sedan?</rubrik>
+      <bodyText>Ja, mycket länge sedan. Jag har svävat här i rymden längre än jag kan minnas.
+
+&lt;color=#ff66ff&gt; &lt;i&gt;Men vänta nu...&lt;/i&gt;&lt;/color&gt;
+
+&lt;color=#ff3434&gt;Det där var två frågor! Fy på er! Ni får bara ställa en fråga för varje gång ni klarar testet!&lt;/color&gt;</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi ber om ursäkt, det ska inte hända igen.</LinkText>
+          <DirectToID>-2</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>98</id>
+        <lable>Oraklet_th</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>159</pID>
+      <typ>9</typ>
+      <rubrik>Andra dimensioner</rubrik>
+      <bodyText>Jag vet mycket om många dimensioner, men jag kan inte berätta om det.
+
+Språket vi använder är gjort för att beskriva saker i vår dimension. Vårt språk har oftast inte rätt ord för att förklara det som finns i andra dimensioner.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Kunskap om andra dimensioner</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>1</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Okej, det var synd</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>98</id>
+        <lable>OrakelTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+  </Paragrafer>
+</SavedataParagraph>

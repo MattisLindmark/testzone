@@ -1,0 +1,2225 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SavedataMapObj xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Mapobjects>
+    <MapObject>
+      <id>1</id>
+      <worldID>6</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Solen Tricus</lable>
+      <description>Visuellt objekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Solen Tricus</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>2</visualID>
+      <visualLable>sol</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>2</id>
+      <worldID>6</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Solfläckar (introduktion)</lable>
+      <description>Visuellt objekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>visa intro</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>initPrefab</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>planetcounter</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>6</visualID>
+      <visualLable>solfläckar</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>3</id>
+      <worldID>5</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Antikus </lable>
+      <description>Visuellt objekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Planeten Antikus</ActionText>
+          <ActionNrA>35</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>19</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>4</id>
+      <worldID>5</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Antikus A</lable>
+      <description>Uppdragsmenyn</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIcontact</thisTrigger>
+          <ActionText>Kontakta Antikus</ActionText>
+          <ActionNrA>3</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>34</visualID>
+      <visualLable>mottagare</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>5</id>
+      <worldID>5</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Hitta en boplats</lable>
+      <description>Uppdragsmenyn</description>
+      <showInLog>true</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIcontact</thisTrigger>
+          <ActionText>Kontakta Antikus</ActionText>
+          <ActionNrA>10</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Antikus A</ActionText>
+          <ActionNrA>4</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Uppdraget</ActionText>
+          <ActionNrA>33</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Bulbios A</ActionText>
+          <ActionNrA>13</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Forméa A</ActionText>
+          <ActionNrA>39</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Lurganus A</ActionText>
+          <ActionNrA>21</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Gasjätte A</ActionText>
+          <ActionNrA>19</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Nevus A</ActionText>
+          <ActionNrA>46</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other>Besök planeterna i sektorn och undersök om ni kan hitta ett nytt hem för Antikus befolkning.</other>
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>6</id>
+      <worldID>5</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Antikus C</lable>
+      <description>Packning avklarad</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIcontact</thisTrigger>
+          <ActionText>Kontakta Antikus</ActionText>
+          <ActionNrA>130</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Antikus B</ActionText>
+          <ActionNrA>5</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>34</visualID>
+      <visualLable>mottagare</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>7</id>
+      <worldID>23</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mördarluft</lable>
+      <description>Visuelltobjekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Mördarluft</ActionText>
+          <ActionNrA>13</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>25</visualID>
+      <visualLable>mördarluft</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>8</id>
+      <worldID>10</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mördarluft</lable>
+      <description>Visuelltobjekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions />
+      <visualID>25</visualID>
+      <visualLable>mördarluft</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>9</id>
+      <worldID>25</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mördarluft</lable>
+      <description>Visuelltobjekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Mördarluft</ActionText>
+          <ActionNrA>13</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>25</visualID>
+      <visualLable>mördarluft</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>10</id>
+      <worldID>24</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mördarluft</lable>
+      <description>Visuelltobjekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>mördarluft</ActionText>
+          <ActionNrA>13</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>25</visualID>
+      <visualLable>mördarluft</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>11</id>
+      <worldID>11</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mördarluft</lable>
+      <description>Visuelltobjekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Mördarluft</ActionText>
+          <ActionNrA>13</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>25</visualID>
+      <visualLable>mördarluft</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>12</id>
+      <worldID>10</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Bulbios</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Planeten Bulbios</ActionText>
+          <ActionNrA>15</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>21</visualID>
+      <visualLable>Träskplanet</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>13</id>
+      <worldID>10</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Bulbios A</lable>
+      <description>En konflikt råder på Bulbios</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Konflikt på Bulbios</ActionText>
+          <ActionNrA>16</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>34</visualID>
+      <visualLable>mottagare</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>14</id>
+      <worldID>10</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Bulbios (fryst)</lable>
+      <description>Bulbios blir fryst till is</description>
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mördarluft</ActionText>
+          <ActionNrA>8</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mördarluft</ActionText>
+          <ActionNrA>7</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mördarluft</ActionText>
+          <ActionNrA>11</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Bulbios</ActionText>
+          <ActionNrA>12</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Bulbios D</ActionText>
+          <ActionNrA>16</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Isplaneten Bulbios</ActionText>
+          <ActionNrA>28</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Utforska isplaneten</ActionText>
+          <ActionNrA>29</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Bulbios fryser till is</ActionText>
+          <ActionNrA>30</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Räknare</ActionText>
+          <ActionNrA>52</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Räknare</ActionText>
+          <ActionNrA>52</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>35</visualID>
+      <visualLable>isplanet</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>15</id>
+      <worldID>10</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Bulbios C</lable>
+      <description>Bulbios blir ett habitat</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Utforska Bulbios</ActionText>
+          <ActionNrA>31</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Bulbios A</ActionText>
+          <ActionNrA>13</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mördarluft</ActionText>
+          <ActionNrA>10</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mördarluft</ActionText>
+          <ActionNrA>9</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mördarluften sprider sig</ActionText>
+          <ActionNrA>32</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Räknare</ActionText>
+          <ActionNrA>52</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Räknare</ActionText>
+          <ActionNrA>52</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>8</visualID>
+      <visualLable>polypus</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>16</id>
+      <worldID>10</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Bulbios D (tid)</lable>
+      <description>Bulbios blir ett habitat</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Bulbios A</ActionText>
+          <ActionNrA>13</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Bulbious fryst</ActionText>
+          <ActionNrA>14</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>17</id>
+      <worldID>31</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Objekt: B3TX</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions />
+      <visualID>3</visualID>
+      <visualLable>gasjätte</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>18</id>
+      <worldID>31</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Gasjätten B3TX</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Objekt B3TX</ActionText>
+          <ActionNrA>17</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Gasjätte info</ActionText>
+          <ActionNrA>36</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Utforska gasjätten</ActionText>
+          <ActionNrA>37</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>3</visualID>
+      <visualLable>gasjätte</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>19</id>
+      <worldID>31</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Gasjätte A</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Utforska planeten</ActionText>
+          <ActionNrA>38</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>34</visualID>
+      <visualLable>mottagare</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>20</id>
+      <worldID>59</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Lurganus</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Planeten Lurganus</ActionText>
+          <ActionNrA>40</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>31</visualID>
+      <visualLable>lurganus</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>21</id>
+      <worldID>59</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Lurganus A</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Utforska Lurganus</ActionText>
+          <ActionNrA>44</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>34</visualID>
+      <visualLable>mottagare</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>22</id>
+      <worldID>59</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Borra efter mineraler</lable>
+      <description />
+      <showInLog>true</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Lurganus A</ActionText>
+          <ActionNrA>21</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mineral A</ActionText>
+          <ActionNrA>24</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mineral B</ActionText>
+          <ActionNrA>25</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mineral C</ActionText>
+          <ActionNrA>26</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other>Lurganerna vill att ni borrar efter mineraler och starta en ny gruva. </other>
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>23</id>
+      <worldID>59</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Lurganus C</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Lurganus A</ActionText>
+          <ActionNrA>21</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Lurganus B</ActionText>
+          <ActionNrA>22</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIcontact</thisTrigger>
+          <ActionText>Kontakta Lurganus</ActionText>
+          <ActionNrA>56</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>34</visualID>
+      <visualLable>mottagare</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>24</id>
+      <worldID>57</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mineralprospekt</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Utforska asteroid</ActionText>
+          <ActionNrA>54</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>34</visualID>
+      <visualLable>mottagare</visualLable>
+      <other>Lurganerna vill att ni borrar efter mineraler och starta en ny gruva. </other>
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>25</id>
+      <worldID>38</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mineralprospekt B</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Mineralprospekt</ActionText>
+          <ActionNrA>82</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>34</visualID>
+      <visualLable>mottagare</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>26</id>
+      <worldID>55</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mineralprospekt C</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Mineralprospekt</ActionText>
+          <ActionNrA>83</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>34</visualID>
+      <visualLable>mottagare</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>27</id>
+      <worldID>57</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Asteroid</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Asteroid info</ActionText>
+          <ActionNrA>122</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>7</visualID>
+      <visualLable>Asteroid</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>28</id>
+      <worldID>38</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Asteroid</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>asteroid info</ActionText>
+          <ActionNrA>122</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>7</visualID>
+      <visualLable>Asteroid</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>29</id>
+      <worldID>88</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Asteroid</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>asteroid info</ActionText>
+          <ActionNrA>122</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>7</visualID>
+      <visualLable>Asteroid</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>30</id>
+      <worldID>89</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Asteroid</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>asteroid info</ActionText>
+          <ActionNrA>122</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>7</visualID>
+      <visualLable>Asteroid</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>31</id>
+      <worldID>60</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Asteroid</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>asteroid info</ActionText>
+          <ActionNrA>122</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>7</visualID>
+      <visualLable>Asteroid</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>32</id>
+      <worldID>55</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Asteroid</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>asteroid info</ActionText>
+          <ActionNrA>122</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>7</visualID>
+      <visualLable>Asteroid</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>33</id>
+      <worldID>56</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Solen Qwlerk</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions />
+      <visualID>2</visualID>
+      <visualLable>sol</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>34</id>
+      <worldID>67</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Solen Randos</lable>
+      <description>Visuellt objekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions />
+      <visualID>2</visualID>
+      <visualLable>sol</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>35</id>
+      <worldID>57</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mineralgruva</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mineralprospekt A</ActionText>
+          <ActionNrA>24</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Lurganus C</ActionText>
+          <ActionNrA>23</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Gruva</ActionText>
+          <ActionNrA>59</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>17</visualID>
+      <visualLable>mineralgruva</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>36</id>
+      <worldID>38</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mineralgruva</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mineralprospekt B</ActionText>
+          <ActionNrA>25</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Lurganus C</ActionText>
+          <ActionNrA>23</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Gruva</ActionText>
+          <ActionNrA>59</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>17</visualID>
+      <visualLable>gruva</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>37</id>
+      <worldID>55</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mineralgruva</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mineralprospekt C</ActionText>
+          <ActionNrA>26</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Lurganus C</ActionText>
+          <ActionNrA>23</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Gruva</ActionText>
+          <ActionNrA>59</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>17</visualID>
+      <visualLable>gruva</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>38</id>
+      <worldID>41</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Forméa</lable>
+      <description>Visuellt objekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Planeten Formea</ActionText>
+          <ActionNrA>60</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>44</visualID>
+      <visualLable>Formea</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>39</id>
+      <worldID>41</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Forméa A</lable>
+      <description>Uppdragsobjekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Utforska Formea</ActionText>
+          <ActionNrA>61</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>34</visualID>
+      <visualLable>mottagare</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>40</id>
+      <worldID>41</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Forméa B</lable>
+      <description>Uppdragsobjekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIcontact</thisTrigger>
+          <ActionText>Kontakta Formea</ActionText>
+          <ActionNrA>72</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Formea A</ActionText>
+          <ActionNrA>39</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>34</visualID>
+      <visualLable>mottagare</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>41</id>
+      <worldID>41</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Forméa C</lable>
+      <description>Uppdragsobjekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Formea B</ActionText>
+          <ActionNrA>40</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIcontact</thisTrigger>
+          <ActionText>Kontakta Formea</ActionText>
+          <ActionNrA>86</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Räknare</ActionText>
+          <ActionNrA>52</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Räknare</ActionText>
+          <ActionNrA>52</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>42</id>
+      <worldID>41</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Forméa D</lable>
+      <description>Uppdragsobjekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Formea B</ActionText>
+          <ActionNrA>40</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIcontact</thisTrigger>
+          <ActionText>Robotarna sida</ActionText>
+          <ActionNrA>88</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Räknare</ActionText>
+          <ActionNrA>52</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Räknare</ActionText>
+          <ActionNrA>52</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>43</id>
+      <worldID>41</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Forméa E</lable>
+      <description>Uppdragsobjekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Formea B</ActionText>
+          <ActionNrA>40</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIcontact</thisTrigger>
+          <ActionText>Kompromissen</ActionText>
+          <ActionNrA>87</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Räknare</ActionText>
+          <ActionNrA>52</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Räknare</ActionText>
+          <ActionNrA>52</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>44</id>
+      <worldID>59</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Lurganus D</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Lurganus C</ActionText>
+          <ActionNrA>23</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mineral A</ActionText>
+          <ActionNrA>24</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mineral B</ActionText>
+          <ActionNrA>25</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Mineral C</ActionText>
+          <ActionNrA>26</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Räknare</ActionText>
+          <ActionNrA>52</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Räknare</ActionText>
+          <ActionNrA>52</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIcontact</thisTrigger>
+          <ActionText>Kontakta Lurganus</ActionText>
+          <ActionNrA>56</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>45</id>
+      <worldID>20</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Nevus</lable>
+      <description>Visuellt objekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Planeten Nevus</ActionText>
+          <ActionNrA>92</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>20</visualID>
+      <visualLable>sopplanet</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>46</id>
+      <worldID>20</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Nevus A</lable>
+      <description>Visuellt objekt</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Utforska planeten Nevus</ActionText>
+          <ActionNrA>93</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>34</visualID>
+      <visualLable>mottagare</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>47</id>
+      <worldID>20</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Nevus B</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Nevus A</ActionText>
+          <ActionNrA>46</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Utforska Port Bestia</ActionText>
+          <ActionNrA>102</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>34</visualID>
+      <visualLable>mottagare</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>48</id>
+      <worldID>20</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Nevus C</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Utforska Port Bestia</ActionText>
+          <ActionNrA>108</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Nevus B</ActionText>
+          <ActionNrA>47</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Räknare</ActionText>
+          <ActionNrA>52</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Räknare</ActionText>
+          <ActionNrA>52</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>49</id>
+      <worldID>3</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Piratskepp A</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions />
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>50</id>
+      <worldID>3</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Piratskepp B</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions />
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>51</id>
+      <worldID>3</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Asteroider</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>asteroid info</ActionText>
+          <ActionNrA>122</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>7</visualID>
+      <visualLable>Asteroider</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>52</id>
+      <worldID>3</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Den sista färden (counter)</lable>
+      <description>Räknare för besökta planeter</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>counter</thisTrigger>
+          <ActionText>Slutdiskussion</ActionText>
+          <ActionNrA>53</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>3</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>53</id>
+      <worldID>3</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Den sista färden</lable>
+      <description>Återvänd till Antikus och berätta var Arken ska åka</description>
+      <showInLog>true</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Slutdiskussion</ActionText>
+          <ActionNrA>111</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Hitta en boplats</ActionText>
+          <ActionNrA>5</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectON</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Antikus C</ActionText>
+          <ActionNrA>6</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other>Återvänd till Antikus och berätta var Arken ska åka</other>
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>54</id>
+      <worldID>3</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Den sista färden</lable>
+      <description>Återvänd till Antikus och berätta var Arken ska åka</description>
+      <showInLog>true</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Återvänd till Antikus</ActionText>
+          <ActionNrA>111</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other>Återvänd till Antikus och berätta var Arken ska åka</other>
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>55</id>
+      <worldID>81</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mystiskt fenomen</lable>
+      <description>Ett mystiskt fenomen, visual</description>
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions />
+      <visualID>46</visualID>
+      <visualLable>Mystiskt fenomen</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>56</id>
+      <worldID>81</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mystiskt fenomen KontaktA</lable>
+      <description />
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Undersök fenomenet</ActionText>
+          <ActionNrA>142</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Information om fenomenet</ActionText>
+          <ActionNrA>145</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>57</id>
+      <worldID>81</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mystiskt fenomen Minigame</lable>
+      <description>Efter man har undersökt det.</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>minigame</thisAction>
+          <thisTrigger>GUIminigame</thisTrigger>
+          <ActionText>Minispel: Kristall-kommunikation</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIexplore</thisTrigger>
+          <ActionText>Undersök fenomenet</ActionText>
+          <ActionNrA>144</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Stäng tidigare paragrafer</ActionText>
+          <ActionNrA>56</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>58</id>
+      <worldID>81</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Mystisk fenomen_Samtal</lable>
+      <description>Efter man har klarat minigame.</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>MapObjectOFF</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Off med tidigare kontakt</ActionText>
+          <ActionNrA>57</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIcontact</thisTrigger>
+          <ActionText>Kontakta den nya dimensionen</ActionText>
+          <ActionNrA>146</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>59</id>
+      <worldID>1</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>EndObject</lable>
+      <description>triggar slutsamtalet.</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>instant</thisTrigger>
+          <ActionText>Visa slutdiskusion</ActionText>
+          <ActionNrA>134</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>60</id>
+      <worldID>65</worldID>
+      <isActive>true</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Oraklet</lable>
+      <description>Detta är oraklet.</description>
+      <showInLog>false</showInLog>
+      <showOnMap>true</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIinfo</thisTrigger>
+          <ActionText>Information om Oraklet</ActionText>
+          <ActionNrA>150</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>showparra</thisAction>
+          <thisTrigger>GUIcontact</thisTrigger>
+          <ActionText>Kontakta Oraklet</ActionText>
+          <ActionNrA>151</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>47</visualID>
+      <visualLable>Oraklet</visualLable>
+      <other />
+      <prio>0</prio>
+    </MapObject>
+    <MapObject>
+      <id>61</id>
+      <worldID>65</worldID>
+      <isActive>false</isActive>
+      <isPersistent>true</isPersistent>
+      <lable>Oraklet minigame</lable>
+      <description>Not set</description>
+      <showInLog>false</showInLog>
+      <showOnMap>false</showOnMap>
+      <tags />
+      <actions>
+        <mAction>
+          <ID>0</ID>
+          <thisAction>minigame</thisAction>
+          <thisTrigger>GUIminigame</thisTrigger>
+          <ActionText>Minispel: Oraklets test</ActionText>
+          <ActionNrA>7</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+          <ActionTnr>0</ActionTnr>
+          <isPersistent>true</isPersistent>
+        </mAction>
+      </actions>
+      <visualID>0</visualID>
+      <visualLable />
+      <other />
+      <prio>0</prio>
+    </MapObject>
+  </Mapobjects>
+</SavedataMapObj>

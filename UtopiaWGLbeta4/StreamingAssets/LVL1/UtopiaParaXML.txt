@@ -1,0 +1,4453 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SavedataParagraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Paragrafer>
+    <PObject>
+      <pID>1</pID>
+      <typ>7</typ>
+      <rubrik>Vattenbrist på Rubidus</rubrik>
+      <bodyText>Nödanrop från planeten Rubidus!
+ 
+Den senaste tidens solstormar har orsakat torka och vattenbrist på Rubidus. Hjälp från rymdrådet behövs för att lösa situationen. 
+
+Ert uppdrag är att hämta vatten till Rubidus och förhindra att det blir vattenkris. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Landa på Rubidus</LinkText>
+          <DirectToID>2</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>18</id>
+        <lable>SpaceBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>2</pID>
+      <typ>5</typ>
+      <rubrik>Rubidus</rubrik>
+      <bodyText>Ni har landat i Rubidus huvudstad Rubidon. Det är ovanligt varmt och torrt. Vattenbristen och torkan är svår. 
+
+Om invånarna inte får vatten snart kommer det få katastrofala följder.
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText>close intro</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>7</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Besök vattentemplet och prästinnan Duula</LinkText>
+          <DirectToID>63</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Besök vattenreservoaren</LinkText>
+          <DirectToID>4</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Besök Rubidus rosodlingar</LinkText>
+          <DirectToID>5</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>8</DirectToID>
+          <DirectToAlt>122</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>2</id>
+        <lable>RubidusBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>3</pID>
+      <typ>6</typ>
+      <rubrik>Prästinnan Duula</rubrik>
+      <bodyText>“Så bra att ni är här! Vårt vatten håller på att ta slut" utbrister Duula. 
+
+"Torkan och vattenbristen blir värre dag för dag. Det lilla vatten vi har kvar är smutsigt och nästan odrickbart! Vi behöver er hjälp!" </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vad kan vi göra för att hjälpa?</LinkText>
+          <DirectToID>6</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Varför är det slut på vatten?</LinkText>
+          <DirectToID>7</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>49</id>
+        <lable>mantaxpriestTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>4</pID>
+      <typ>5</typ>
+      <rubrik>Vattenreservoaren</rubrik>
+      <bodyText>Det är mörkt och fuktigt inne i vattenreservoaren. Dom stora vattenbassängerna är nästan tomma. 
+
+Längst in i lokalen ser ni en ingenjör som står och tar prover.
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med ingenjören</LinkText>
+          <DirectToID>9</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Undersök vattennivåerna</LinkText>
+          <DirectToID>13</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till staden</LinkText>
+          <DirectToID>-3</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>44</id>
+        <lable>vattenreservoarBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>5</pID>
+      <typ>5</typ>
+      <rubrik>Rubidus rosodlingar</rubrik>
+      <bodyText>Stora rosodlingar breder ut sig över sanddynerna. Bevattningsrobotar svävar fram och tillbaka mellan rosbuskarna. Mycket av vattnet avdunstar direkt i den extrema ökenhettan.
+
+Vid ett kontrollbord står rosodlare Mulk och sköter maskinerna. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med rosodlare Mulk</LinkText>
+          <DirectToID>14</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Gå tillbaka till staden</LinkText>
+          <DirectToID>-3</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>46</id>
+        <lable>rosodlingarBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>6</pID>
+      <typ>6</typ>
+      <rubrik>Prata med prästinnan Duula</rubrik>
+      <bodyText>"Ni kan börja med att hämta vatten. Vattenbristen är akut och vattenreservoaren är nästan tom. Om vi inte får vatten snart kommer det att bli katastrof!"
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Självklart! Vi ger oss av på en gång.</LinkText>
+          <DirectToID>109</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vi ska undersöka staden lite mer först</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>49</id>
+        <lable>mantaxpriestTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>7</pID>
+      <typ>6</typ>
+      <rubrik>Prästinnan Duula</rubrik>
+      <bodyText>"Det finns inget naturligt vatten på Rubidus. Vi fraktar hit vattnet och lagrar det i vattenreservoaren. För att det ska räcka längre delar vi ut dricksvatten till alla som bor här" förklarar Duula.
+
+"Nu behöver vi fylla på reservoaren och vi vet inte var vi ska få vatten ifrån" säger Duula bekymrat.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vad kan vi göra för att hjälpa till?</LinkText>
+          <DirectToID>6</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>49</id>
+        <lable>MantaxpriestTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>8</pID>
+      <typ>4</typ>
+      <rubrik>Hämta vatten</rubrik>
+      <bodyText>Mantaxerna på Rubidus vill att ni hämtar vatten och fyller på deras vattenreservoar. Kom tillbaka när lastutrymmet är fullt</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText>close para typ 7</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>7</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText>close typ 5</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Hämta vatten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>9</pID>
+      <typ>6</typ>
+      <rubrik>Ingenjör Bolvatz</rubrik>
+      <bodyText>"Vattnet är snart slut!" förklarar ingenjör Bolvatz
+
+"Det finns nästan inget dricksvatten och bevattningssystemet är nästan tomt. Om inte reservoaren fylls på kommer rosodlingarna torka bort!" </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vart tar allt vatten vägen?</LinkText>
+          <DirectToID>10</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna diskussionen</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>75</id>
+        <lable>Mantax_Vatteningeng</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>10</pID>
+      <typ>6</typ>
+      <rubrik>Ingenjör Bolvatz</rubrik>
+      <bodyText>"Rosodlingarna får det mesta av vattnet. Rubi-rosor behöver vattnas och välsignas flera gånger per dag. Det är väldigt lite vatten som används till dricksvatten."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vart finns det mer vatten?</LinkText>
+          <DirectToID>11</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Går det inte att rena vattnet</LinkText>
+          <DirectToID>12</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>-1</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>11</pID>
+      <typ>6</typ>
+      <rubrik>Ingenjör Bolvatz</rubrik>
+      <bodyText>"Vi har inga egna vattenkällor och det finns bara vatten på ett fåtal platser nära vår planet. Vattenplaneten Watersplash och handelsstationen Merlona är dom närmsta." säger Bolvatz.
+
+"Det kan också finnas vatten på en och annan asteroid."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Lämna diskussionen</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>-1</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>12</pID>
+      <typ>6</typ>
+      <rubrik>Ingenjör Bolvatz</rubrik>
+      <bodyText>"Rubidus har inte teknologin eller resurserna för det. Jag har försökt säga till prästerna att vi måste börja återvinna vårt vatten men dom lyssnar inte!" </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ok, då förstår vi. </LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>-1</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>13</pID>
+      <typ>6</typ>
+      <rubrik>Vattennivå i reservoaren</rubrik>
+      <bodyText>Den stora vattenmätaren är nere på rött. Det betyder att det nästan är slut på vatten i vattenreservoaren. 
+
+Det mesta av Rubidus vatten går åt till bevattning av rosodlingarna. Bara en liten del används till dricksvatten och heliga ceremonier. 
+
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Tillbaka till vattenreservoaren</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>33</id>
+        <lable>vattennivå</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>14</pID>
+      <typ>6</typ>
+      <rubrik>Rosodlare Mulk</rubrik>
+      <bodyText>Mulk ser ut över fälten och knappar på kontrollbordet samtidigt som han pratar:
+
+"Det är rubi-rosor vi odlar här! Mycket sällsynta och dyrbara ska ni veta. Vi har tagit hit dom från djungelplaneten Zoros. Det är inte det lättaste att få dom att växa, det behövs mycket sol och vatten!" </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Hur får ni blommorna att växa mitt i öknen?</LinkText>
+          <DirectToID>15</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna diskussionen</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>48</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>15</pID>
+      <typ>6</typ>
+      <rubrik>Rosodlare Mulk </rubrik>
+      <bodyText>"Det är inte det lättaste. Robotarna vattnar natt och dag. På så vis hålls marken fuktig även när solen bränner som värst, genialiskt!"</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Det låter slösaktigt</LinkText>
+          <DirectToID>16</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Går det inte att samla upp vattnet</LinkText>
+          <DirectToID>17</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>48</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>16</pID>
+      <typ>6</typ>
+      <rubrik>Rosodlare Mulk </rubrik>
+      <bodyText>"Slösaktigt? Hur ska vi annars göra?" 
+
+"Här finns bara sand och sten. Rosorna behöver vatten och vi behöver odla rosor för att ha något att köpa energi och vatten för."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Kan ni inte återvinna vattnet?</LinkText>
+          <DirectToID>17</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>48</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>17</pID>
+      <typ>6</typ>
+      <rubrik>Rosodlare Mulk </rubrik>
+      <bodyText>"Vattnet är fullt med gödsel och förgiftat av bekämpningsmedel." </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ok, så synd.</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>48</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>18</pID>
+      <typ>5</typ>
+      <rubrik>Rubidus</rubrik>
+      <bodyText>Det är folktomt på gatorna i Rubidon. Dom flesta mantaxer håller sig inomhus för att spara vatten och undvika värmen. 
+
+Vattennivåerna är låga. Prästerskapet delar inte ut fler vattenransoner förrän vattenreservoaren fyllts på igen. 
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Besök vattenreservoaren</LinkText>
+          <DirectToID>19</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Besök Rubidus rosodlingar</LinkText>
+          <DirectToID>20</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>2</id>
+        <lable>RubidusBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>19</pID>
+      <typ>5</typ>
+      <rubrik>Vattenreservoaren</rubrik>
+      <bodyText>Det är mörkt och fuktigt inne i vattenreservoaren. Dom stora vattenbassängerna är nästan tomma. Vattnet som finns kvar på botten ser smutsigt ut och luktar illa. 
+
+Längst in i lokalen ser ni en ingenjör som står och tar prover.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med ingenjören</LinkText>
+          <DirectToID>9</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Undersök vattennivåerna</LinkText>
+          <DirectToID>13</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Gå tillbaka till staden</LinkText>
+          <DirectToID>-3</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>44</id>
+        <lable>vattenreservoarBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>20</pID>
+      <typ>5</typ>
+      <rubrik>Rubidus rosodlingar</rubrik>
+      <bodyText>Dom stora rosodlingarna breder ut sig och bevattningsrobotar flyger fram och tillbaka mellan rader av röda rosbuskar. Värmen gör att mycket av vattnet avdunstar direkt i den extrema ökenhettan.
+
+Lite längre bort står rosodlare Mulk vid ett kontrollbord och sköter maskinerna. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med rosodlare Mulk</LinkText>
+          <DirectToID>14</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Gå tillbaka till staden</LinkText>
+          <DirectToID>-3</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>46</id>
+        <lable>rosodlingarBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>21</pID>
+      <typ>5</typ>
+      <rubrik>Merlona</rubrik>
+      <bodyText>Hit åker folk från hela galaxen för att handla och byta saker med varandra. Ebulumerna är kända för sitt sinne för affärer och för deras marknad med handelsvaror av hög kvalité.
+ 
+På Merlona finns en marknad och en  forskningsenhet där forskare och uppfinnare jobbar. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Besök marknaden</LinkText>
+          <DirectToID>22</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Besök forskningsenheten</LinkText>
+          <DirectToID>23</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna Merlona</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>24</id>
+        <lable>merlonaBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>22</pID>
+      <typ>5</typ>
+      <rubrik>Ebulumernas marknad</rubrik>
+      <bodyText>Det är hög aktivitet på Merlonas marknad, handlare och köpare från hela galaxen är på plats. 
+
+Solstormarna på Undromeda har påverkat vattensituationen i hela galaxen. Alla vill köpa vatten och priserna har därför stigit. Vatten har blivit dyrt att köpa.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med en vattenhandlare</LinkText>
+          <DirectToID>24</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna marknaden</LinkText>
+          <DirectToID>21</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>51</id>
+        <lable>marknadBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>23</pID>
+      <typ>5</typ>
+      <rubrik>Forskningsenheten</rubrik>
+      <bodyText>Ebulumernas forskningsenhet är ett högteknologiskt laboratorium. Här jobbar forskare och uppfinnare med att hitta på nya smarta produkter att sälja.
+ 
+Den ökade värmen har gjort att ebulumerna börjat forska om återvinning och vattenfiltrering.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med forskarna</LinkText>
+          <DirectToID>30</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna forskningsenheten</LinkText>
+          <DirectToID>21</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>53</id>
+        <lable>laboratoriumBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>24</pID>
+      <typ>6</typ>
+      <rubrik>Ebulumsk vattenhandlare</rubrik>
+      <bodyText>"Det är brist på vatten överallt!" utbrister den ebulumske försäljaren.
+ 
+"Vi har importerat vatten hela vägen från Antikus för att möta efterfrågan. Det är inte miljövänligt men det är billigt och smakar ganska bra. Vi kan också erbjuda återvunnet vatten från Merlonas egna vattenuppsamlare." 
+
+Vad vill ni ha? </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vad är återvunnet vatten?</LinkText>
+          <DirectToID>25</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Berätta mer om det importerade vattnet</LinkText>
+          <DirectToID>26</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vi vill inte köpa något just nu</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>77</id>
+        <lable>EbulumVattenhandlare</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>25</pID>
+      <typ>6</typ>
+      <rubrik>Återvunnet vatten</rubrik>
+      <bodyText>"Vattnet från vattenuppsamlarna är ett bra miljöval." försäkrar den ebulumske handlaren.
+ 
+"Vattnet är återvunnet från Merlonas egna ventilationssystem. Återvinning tar lång tid, därför är vattnet dyrare än det importerade vattnet." </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Köp återvunnet vatten </LinkText>
+          <DirectToID>27</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Ta något annat</LinkText>
+          <DirectToID>24</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>-1</id>
+        <lable>ebulumTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>26</pID>
+      <typ>6</typ>
+      <rubrik>Importerat vatten</rubrik>
+      <bodyText>"Transporterna är inte miljövänliga, men det är billigt och smakar ganska bra." säger den ebulumske handlaren.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Köp vattnet</LinkText>
+          <DirectToID>28</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Ta något annat</LinkText>
+          <DirectToID>24</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>-1</id>
+        <lable>ebulumTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>27</pID>
+      <typ>6</typ>
+      <rubrik>Köp av återvunnet vatten</rubrik>
+      <bodyText>"Tack för en god affär!" </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Merlona B</ActionText>
+          <ActionNrA>10</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Bra miljöval</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Marknaden</ActionText>
+          <ActionNrA>33</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni köpte återvunnet vatten på marknaden. Dyrt men bra för miljön.</ActionText>
+          <ActionNrA>106</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Tillbaka till marknaden</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna Merlona</LinkText>
+          <DirectToID>29</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>-1</id>
+        <lable>ebulumTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>28</pID>
+      <typ>6</typ>
+      <rubrik>Köp av importerat vatten</rubrik>
+      <bodyText>"Tack för en god affär!"</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Dåligt miljöval</ActionText>
+          <ActionNrA>-2</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Merlona B</ActionText>
+          <ActionNrA>10</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Marknaden</ActionText>
+          <ActionNrA>33</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni köpte importerat vatten på marknaden, billigt men ett dåligt miljöval.</ActionText>
+          <ActionNrA>106</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Tillbaka till marknaden</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna Merlona</LinkText>
+          <DirectToID>29</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>-1</id>
+        <lable>ebulumTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>29</pID>
+      <typ>6</typ>
+      <rubrik>Lämna Merlona</rubrik>
+      <bodyText>...</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>30</pID>
+      <typ>6</typ>
+      <rubrik>Forskare Florp </rubrik>
+      <bodyText>"Vi har kommit på en ny teknik för att återvinna och filtrera vatten. Med ett av våra reningsverk kan man försörja en planet med rent vatten i flera hundra år!" skryter forskare Florp. 
+
+"Tyvärr är teknologin väldigt dyr att tillverka". </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Kan vi köpa teknologin?</LinkText>
+          <DirectToID>31</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Ok, tack då vet vi det. </LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>76</id>
+        <lable>EbulumForskare_th</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>31</pID>
+      <typ>6</typ>
+      <rubrik>Forskare Florp</rubrik>
+      <bodyText>"Teknologi av det här slaget är dyr! För att dela med oss av den till er skulle vi behöva ett handelsavtal med Rubidus!" säger forskare Florp.
+ </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Jasså, då vet vi.</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>76</id>
+        <lable>ebulum_forskare_TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>32</pID>
+      <typ>5</typ>
+      <rubrik>Merlona</rubrik>
+      <bodyText>Det är stor aktivitet på handelsstationen Merlona. Rymdskepp kommer och åker. Affärerna verkar gå bra.
+
+På Merlona går det också att besöka ebulumernas forskningsenhet.
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Besök marknaden</LinkText>
+          <DirectToID>33</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Besök forskningsenheten</LinkText>
+          <DirectToID>35</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna Merlona</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>24</id>
+        <lable>merlonaBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>33</pID>
+      <typ>5</typ>
+      <rubrik>Ebulumernas marknad</rubrik>
+      <bodyText>Det är hög aktivitet på Merlonas marknad, handlare och köpare från hela galaxen är på plats. 
+
+Solstormarna på Undromeda har påverkat vattensituationen i hela galaxen. Alla vill köpa vatten och priserna har därför stigit. Vatten har blivit dyrt att köpa.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Lämna marknaden</LinkText>
+          <DirectToID>32</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>51</id>
+        <lable>marknadBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>34</pID>
+      <typ>5</typ>
+      <rubrik>Mantax</rubrik>
+      <bodyText>Mantax är en torr ökenplanet där inget kan växa. Det enda som finns på planeten är ruiner från förr.
+
+En gång i tiden bodde mantaxer på Mantax. Det var innan vattnet och gasen tog slut. Då slutade ekosystemet att fungera och mantaxerna tvingades flytta till Rubidus. Nu finns det varken liv eller växtlighet på Mantax. 
+
+Det finns inget vatten att hämta här.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Mantax B</ActionText>
+          <ActionNrA>14</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Utforska ruinerna</LinkText>
+          <DirectToID>36</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>42</id>
+        <lable>Mantax</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>35</pID>
+      <typ>5</typ>
+      <rubrik>Forskningsenheten</rubrik>
+      <bodyText>Ebulumernas forskningsenhet är ett modernt laboratorium med avancerad teknik. Här jobbar forskare och uppfinnare med att hitta på nya smarta produkter att sälja.
+ 
+Den ökade värmen har gjort att ebulumerna börjat forska om återvinning och vattenfiltrering.
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med forskarna</LinkText>
+          <DirectToID>30</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna forskningsenheten</LinkText>
+          <DirectToID>32</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>53</id>
+        <lable>laboratoriumBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>36</pID>
+      <typ>6</typ>
+      <rubrik>Mantax ruiner</rubrik>
+      <bodyText>Mantaxerna var en högteknologisk civilisation som hade mycket energi och vatten. De byggde lyxiga skrytbyggen med avancerad teknologi.
+
+I ruinerna hittar ni flera gamla maskiner och bevattningsrobotar. Det verkar som att mantaxerna som bodde här odlade rosor. Åtminstone tills det tog slut på vatten.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>92</id>
+        <lable>ruinerTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>37</pID>
+      <typ>5</typ>
+      <rubrik>Watersplash</rubrik>
+      <bodyText>Det är varmt och fuktigt i den flytande staden Korallodon. Det luktar saltvatten och ruttnande alger. 
+
+Leviterna som bor på planeten är vattenlevande reptiler som trivs i tropiskt klimat. Deras högste ledare kallas för gammelormen.
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med Gammelormen </LinkText>
+          <DirectToID>48</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Besök Watersplash algodlingar</LinkText>
+          <DirectToID>39</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>47</id>
+        <lable>watersplashBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>38</pID>
+      <typ>5</typ>
+      <rubrik>Leviternas parlament</rubrik>
+      <bodyText>Djupt under havsytan ligger leviternas parlament. Hit kommer leviterna för att ta besluta i viktiga frågor. 
+
+Leviter träffas sällan och är oense om det mesta. Därför är det viktigt att dom tar beslut på ett rättvist sätt och låter alla få sin röst hörd. Gammelormen fördelar ordet.  
+
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med gammelormen</LinkText>
+          <DirectToID>48</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till ytan</LinkText>
+          <DirectToID>37</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>38</id>
+        <lable>hydroquariatetBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>39</pID>
+      <typ>5</typ>
+      <rubrik>Watersplash algodlingar</rubrik>
+      <bodyText>Leviternas algodlingar tar upp stora delar av havsbottnen. Leviterna har muterat algerna så att dom ska växa snabbare. Det gör att algerna blommar året runt. 
+
+Leviter använder alger till alltifrån mat och kläder till byggmaterial. 
+
+De som jobbar med att ta hand om algodlingarna kallas för sjögårdsmästare. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med sjögårdsmästaren</LinkText>
+          <DirectToID>40</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till staden</LinkText>
+          <DirectToID>37</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>52</id>
+        <lable>algodlingBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>40</pID>
+      <typ>6</typ>
+      <rubrik>Sjögårdsmästaren</rubrik>
+      <bodyText>"Välkomna till Watersplash! Jag skulle gärna visa er runt, men algerna har betett sig så underligt på sistone." berättar sjögårdsmästaren bekymrat.
+ 
+"Värmen gör att algerna växer snabbare än vanligt och suger ut alldeles för mycket syre ur vattnet. Fortsätter dom att sprida sig på det här sättet kommer det innebära stora problem för oss Leviter!" </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Går det inte att stoppa algerna?</LinkText>
+          <DirectToID>41</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>5</id>
+        <lable>levitTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>41</pID>
+      <typ>6</typ>
+      <rubrik>Sjögårdsmästaren</rubrik>
+      <bodyText>"Det enda sättet att få stopp på algerna är att flytta dom någonstans där dom inte kan göra någon skada, till exempel en sol eller obefolkad planet."</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi kan hitta ett bra ställe att lämna algerna på! </LinkText>
+          <DirectToID>42</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vi kan säkert hitta ett bra ställe senare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>5</id>
+        <lable>levitTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>42</pID>
+      <typ>4</typ>
+      <rubrik>Frakta alger</rubrik>
+      <bodyText>Leviterna vill att ni flyttar algerna till en plats där dom inte kan orsaka skada. Kanske till en sol eller obebodd planet.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Watersplash B</ActionText>
+          <ActionNrA>19</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Volga/Mantax</ActionText>
+          <ActionNrA>20</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Undromeda</ActionText>
+          <ActionNrA>21</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Börja leta</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>43</pID>
+      <typ>4</typ>
+      <rubrik>Lämna alger</rubrik>
+      <bodyText>Vill ni lämna av algerna här?</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ja</LinkText>
+          <DirectToID>44</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Nej</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>44</pID>
+      <typ>4</typ>
+      <rubrik>Uppdrag utfört</rubrik>
+      <bodyText>Leviterna är tacksamma för er hjälp med algerna. Åk tillbaka till Watersplash för att hämta er belöning.
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Undromeda</ActionText>
+          <ActionNrA>20</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Mantax</ActionText>
+          <ActionNrA>21</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Watersplash C</ActionText>
+          <ActionNrA>22</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Mantax C</ActionText>
+          <ActionNrA>15</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni lämnade algerna från Watersplash på planeten Mantax där de började växa och frodas.</ActionText>
+          <ActionNrA>106</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk till Watersplash</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>45</pID>
+      <typ>4</typ>
+      <rubrik>Lämna alger</rubrik>
+      <bodyText>Vill ni lämna av algerna här? Dom kommer att brinna upp!</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ja</LinkText>
+          <DirectToID>46</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Nej</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>46</pID>
+      <typ>4</typ>
+      <rubrik>Uppdrag utfört</rubrik>
+      <bodyText>Leviterna är tacksamma för er hjälp med algerna. Åk tillbaka till Watersplash för att hämta er belöning.
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Undromeda</ActionText>
+          <ActionNrA>20</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Mantax</ActionText>
+          <ActionNrA>21</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Watersplash C</ActionText>
+          <ActionNrA>22</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni lämnade algerna från Watersplash på en sol där de brann upp.</ActionText>
+          <ActionNrA>106</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Leta vidare efter vatten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>47</pID>
+      <typ>5</typ>
+      <rubrik>Mantax</rubrik>
+      <bodyText>Dom muterade algerna har anpassat sig bra till Mantax torra ökenklimat. Solens starka strålar gör att dom växer så att det knakar.
+
+Till skillnad från rubi-rosorna verkar algerna inte behöva speciellt mycket vatten för att växa. Om några år kommer det säkert gå att bo på Mantax igen. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Mantax D</ActionText>
+          <ActionNrA>16</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Undersök algerna</LinkText>
+          <DirectToID>114</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Undersök ruinerna</LinkText>
+          <DirectToID>36</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>37</id>
+        <lable>mutantalgerBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>48</pID>
+      <typ>6</typ>
+      <rubrik>Gammelormen</rubrik>
+      <bodyText>Leviternas ledare blir glatt överraskad av att se er och gurglar välkomnande.
+
+"Välkommen! Det är inte ofta vi får besök av rymdrådet. Är ni här angående våra alger eller är det något annat som har hänt?"</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi letar efter vatten till Rubidus!</LinkText>
+          <DirectToID>49</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Har ni problem med alger?</LinkText>
+          <DirectToID>50</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>36</id>
+        <lable>gammelormenTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>49</pID>
+      <typ>6</typ>
+      <rubrik>Gammelormen</rubrik>
+      <bodyText>“Det låter jobbigt. Mantaxerna har alltid varit ett slösaktigt folk. Det spelar ingen roll hur mycket vatten dom får. 
+
+Dom fortsätter att hälla det i en hink utan botten”, säger Gammelormen. “Samtidigt borde ingen behöva gå törstig”</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vill ni ge vatten till Rubidus?</LinkText>
+          <DirectToID>51</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>36</id>
+        <lable>gammelormenTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>50</pID>
+      <typ>6</typ>
+      <rubrik>Gammelormen</rubrik>
+      <bodyText>"Den starka strålningen från solen gör att algerna växer snabbare än vanligt och suger ut för mycket syre ur vattnet!"</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Kan vi hjälpa till på något sätt? </LinkText>
+          <DirectToID>52</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Det låter jobbigt, hoppas det löser sig!</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>36</id>
+        <lable>gammelormenTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>51</pID>
+      <typ>6</typ>
+      <rubrik>Gammelormen</rubrik>
+      <bodyText>“Om det var upp till mig skulle mantaxerna få allt vatten dom behöver. Tyvärr är det bara det levitiska parlamentet som kan besluta om sånt" berättar Gammelormen.
+ 
+"Vi har stora problem med våra algodlingar och vet inte vad vi ska göra!"</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vad är det för problem med algodlingarna?</LinkText>
+          <DirectToID>50</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>36</id>
+        <lable>gammelormen</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>52</pID>
+      <typ>6</typ>
+      <rubrik>Gammelormen</rubrik>
+      <bodyText>"Det enda sättet att få stopp på algerna är att minska mängden alger. Vi behöver flytta massor av alger till en annan plats. Vi skulle kunna flytta dem till en sol eller obefolkad planet." 
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi kan säkert hitta en bra plats att lämna algerna på! </LinkText>
+          <DirectToID>53</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vi kan försöka hjälpa er senare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>36</id>
+        <lable>gammelormenTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>53</pID>
+      <typ>6</typ>
+      <rubrik>Gammelormen</rubrik>
+      <bodyText>"Underbart! Kom tillbaka efter att ni lämnat algerna så ska vi säkert kunna ge Rubidus lite vatten!"</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Transportera algerna </LinkText>
+          <DirectToID>42</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>36</id>
+        <lable>gammelormenTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>54</pID>
+      <typ>5</typ>
+      <rubrik>Watersplash</rubrik>
+      <bodyText>Det är varmt och fuktigt i den flytande staden Korallodon. Staden guppar lätt på vågorna. En grupp unga leviter svalkar sig i vattnet. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med det levitiska parlamentet</LinkText>
+          <DirectToID>55</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Besök Watersplash algodlingar</LinkText>
+          <DirectToID>62</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>47</id>
+        <lable>watersplashBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>55</pID>
+      <typ>5</typ>
+      <rubrik>Levitiska parlamentet</rubrik>
+      <bodyText>Krisen är över. I parlamentet har man nu möjlighet att diskutera vattenbristen på Rubidus. 
+
+Men leviterna är långt i från överens. Vatten är viktiga saker på Watersplash och alla leviter vill vara med och bestämma. 
+
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Be leviterna om vatten till Rubidus</LinkText>
+          <DirectToID>56</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till ytan</LinkText>
+          <DirectToID>54</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>38</id>
+        <lable>hydroquariatetBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>56</pID>
+      <typ>6</typ>
+      <rubrik>Levitiska parlamentet</rubrik>
+      <bodyText>Leviterna kan inte komma överens om dom ska ge vatten till Rubidus. Dom behöver hjälp att ta beslut. 
+
+Hur ska leviterna göra för att ta ett beslut och samtidigt se till att alla får komma till tals?  
+
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Omröstning (flest röster vinner)</LinkText>
+          <DirectToID>58</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Konsensus (alla måste vara överens)</LinkText>
+          <DirectToID>59</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Låt den äldste får bestämma</LinkText>
+          <DirectToID>60</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>57</pID>
+      <typ>5</typ>
+      <rubrik>Levitiska parlamentet</rubrik>
+      <bodyText>Parlamentet har fattat sitt beslut. Leviterna fyller upp ert lastrum och tackar för besöket.
+
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>65</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>38</id>
+        <lable>hydroquariatetBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>58</pID>
+      <typ>6</typ>
+      <rubrik>Omröstning (flest röster vinner)</rubrik>
+      <bodyText>Leviterna röstar och en majoritet (de flesta) tycker att Watersplash ska hjälpa Rubidus. 
+
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Demokratiskt</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Beslut taget</ActionText>
+          <ActionNrA>57</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni rådde leviterna att fatta beslut genom omröstning där majoriteten fick bestämma.</ActionText>
+          <ActionNrA>106</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Lasta vatten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>26</id>
+        <lable>omrostning</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>59</pID>
+      <typ>6</typ>
+      <rubrik>Konsensus (alla måste vara överens)</rubrik>
+      <bodyText>Förhandlingarna tar lång tid. 
+
+Alla leviter får sin chans att berätta sin syn på saken. Till slut kommer de överens om att ge vatten till Rubidus. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Väldigt demokratiskt</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>beslut taget</ActionText>
+          <ActionNrA>57</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni rådde leviterna att fatta beslut i konsensus. Alla fick komma till tals.</ActionText>
+          <ActionNrA>106</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Lasta vatten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>27</id>
+        <lable>konsensus</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>60</pID>
+      <typ>6</typ>
+      <rubrik>Gammelormen får bestämma</rubrik>
+      <bodyText>Gammelormen tycker det är ett bra idé men hinner inte säga ett ord innan det blir bråk och leviterna gurglar i mun på varandra. 
+
+Ni kan inte göra så mycket mer än att lämna diskussionerna och komma tillbaka senare.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>inte demokratiskt</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Inget beslut</ActionText>
+          <ActionNrA>61</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni tyckte att Gammelormen skulle bestämma på Watersplash. Det ledde till bråk och oenighet.</ActionText>
+          <ActionNrA>106</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Lämna diskussionerna</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>61</pID>
+      <typ>5</typ>
+      <rubrik>Levitiska parlamentet</rubrik>
+      <bodyText>Parlamentet kommer inte kunna ta något beslut förrän alla lugnat ner sig. Det tar nog lång, lång tid. Ni kan inte göra så mycket mer än att komma tillbaka senare. 
+
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>65</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>38</id>
+        <lable>hydroquariatetBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>62</pID>
+      <typ>5</typ>
+      <rubrik>Watersplash algodlingar</rubrik>
+      <bodyText>Algodlingar tar upp stora delar av havsbottnen. Leviterna har muterat algerna. De växer nu snabbare och blommar året runt. 
+
+Leviter använder alger till alltifrån mat och kläder till byggmaterial. 
+
+De som jobbar med att ta hand om algodlingarna kallas för sjögårdsmästare. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med sjögårdsmästaren</LinkText>
+          <DirectToID>64</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till staden</LinkText>
+          <DirectToID>54</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>52</id>
+        <lable>algodlingBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>63</pID>
+      <typ>5</typ>
+      <rubrik>Vattentemplet</rubrik>
+      <bodyText>Mitt i Rubidon ligger det heliga vattentemplet. 
+
+Prästinnan Duula sitter högst upp i templet. 
+ 
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med prästinnan Duula</LinkText>
+          <DirectToID>3</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Återvänd till staden</LinkText>
+          <DirectToID>-3</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>23</id>
+        <lable>templetBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>64</pID>
+      <typ>6</typ>
+      <rubrik>Sjögårdsmästaren</rubrik>
+      <bodyText>"Tack för er hjälp med algerna! Den värsta krisen är över nu. Algerna växer fortfarande snabbt men än så länge klarar vi det." säger sjögårdsmästaren med en lättad suck. 
+
+Om ni prata med parlamentet kan dom säkert tänka sig ge Rubidus vatten nu."  </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ok, det låter bra</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>5</id>
+        <lable>levitTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>65</pID>
+      <typ>5</typ>
+      <rubrik>Lämna planeten</rubrik>
+      <bodyText>..</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Watersplash C</ActionText>
+          <ActionNrA>22</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Watersplash D</ActionText>
+          <ActionNrA>23</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>66</pID>
+      <typ>5</typ>
+      <rubrik>Loolas</rubrik>
+      <bodyText>Loolas är en isplanet utan atmosfär. Det finns ingen växtlighet, bara snö och is. Kylan är extrem. 
+
+Dom enda som kan bo på planeten är insektoiderna, ett primitivt jägarfolk utan teknologi. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Loolas A</ActionText>
+          <ActionNrA>25</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Polypus A</ActionText>
+          <ActionNrA>31</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Leta efter vatten</LinkText>
+          <DirectToID>68</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Besök insektoiderna</LinkText>
+          <DirectToID>67</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>39</id>
+        <lable>loolasBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>67</pID>
+      <typ>6</typ>
+      <rubrik>Insektoiderna</rubrik>
+      <bodyText>Insektoiderna bor i enkla isgrottor under marken. Dom är gästvänliga men det är svårt att förstå vad dom säger. 
+
+XXZZZ XZQ QXX !! ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ ?!</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi letar vatten åt Rubidus!</LinkText>
+          <DirectToID>70</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Hur gör ni för att smälta isen?</LinkText>
+          <DirectToID>71</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>32</id>
+        <lable>insektoidTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>68</pID>
+      <typ>6</typ>
+      <rubrik>Leta efter vatten</rubrik>
+      <bodyText>Det finns inget rinnande vatten på Loolas. Det finns däremot stora glaciärer. Om det gick att smälta isen på något sätt skulle vattnet kunna försörja Rubidus en lång tid framöver. 
+
+Det går att ta med is på skeppet men polypuserna blir inte glada om ni gör det.  </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Lasta is på skeppet (trots att polypuserna blir arga)</LinkText>
+          <DirectToID>69</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Sluta leta efter vatten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>69</pID>
+      <typ>4</typ>
+      <rubrik>Is i lasten</rubrik>
+      <bodyText>Polypuserna blir arga för att ni tagit is från Loolas.
+ 
+Isen behöver smältas för att bli till vatten. Hitta någonstans att smälta isen. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Loolas C</ActionText>
+          <ActionNrA>27</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>isbit bakom skeppet</ActionText>
+          <ActionNrA>28</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText />
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Loolas E</ActionText>
+          <ActionNrA>29</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni tog is från Loolas. Rubidus fick vatten men polypus blev arga.</ActionText>
+          <ActionNrA>106</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>70</pID>
+      <typ>6</typ>
+      <rubrik>Insektoid</rubrik>
+      <bodyText>"XXZZZ XZQ QXX !! ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ ?!"
+
+Insektoiderna förstår inte riktigt vad ni menar och det är svårt att förklara vad det är ni vill.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Erbjud insektoiderna rubi-rosor</LinkText>
+          <DirectToID>72</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Erbjud insektoiderna teknologi (trots att polypus kan bli arga)</LinkText>
+          <DirectToID>73</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Sluta prata med insektoiderna</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>32</id>
+        <lable>insektoidTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>71</pID>
+      <typ>6</typ>
+      <rubrik>Insektoid</rubrik>
+      <bodyText>XXZZZ XZQ QXX !! ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ ?!
+
+Ni förstår inte riktig vad insektoiderna säger men det verkar som att dom brukar suga på isbitar när dom blir törstiga. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Kan vi få köpa lite is?</LinkText>
+          <DirectToID>70</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Sluta prata med insektoiderna</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>32</id>
+        <lable>insektoidTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>72</pID>
+      <typ>6</typ>
+      <rubrik>Insektoid</rubrik>
+      <bodyText>"XXZZZ XZQ QXX !! ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ ?!"
+
+Insektoiderna är helt ointresserade av rubi-rosorna ni har med er. Det är kanske inte så konstigt. Inget kan växa på Loolas. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Erbjud insektoiderna teknologi</LinkText>
+          <DirectToID>73</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Sluta prata med insektoiderna</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>32</id>
+        <lable>insektoidTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>73</pID>
+      <typ>6</typ>
+      <rubrik>Insektoid</rubrik>
+      <bodyText>XXZZZ XZQ QXX !! ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ ?!
+
+Insektoiderna blir uppspelta och glada. Dom visar er till en enorm isgrotta. Ni får ta så mycket is ni vill. 
+Med hjälp av teknologin kan insektoiderna lära sig nya saker och börja ta kontakt med andra civilisationer.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>Lasta på is på skeppet</ActionText>
+          <ActionNrA>74</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Teknologi</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Loolas B</ActionText>
+          <ActionNrA>26</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni gav teknologi till insektoiderna.</ActionText>
+          <ActionNrA>106</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Lasta skeppet med is (trots att polypuserna blir arga)</LinkText>
+          <DirectToID>82</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna isen </LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>32</id>
+        <lable>insektoidTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>74</pID>
+      <typ>5</typ>
+      <rubrik>Loolas</rubrik>
+      <bodyText>Loolas är en isplanet utan atmosfär. Det finns ingen växtlighet, bara snö och is. Kylan är extrem. Dom enda som kan bo på planeten är insektoiderna, ett primitivt jägarfolk utan teknologi. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Loolas B</ActionText>
+          <ActionNrA>26</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Besök insektoiderna</LinkText>
+          <DirectToID>75</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>39</id>
+        <lable>loolasBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>75</pID>
+      <typ>6</typ>
+      <rubrik>Insektoiderna</rubrik>
+      <bodyText>Insektoiderna är helt uppslukade av teknologin och håller sig inne i sina enkla isgrottor under marken.  
+
+XXZZZ XZQ QXX !! ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ XXZZZ XZQ QXX ZZQ ?!</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Återvänd till lägret</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>32</id>
+        <lable>insektoidTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>76</pID>
+      <typ>6</typ>
+      <rubrik>Isen smälter!</rubrik>
+      <bodyText>Undromedas varma strålar smälter isblocket från Loolas. Det blir en ordentlig laddning vatten. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Loolas C</ActionText>
+          <ActionNrA>27</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Is bakomskeppet</ActionText>
+          <ActionNrA>28</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>34</id>
+        <lable>IsVsSol</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>77</pID>
+      <typ>4</typ>
+      <rubrik>Landa </rubrik>
+      <bodyText>Ni får inte besöka planeten utan tillstånd från polypuserna. Ni blir anropade av stjärnkryssare Polypsos.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Svara på anropet</LinkText>
+          <DirectToID>78</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Svara inte</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>78</pID>
+      <typ>6</typ>
+      <rubrik>Kapten Foss</rubrik>
+      <bodyText>På stjärnkryssaren Polypsos får ni prata med Kapten Foss. Hen är omtalad för att vara sträng och otålig.
+
+"Vad har ni för ärende på Loolas? Planeten står under mitt beskydd!" säger Kapten Foss. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Vi är från Rymdrådet och vill besöka Loolas</LinkText>
+          <DirectToID>79</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vi letar efter vatten åt Rubidus</LinkText>
+          <DirectToID>80</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>40</id>
+        <lable>kaptenfossTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>79</pID>
+      <typ>6</typ>
+      <rubrik>Kapten Foos</rubrik>
+      <bodyText>"På så vis. Det går bra så länge ni är försiktiga.
+
+Loolas ekosystem är väldigt känsligt. Minsta lilla förändring kan ha oanade konsekvenser!" säger Kapten Foss.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi ska vara försiktiga</LinkText>
+          <DirectToID>66</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Ojdå, vi vill inte störa. Vi åker vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>40</id>
+        <lable>kaptenfossTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>80</pID>
+      <typ>6</typ>
+      <rubrik>Kapten Foss</rubrik>
+      <bodyText>"Minsann! Loolas ekosystem är alldeles för känsligt för att drickas upp. Ni får landa på planeten om ni lovar att inte ta någon is eller störa insektoiderna. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Jaha, då vill vi inte stanna. </LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vi lovar att inte ta någon is</LinkText>
+          <DirectToID>66</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>40</id>
+        <lable>kaptenfossTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>81</pID>
+      <typ>0</typ>
+      <rubrik>Polypuserna blir nöjda</rubrik>
+      <bodyText>Vi förstår att det var frestande att ta isen men insektoiderna är inte mogna för teknologi. 
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Goda relationer</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <links />
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>82</pID>
+      <typ>4</typ>
+      <rubrik>Is i lasten</rubrik>
+      <bodyText>Polypuserna blir arga för att ni tagit is från Loolas.
+
+Isen behöver smältas för att bli vatten. Hitta någonstans att smälta isen.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Loolas C</ActionText>
+          <ActionNrA>27</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>isbit bakom skeppet</ActionText>
+          <ActionNrA>28</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText />
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Loolas B</ActionText>
+          <ActionNrA>26</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni fick is från insektoiderna i utbyte mot teknologi. Polypuserna tycker att detta påverkar deras naturliga utveckling.</ActionText>
+          <ActionNrA>106</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>83</pID>
+      <typ>5</typ>
+      <rubrik>Loolas</rubrik>
+      <bodyText>Loolas är en isplanet utan atmosfär. Det finns ingen växtlighet, bara snö och is. Kylan är så extrem att dom enda som kan bo på planeten är insektoiderna. 
+
+Efter den senaste is-stölden övervakar Polypuserna allt som händer på planeten. Dom måste se till att inget mer händer med  isen på den känsliga planeten.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Lämna planeten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>39</id>
+        <lable>loolasBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>84</pID>
+      <typ>4</typ>
+      <rubrik>Stjärnkryssaren Polypsos</rubrik>
+      <bodyText>Planeten Loolas vaktas av polypuserna.
+
+Det går inte att besöka planeten utan deras tillstånd. När ni försöker landa blir ni anropade av stjärnkryssare Polypsos.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Svara på anropet</LinkText>
+          <DirectToID>78</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Svara inte</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>85</pID>
+      <typ>4</typ>
+      <rubrik>Watersplash</rubrik>
+      <bodyText>Leviterna tackar för er hjälp med algerna. 
+
+Tyvärr kan de inte ge bort vatten just nu.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>86</pID>
+      <typ>4</typ>
+      <rubrik>Vill ni utvinna vatten?</rubrik>
+      <bodyText>Det finns frysta vattensamlingar på asteroiden. Vill ni utvinna vatten med hjälp av vattenutvinnárna?</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ja</LinkText>
+          <DirectToID>87</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Nej</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>87</pID>
+      <typ>4</typ>
+      <rubrik>Utvinna vatten</rubrik>
+      <bodyText>Det utvunna vattnet lagras i ert lastutrymme. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Pumpstation</ActionText>
+          <ActionNrA>44</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>dåligt för miljön</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>88</pID>
+      <typ>4</typ>
+      <rubrik>Vill ni utvinna vatten?</rubrik>
+      <bodyText>Det finns frysta vattensamlingar på asteroiden. Vill ni utvinna vatten med hjälp av vattenutvinnárna?</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ja</LinkText>
+          <DirectToID>89</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Nej</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>89</pID>
+      <typ>4</typ>
+      <rubrik>Utvinna vatten</rubrik>
+      <bodyText>Det utvunna vattnet lagras i ert lastutrymme. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Pumpstation</ActionText>
+          <ActionNrA>42</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>dåligt för miljön</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>90</pID>
+      <typ>4</typ>
+      <rubrik>Vill ni utvinna vatten?</rubrik>
+      <bodyText>Det finns frysta vattensamlingar på asteroiden. Vill ni utvinna vatten med hjälp av vattenutvinnárna?</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ja</LinkText>
+          <DirectToID>91</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Nej</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>91</pID>
+      <typ>4</typ>
+      <rubrik>Utvinna vatten</rubrik>
+      <bodyText>Det utvunna vattnet lagras i ert lastutrymme. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>pumpstation</ActionText>
+          <ActionNrA>43</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Dåligt för miljön</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>92</pID>
+      <typ>4</typ>
+      <rubrik>Vill ni utvinna vatten?</rubrik>
+      <bodyText>Det finns frysta vattensamlingar på asteroiden. Vill ni utvinna vatten med hjälp av vattenutvinnárna?</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ja</LinkText>
+          <DirectToID>93</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Nej</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>93</pID>
+      <typ>4</typ>
+      <rubrik>Utvinna vatten</rubrik>
+      <bodyText>Det utvunna vattnet lagras i ert lastutrymme. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>watercounter</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Dåligt för miljön</ActionText>
+          <ActionNrA>-1</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Pumpstation</ActionText>
+          <ActionNrA>45</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>94</pID>
+      <typ>4</typ>
+      <rubrik>Strandat skepp</rubrik>
+      <bodyText>Ett skepp är strandat i rymden </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Anropa skeppet</LinkText>
+          <DirectToID>95</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>95</pID>
+      <typ>6</typ>
+      <rubrik>Robottus</rubrik>
+      <bodyText>"Var hälsade! Jag är Robottus. Kringresande uppfinnare och handlarrobot. Jag var på väg till Merlona när mina motorer slutade fungera!"</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Kan vi hjälpa till på nått sätt?</LinkText>
+          <DirectToID>96</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Det lät jobbigt. Har du något vatten?</LinkText>
+          <DirectToID>97</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>65</id>
+        <lable>minirobotTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>96</pID>
+      <typ>6</typ>
+      <rubrik>Robottus</rubrik>
+      <bodyText>"Om ni bogserar mig till Merlona lovar jag er en belöning!"</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Har du vatten?</LinkText>
+          <DirectToID>97</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Det låter bra!</LinkText>
+          <DirectToID>98</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>65</id>
+        <lable>minirobotTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>97</pID>
+      <typ>6</typ>
+      <rubrik>Robottus</rubrik>
+      <bodyText>Jag har inget vatten men jag har en hel last med vattenutvinnare! 
+
+Med dem går det att utvinna vattenkristaller ur asteroider. Om ni hjälper mig till Merlona kan ni få ett par stycken. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Det låter bra! </LinkText>
+          <DirectToID>98</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Det vill vi inte</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>65</id>
+        <lable>minirobotTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>98</pID>
+      <typ>4</typ>
+      <rubrik>Bogsera Robottus till Merlona</rubrik>
+      <bodyText> Ni fäster Robottus rymdskep i ert rymdskepp.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Kör till Merlona</ActionText>
+          <ActionNrA>47</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk till Merlona</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>99</pID>
+      <typ>4</typ>
+      <rubrik>Uppdrag utfört! </rubrik>
+      <bodyText>Robottus tackar er för hjälpen och ger er fyra  vattenutvinnare så ni ska kunna utvinna vatten ur asteroiderna. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Ny teknologi</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Asteroider</ActionText>
+          <ActionNrA>48</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>DockatSkeppON</ActionText>
+          <ActionNrA>55</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>dynamictext</thisActionType>
+          <ActionText>Ni hjälpte Robottus som hade strandat med sitt skepp i rymden.</ActionText>
+          <ActionNrA>106</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk vidare</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>65</id>
+        <lable>Minirobot_th</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>100</pID>
+      <typ>2</typ>
+      <rubrik>Lastutrymmet är fullt!</rubrik>
+      <bodyText>Toppen! 
+
+Ni har samlat tillräckligt med vatten för stoppa vattenkrisen på Rubidus!</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Rubidus D</ActionText>
+          <ActionNrA>7</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Åk tillbaka till Rubidus</LinkText>
+          <DirectToID>101</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>101</pID>
+      <typ>6</typ>
+      <rubrik>Prästinnan Duula</rubrik>
+      <bodyText>"Tack för att ni hämtade vatten och stoppade vattenkrisen. Nu har vi tillräckligt för att kunna skörda rubi-rosorna. 
+
+Vi måste tänka ut ett sätt att förhindra att det blir vattenbrist igen! 
+
+Vill ni hjälpa oss? </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Vi ska hjälpa er komma på en lösning</LinkText>
+          <DirectToID>110</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Vi återkommer, ska bara titta i staden först</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>49</id>
+        <lable>mantaxpriestTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>102</pID>
+      <typ>5</typ>
+      <rubrik>Vattenfest i Rubidon</rubrik>
+      <bodyText>Gatorna är fyllda av lyckliga mantaxer som firar att vattenkrisen är över och att rosodlingarna är räddade. 
+
+Folk hurrar och vattnet flödar. Ingen verkar tänka på att det snart kommer vara slut på vatten igen. 
+
+Rubidus vattenförsörjning är inte hållbar i längden.</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Besök vattenreservoaren</LinkText>
+          <DirectToID>105</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Besök rosenodlingarna</LinkText>
+          <DirectToID>104</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Prata med prästinnan Duula</LinkText>
+          <DirectToID>101</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>22</id>
+        <lable>rubidusvattenBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>103</pID>
+      <typ>4</typ>
+      <rubrik>Lämna vatten</rubrik>
+      <bodyText>Vill ni lämna vattnet på Rubidus?</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Ja</LinkText>
+          <DirectToID>102</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Nej</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>104</pID>
+      <typ>5</typ>
+      <rubrik>Rosodlingarna</rubrik>
+      <bodyText>Bevattningsrobotarna svävar fram och tillbaka mellan rosbuskarna och vattnet flödar ut. Ni ser hur vattnet avdunstar direkt i den extrema ökenhettan.
+
+I den här takten kommer vattnet ni hämtat inte räcka länge. 
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med rosodlare Mulk</LinkText>
+          <DirectToID>107</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna odlingarna</LinkText>
+          <DirectToID>102</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>46</id>
+        <lable>rosodlingBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>105</pID>
+      <typ>5</typ>
+      <rubrik>Vattenreservoaren</rubrik>
+      <bodyText>Vattenbassängerna har fyllts på och ni hör hur vatten pumpas ut genom dom enorma vattenslangarna. Det verkar som att den värsta vattenkrisen är över. 
+
+Frågan är hur länge det kommer att räcka?
+
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Prata med vatteningenjör Bolvatz</LinkText>
+          <DirectToID>108</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>Lämna reservoaren</LinkText>
+          <DirectToID>102</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>45</id>
+        <lable>endelvattenBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>106</pID>
+      <typ>3</typ>
+      <rubrik>Slutsummering</rubrik>
+      <bodyText>Ni gjorde följande val:
+</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Avsluta till menyn</LinkText>
+          <DirectToID>123</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>107</pID>
+      <typ>6</typ>
+      <rubrik>Rosodlare Mulk</rubrik>
+      <bodyText>"Fantastiskt bra att ni hämtat vatten åt oss!" 
+
+"Nu passar vi på att bevattna dubbelt så mycket för att rädda skörden" säger rosodlare Mulk. 
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Lämna diskussionen</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>48</id>
+        <lable>mantaxTH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>108</pID>
+      <typ>6</typ>
+      <rubrik>Ingenjör Bolvatz</rubrik>
+      <bodyText>"Vattenreservoaren är full och nivåerna har stabiliserats. Nu finns det vatten till att både dricka och vattna igen. 
+
+Jag önskar bara att vi kunde försörja oss med vatten. Snart kommer vattnet vara slut igen" 
+</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Lämna diskussionen</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>75</id>
+        <lable>mantaxTH-vatteningenör</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>109</pID>
+      <typ>5</typ>
+      <rubrik>Hämta vatten</rubrik>
+      <bodyText>...</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>showPara</thisActionType>
+          <ActionText>TEST visa p8</ActionText>
+          <ActionNrA>8</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>5</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText />
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectOFF</thisActionType>
+          <ActionText>Rubidus A</ActionText>
+          <ActionNrA>4</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Rubidus C</ActionText>
+          <ActionNrA>6</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Hämta vatten</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>110</pID>
+      <typ>9</typ>
+      <rubrik>Hur ska Rubidus göra?</rubrik>
+      <bodyText> 1) Skriva på ett avtal med ebulumerna för att  sälja rubi-rosor till Merlona. Mantaxerna får då teknologi att återvinna och rena vatten.
+
+2) Sluta odla rubi-rosor. Istället kan de odla muterade alger från Watersplash. Det kan bli svårt att sälja alger, men det går att äta dem. 
+
+3) Ta is från Loolas och fortsätta odla rubi-rosor som mantaxerna alltid har gjort.  
+
+Vilket råd ger ni?</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText>close 6</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>6</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>1) Skriv på avtal med ebulumerna för att få teknik att återvinna vatten</LinkText>
+          <DirectToID>111</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>17</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>2) Sluta odla rubi-rosor och odla muterade alger istället</LinkText>
+          <DirectToID>112</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>19</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+        <Link>
+          <LinkText>3) Ta is från insektoiderna på Loolas</LinkText>
+          <DirectToID>113</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>18</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>22</id>
+        <lable>vattenBGR</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>111</pID>
+      <typ>7</typ>
+      <rubrik>Återvinna vatten</rubrik>
+      <bodyText>Duula följer ert råd och sluter ett avtal med ebulumerna på Merlona. 
+ 
+Mantaxerna kan använda ebulumernas teknik för att återvinna vatten på Rubidus. I utbyte får rubi-rosor bara säljas av ebulumerna på Merlona </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Kulturen bevaras</ActionText>
+          <ActionNrA>1</ActionNrA>
+          <ActionNrB>1</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Ny teknologi</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>3</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>Stoppa slöseriet</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>startTheEnd</ActionText>
+          <ActionNrA>57</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Avsluta spelet</LinkText>
+          <DirectToID>-2</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>53</id>
+        <lable>labbet</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>112</pID>
+      <typ>7</typ>
+      <rubrik>Odla alger istället för rosor</rubrik>
+      <bodyText>Mantaxerna gör som ni säger och slutar att odla rubi-rosor.
+ 
+Watersplash ger mantaxerna muterade alger att odla istället. Algerna sprider sig fort och tar snabbt över dom tidigare rosodlingarna. Algerna går inte att sälja men växer bra och ger mantaxerna tillräckligt att äta och dricka.  
+
+Leviterna är glada att bli av med algerna och relationerna mellan Rubidus och Watersplash växer sig starka.  </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Goda relationer</ActionText>
+          <ActionNrA>2</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Bra miljöval</ActionText>
+          <ActionNrA>3</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>Start endobj</ActionText>
+          <ActionNrA>57</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Avsluta spelet</LinkText>
+          <DirectToID>-2</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>52</id>
+        <lable>algodling</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>113</pID>
+      <typ>7</typ>
+      <rubrik>Ta is från Loolas</rubrik>
+      <bodyText>Mantaxerna fortsätter odla rosor och gör ingenting för att bli bättre på att hushålla med sitt vatten. 
+För att få vatten fortsätter de att stjäla is på Loolas. Insektoiderna gör inget motstånd men Polypuserna protesterar högljutt. De tar upp frågan i planeternas förbund. Nu diskuteras frågan om konsekvenserna på miljön om isen på Loolas försvinner. </bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Dåliga relationer</ActionText>
+          <ActionNrA>-3</ActionNrA>
+          <ActionNrB>4</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>scoreTypeA</thisActionType>
+          <ActionText>Dåligt för miljön</ActionText>
+          <ActionNrA>-2</ActionNrA>
+          <ActionNrB>2</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>MapObjectON</thisActionType>
+          <ActionText>start endobj</ActionText>
+          <ActionNrA>57</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>Avsluta spelet</LinkText>
+          <DirectToID>-2</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>39</id>
+        <lable>loolas</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>114</pID>
+      <typ>6</typ>
+      <rubrik>Undersök algerna</rubrik>
+      <bodyText>Algerna har anpassat sig bra till Mantax torra ökenklimat. Deras rötter har grävt sig djupt under markytan till grundvattnet som ingen visste fanns.</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>91</id>
+        <lable>alger TH</lable>
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>115</pID>
+      <typ>1</typ>
+      <rubrik>Planeten Rubidus</rubrik>
+      <bodyText>Rubidus är en ökenplanet utan hav eller naturliga vattenkällor. Temperaturen ligger mellan 30 - 50 grader varmt. 
+
+På Rubidus bor Mantaxer. En religiös grupp av präster som kallas prästerskapet bestämmer på planeten. Huvudstaden heter Rubidon.
+
+&lt;b&gt;Statsskick:&lt;/b&gt; Teokrati (religion styr samhället)
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; 1 miljard
+&lt;b&gt;Språk:&lt;/b&gt; Mantaxiska
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Avancerad
+&lt;b&gt;Klimat/Topografi:&lt;/b&gt; 90% av planetens yta består av öken. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>116</pID>
+      <typ>1</typ>
+      <rubrik>Merlona</rubrik>
+      <bodyText>Merlona är ebulumernas handelsstation. Hit åker rymdfarare från hela galaxen för att handla och byta varor med varandra. 
+
+Merlona är en del av “den vita rymdstigen” en intergalaktisk handelsled som löper genom hela galaxen.
+
+&lt;b&gt;Typ:&lt;/b&gt; Rymdstation
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; Varierar
+&lt;b&gt;Språk:&lt;/b&gt; Flera språk, mest ebulumernas språk ebulumska.  
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Avancerad
+&lt;b&gt;Övrigt:&lt;/b&gt; Mötes och handelsplats	</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>117</pID>
+      <typ>1</typ>
+      <rubrik>Planeten Watersplash</rubrik>
+      <bodyText>Watersplash är en vattenplanet som bebos av vattenlevande reptiler som kallas leviter. Det finns inte många leviter kvar, men de kan bli flera hundra år gamla. 
+
+Leviterna bor i undervattensstäder. Dom lämnar sällan sin planet och ogillar besökare. När dom pratar låter det som om de gurglar. 
+
+&lt;b&gt;Status:&lt;/b&gt; Hemplanet 
+&lt;b&gt;Statsskick:&lt;/b&gt; Klansamhälle 
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; 57 Miljoner
+&lt;b&gt;Språk:&lt;/b&gt; Levitiska
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Avancerad
+&lt;b&gt;Klimat:&lt;/b&gt; Tropiskt havsklimat</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>118</pID>
+      <typ>1</typ>
+      <rubrik>Planeten Mantax</rubrik>
+      <bodyText>Mantax var mantaxernas hemvärld tills planetens ekosystem föll samman och vattnet tog slut. Mantax är en torr planet utan växtlighet. Här finns inte längre något liv. Bara uttorkade flodbäddar och hav.
+
+Mantaxerna som levde här tog inte hand om miljön. De levde i ett överflöd och byggde sitt samhälle därefter.
+
+&lt;b&gt;Status:&lt;/b&gt; Övergiven
+&lt;b&gt;Statsskick:&lt;/b&gt; Inget 
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; Ingen
+&lt;b&gt;Språk:&lt;/b&gt; Inget 
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Ingen 
+&lt;b&gt;Klimat/Topografi:&lt;/b&gt; Öken</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>119</pID>
+      <typ>1</typ>
+      <rubrik>Asteroidbälte</rubrik>
+      <bodyText>Det här är ett asteroidbälte. En samling stora rymdstenar (asteroider) som svävar tillsammans i omloppsbana. Riktigt stora asteroider kallas för planetoider eller småplaneter. 
+
+Det är lätt att krocka när man passerar genom ett asteroidbälte. Kör försiktigt annars kan det bli dyrt att laga rymdskeppet.
+
+&lt;b&gt;Typ:&lt;/b&gt; Asteroid
+&lt;b&gt;Ålder:&lt;/b&gt; Okänt 
+&lt;b&gt;Relaterade himlakroppar:&lt;/b&gt; Inga
+&lt;b&gt;Övrigt:&lt;/b&gt; Vissa asteroidbälten kan innehålla mineralrika asteroider. </bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>120</pID>
+      <typ>1</typ>
+      <rubrik>Planeten Loolas</rubrik>
+      <bodyText>Loolas är en kall och ogästvänlig plats. Planeten saknar atmosfär och täcks av ett tjockt istäcke. Det sägs att det finns stora naturtillgångar under isen (olja och gas).
+
+På Loolas bor insektoiderna - ett insektsliknade folkslag som lever på snö och is. Deras civilisation är primitiv men dom tar gärna emot besökare. 
+
+Planeten Loolas skyddas av polypuserna. 
+
+&lt;b&gt;Status:&lt;/b&gt; Outforskad 
+&lt;b&gt;Statsskick:&lt;/b&gt; Okänt
+&lt;b&gt;Befolkningsmängd:&lt;/b&gt; Okänd
+&lt;b&gt;Språk:&lt;/b&gt; okänt 
+&lt;b&gt;Teknologisk nivå:&lt;/b&gt; Okänd
+&lt;b&gt;Klimat/Topografi:&lt;/b&gt; Arktiskt</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>121</pID>
+      <typ>1</typ>
+      <rubrik>Solen Undromeda</rubrik>
+      <bodyText>Solen Undromeda är en livskraftig stjärna som beräknas vara drygt 8,1 miljarder år gammal. 
+
+Undromedas solsystem omfattar planeterna Rubidus, Watersplash, Mantax och Loolas. Handelsstationen Merlona finns också i Undromedas solsystem.  
+
+&lt;b&gt;Typ:&lt;/b&gt; Medelstor Stjärna
+&lt;b&gt;Ålder:&lt;/b&gt; 8,1 Miljarder år
+&lt;b&gt;Relaterade himlakroppar:&lt;/b&gt; Planeterna Rubidus, Watersplash, Mantax och Loolas</bodyText>
+      <actions />
+      <links>
+        <Link>
+          <LinkText>Stäng</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>122</pID>
+      <typ>5</typ>
+      <rubrik>Lämna planeten</rubrik>
+      <bodyText>...</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText>close all</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>-1</ActionNrB>
+        </pAction>
+      </actions>
+      <links>
+        <Link>
+          <LinkText>close</LinkText>
+          <DirectToID>-1</DirectToID>
+          <DirectToAlt>0</DirectToAlt>
+          <vID>0</vID>
+          <isVisited>false</isVisited>
+          <isWeak>false</isWeak>
+        </Link>
+      </links>
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+    <PObject>
+      <pID>123</pID>
+      <typ>0</typ>
+      <rubrik>slut</rubrik>
+      <bodyText>slut</bodyText>
+      <actions>
+        <pAction>
+          <thisActionType>nothing</thisActionType>
+          <ActionText>endthegame</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>0</ActionNrB>
+        </pAction>
+        <pAction>
+          <thisActionType>closePara</thisActionType>
+          <ActionText>close ui</ActionText>
+          <ActionNrA>0</ActionNrA>
+          <ActionNrB>-2</ActionNrB>
+        </pAction>
+      </actions>
+      <links />
+      <visual>
+        <id>0</id>
+        <lable />
+        <type>0</type>
+      </visual>
+      <GUIdecoration>0</GUIdecoration>
+    </PObject>
+  </Paragrafer>
+</SavedataParagraph>

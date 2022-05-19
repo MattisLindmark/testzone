@@ -19,3 +19,7 @@ Styr: WASD. Högerklick + mus för att rotera kamera. Scroll för att zooma hit 
 [UtopiaWGL-beta3](https://mattislindmark.github.io/testzone/UtopiaWGLbeta3/index.html)
 Byggd 26 april 2022. Fonterna är lite skumma. Bold arial verkar ej funka.
 Glöm inte scrolla in och ut för att zooma!
+
+[UtopiaWGL-beta4](https://mattislindmark.github.io/testzone/UtopiaWGLbeta4/index.html)
+Byggd 19 maj 2022. Flera fonter åtgärdade men inte i minispelen.
+Glöm inte scrolla in och ut för att zooma!
