@@ -25,6 +25,6 @@ Byggd 19 maj 2022. Flera fonter åtgärdade men inte i minispelen.
 Glöm inte scrolla in och ut för att zooma!
 
 ## Avatar HT2022
-[digitalavatarHT22_v1b] (https://mattislindmark.github.io/testzone/digitalavatarHT22_v1b/index.html)
+[digitalavatarHT22_v1b](https://mattislindmark.github.io/testzone/digitalavatarHT22_v1b/index.html)
 En snabb testbuild av första förändringarna under höstens fix.
 Ögonblink, pupiller rör sig, stå still längre och ändrad content lista med mera.
