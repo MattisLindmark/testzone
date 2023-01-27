@@ -1,0 +1,4 @@
+html, body { width: 100%; height: 100%; font-family: Helvetica, Verdana, Arial, sans-serif; color: #ffffd2; background-color: #121210; background-image: url(kvbgr_low.jpg); background-position: center; background-repeat: no-repeat; background-size: cover}
+body { }
+div.instructions { height: 28px; line-height: 28px; padding: 0 10px; margin: 0 1px 0 0; float: center; color: #afbfaa; text-align: center; font-size: 18px; position: relative; z-index: 10; }
+table {position: relative; float: center; text-align: left; background-color: #27431F; padding: 10px 15px; margin-left:auto; margin-right:auto;}
