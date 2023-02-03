@@ -16,7 +16,7 @@
 <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 <item>
     <title>Avsnitt 1: ingenting</title>
-    <description>Transcript av dagens avsnitt:<br />Hej och välkomna till MattisPodden första avsnittet. Idag ska vi prata om ingenting och nu är avsnittet slut, hej då! vi hörs nästa gång.</description>
+    <description>Transcription av dagens avsnitt:<br> Hej och välkomna till MattisPodden första avsnittet. Idag ska vi prata om ingenting och nu är avsnittet slut, hej då! vi hörs nästa gång.</description>
     <link>http://example.com/podcast-1</link>
     <enclosure url="https://mattislindmark.github.io/testzone/mpodd/episodes/mattispodden1.mp3" type="audio/mpeg" length="1024"></enclosure>
     <pubDate>Fri, 03 Feb 2023 12:00:00 CET</pubDate>
