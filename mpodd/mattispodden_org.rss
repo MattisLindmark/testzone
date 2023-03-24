@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+<title>MattisPodden</title>
+<link>http://www.example.com/</link>
+<language>sv-se</language>
+<description>En testpod från roundplace!</description>
+<image>
+<url>https://mattislindmark.github.io/testzone/mpodd/images/mpoddlogga.png</url>
+<title>MattisPodden</title>
+<link>http://www.example.com/</link>
+<width>144</width>
+<height>144</height>
+</image>
+
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+<item>
+    <title>Avsnitt 1: ingenting</title>
+    <description>Transcription av dagens avsnitt: Hej och välkomna till MattisPodden första avsnittet. Idag ska vi prata om ingenting och nu är avsnittet slut, hej då! vi hörs nästa gång.</description>
+    <link>http://example.com/podcast-1</link>
+    <enclosure url="https://mattislindmark.github.io/testzone/mpodd/episodes/mattispodden1.mp3" type="audio/mpeg" length="1024"></enclosure>
+    <pubDate>Fri, 03 Feb 2023 12:00:00 CET</pubDate>
+</item> 
+<!--END REPEAT--> 
+   
+   <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+<item>
+    <title>Bonus avsnitt: AI melodi</title>
+    <description>AI låt</description>
+    <link>http://example.com/podcast-1</link>
+    <enclosure url="https://mattislindmark.github.io/testzone/mpodd/episodes/mattis-orcarp.mp3" type="audio/mpeg" length="1024"></enclosure>
+    <pubDate>Fri, 03 Feb 2023 17:00:00 CET</pubDate>
+</item> 
+<!--END REPEAT-->
+</channel>
+</rss>
