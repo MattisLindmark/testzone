@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Helskärmsvideo med JavaScript</title>
+	<style>
+		video {
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100%;
+			object-fit: cover;
+			background-color: black;
+			z-index: 9999;
+		}
+	</style>
+</head>
+<body>
+
+	<video id="fullscreen-video" autoplay muted playsinline>
+		<source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+	</video>
+
+	<script>
+		// Hitta videoelementet
+		var videoElement = document.getElementById("fullscreen-video");
+
+		// När videon är klar att spela
+		videoElement.onloadedmetadata = function() {
+		
+			videoElement.play();
+/*		
+			// Lägg till en lyssnare på klick för att visa i helskärm
+			videoElement.addEventListener("click", function() {
+				if (videoElement.requestFullscreen) {
+					videoElement.requestFullscreen();
+				} else if (videoElement.webkitRequestFullscreen) {
+					videoElement.webkitRequestFullscreen();
+				} else if (videoElement.msRequestFullscreen) {
+					videoElement.msRequestFullscreen();
+				}
+			});
+		};
+*/	
+				// Dölj kontroller när videon är klar att spela
+		videoElement.oncanplay = function() {
+			videoElement.controls = false;
+		};
+		
+	</script>
+
+</body>
+</html>
