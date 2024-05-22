@@ -52,8 +52,8 @@ function GetWeather() {
         h = 0;
 
       var newcolor = "hsl(" + h + "," + s + "%," + l + "%)";
-      */
       document.documentElement.style.setProperty('--temp-color', newcolor);
+      */
 
       //document.getElementById('updated-time').textContent = formattedTime;
 
