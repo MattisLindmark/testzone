@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Din Podcast Titel</title>
+    <description>En kort beskrivning av din podcast.</description>
+    <link>http://dinpodcast.com</link>
+    <item>
+      <title>desktop.ini</title>
+      <link>http://dinpodcast.com/episodes/desktop.ini</link>
+      <description>Beskrivning för desktop.ini</description>
+    </item>
+    <item>
+      <title>program_lasse_berg_podd_20240619_1727051501</title>
+      <link>http://dinpodcast.com/episodes/program_lasse_berg_podd_20240619_1727051501.mp3</link>
+      <description>Beskrivning för program_lasse_berg_podd_20240619_1727051501.mp3</description>
+    </item>
+    <item>
+      <title>sommar_p1_joakim_paasikivi_20240624</title>
+      <link>http://dinpodcast.com/episodes/sommar_p1_joakim_paasikivi_20240624.mp3</link>
+      <description>Beskrivning för sommar_p1_joakim_paasikivi_20240624.mp3</description>
+    </item>
+  </channel>
+</rss>
