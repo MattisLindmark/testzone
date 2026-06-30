@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsBack Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Inkludera JSZip biblioteket (ladda ner eller använd CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body>
+    <!-- Lightbox Structure (initially hidden) -->
+    <div id="lightbox-overlay" class="hidden">
+        <span id="lightbox-filename"></span>
+        <a id="lightbox-save" href="#" download="" title="Spara bild" rel="noopener noreferrer">💾</a>
+        <a id="lightbox-open-original" href="#" target="_blank" title="Öppna original i ny flik" rel="noopener noreferrer">↗</a>
+        <span id="lightbox-close">×</span>
+        <img id="lightbox-image" src="" alt="Full size view">
+    </div>
+    <header>
+        <h1>WhatsBack!?</h1>
+        <h3> A Whatsapp-chat-backup-Viewer</h3>
+        <div id="drop-zone">
+            <p>Drag and drop WhatsApp chat to explore (.zip) här</p>
+            <p>eller</p>
+            <input type="file" id="file-input" accept=".zip" style="display: none;">
+            <button onclick="document.getElementById('file-input').click();">Välj fil</button>
+        </div>
+        <div id="loading" style="display: none;">Laddar och bearbetar fil...</div>
+    </header>
+    <div id="self-selector-container" style="display: none; margin-top: 10px;">
+        <label for="self-selector">Set as Self:</label>
+        <select id="self-selector">
+            <option value="none">Ingen (Standard)</option>
+            <!-- Fylls på dynamiskt med JS -->
+        </select>
+    </div>
+
+    <main id="chat-container">
+        <!-- Chattmeddelanden kommer att läggas till här av JavaScript -->
+        <p class="placeholder">Välj en .zip-fil för att visa chatten.</p>
+    </main>
+
+    <footer>
+        <p>WhatsBack Viewer - Visar exporterade WhatsApp-chattar lokalt.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,367 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5ddd5; /* Typisk WhatsApp bakgrund */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #075E54; /* WhatsApp grön */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#drop-zone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #f8f8f8;
+    color: #333;
+    max-width: 500px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#drop-zone.dragover {
+    border-color: #075E54;
+    background-color: #e0f2f1;
+}
+
+#drop-zone button {
+    padding: 10px 15px;
+    background-color: #128C7E; /* Lite ljusare grön */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#drop-zone button:hover {
+    background-color: #075E54;
+}
+
+#loading {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#self-selector-container {
+    background-color: #cfceca;
+    padding: 4px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+    max-width: 500px;
+    display: block; /* Eller justera efter behov */
+
+}
+
+#self-selector {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+
+main#chat-container {
+    flex-grow: 1; /* Tar upp tillgängligt utrymme */
+    max-width: 800px; /* Begränsa bredden för läsbarhet */
+    margin: 20px auto; /* Centrera */
+    padding: 20px;
+    background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png'); /* Mönster som liknar WA */
+    background-color: #E5DDD5; /* Fallback färg */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Lite utrymme mellan bubblorna */
+    overflow-y: auto; /* Scroll om innehållet är för långt */
+}
+
+.placeholder {
+    text-align: center;
+    color: #555;
+    font-style: italic;
+}
+
+.message-bubble {
+    padding: 6px 12px;
+    border-radius: 15px;
+    max-width: 70%;
+    word-wrap: break-word; /* Bryt långa ord */
+    position: relative; /* För timestamp positionering ev. */
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    display: flex; /* För att kunna ha innehåll och tid bredvid varandra */
+    flex-direction: column; /* Stapla avsändare, innehåll, tid */
+}
+
+.message-bubble.other {
+    background-color: #ffffff; /* Vita bubblor för andra */
+    align-self: flex-start; /* Vänsterjusterad */
+    border-top-left-radius: 0; /* Ta bort rundning för "svans" */
+}
+
+.message-bubble.self {
+    background-color: #dcf8c6; /* Ljusgrön för "jag" */
+    align-self: flex-end; /* Högerjusterad */
+    border-top-right-radius: 0; /* Ta bort rundning för "svans" */
+}
+
+.sender {
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #333; /* Eller olika färger per avsändare? */
+    margin-bottom: 3px;
+}
+
+.message-content {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.timestamp {
+    font-size: 0.75em;
+    color: #999;
+    margin-top: 4px;
+    text-align: right; /* Tiden till höger i bubblan */
+}
+
+.media-thumbnail {
+    max-width: 200px; /* Begränsa thumbnail-storlek */
+    max-height: 200px;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: block; /* För att margin ska funka */
+    cursor: pointer; /* Visa att den är klickbar */
+}
+
+.media-link {
+    display: block;
+    margin-top: 5px;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #075E54;
+}
+.media-link:hover {
+    text-decoration: underline;
+}
+
+.system-message {
+    background-color: #e1f2fb; /* Ljusblå för systemmeddelanden */
+    color: #555;
+    font-size: 0.85em;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px auto; /* Centrera */
+    max-width: fit-content; /* Bara så bred som texten */
+}
+
+.date-separator {
+    background-color: #e1f2fb; /* Samma som system, eller annan */
+    color: #555;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin: 15px auto 10px auto; /* Mer utrymme ovanför */
+    max-width: fit-content;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 0.8em;
+    color: #555;
+}
+
+
+/* --- Lightbox Styles --- */
+#lightbox-overlay {
+    position: fixed; /* Stay in place */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85); /* Dark semi-transparent background */
+    display: flex; /* Use flexbox for easy centering */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top */
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition */
+    cursor: pointer; /* Indicate clicking background closes it */
+}
+
+#lightbox-overlay.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#lightbox-image {
+    display: block;
+    max-width: 90%; /* Max 90% of viewport width */
+    max-height: 90%; /* Max 90% of viewport height */
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+    cursor: default; /* Override background cursor */
+    border-radius: 4px; /* Slight rounding */
+}
+
+#lightbox-close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    color: #fff;
+    font-size: 40px; /* Make it bigger */
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1; /* Prevent extra spacing */
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    text-decoration: none; /* Ta bort ev. understrykning */
+    z-index: 1002; /* Se till att den är över bilden */
+}
+
+#lightbox-close:hover {
+    color: #bbb;
+}
+
+/* Add a class to clickable thumbnails */
+.media-thumbnail.lightbox-trigger {
+    cursor: zoom-in; /* Indicate it can be enlarged */
+}
+
+#lightbox-open-original {
+    position: absolute;
+    top: 15px; /* Samma höjd som close */
+    right: 75px; /* Placera den till vänster om close-knappen */
+    color: #fff;
+    font-size: 30px; /* Lite mindre än close? */
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    text-decoration: none; /* Ta bort understrykning */
+    z-index: 1001; /* Ovanpå bilden, men ev under close om de överlappar */
+}
+
+#lightbox-filename {
+    position: absolute;
+    top: 20px; /* Lite nedanför knapparna */
+    left: 50%; /* Centrera horisontellt */
+    transform: translateX(-50%); /* Exakt centrering */
+    color: #ccc; /* Ljusgrå färg */
+    background-color: rgba(0, 0, 0, 0.5); /* Lätt bakgrund för läsbarhet */
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-size: 0.9em;
+    max-width: 80%; /* Förhindra att det blir för brett */
+    white-space: nowrap; /* Visa på en rad */
+    overflow: hidden; /* Göm text som inte får plats */
+    text-overflow: ellipsis; /* Lägg till "..." om texten är för lång */
+    z-index: 1001; /* Ovanpå bilden */
+    /* user-select: none;  Gör texten ej markerbar (valfritt) */
+}
+
+#lightbox-open-original:hover {
+    color: #bbb;
+}
+
+#lightbox-save {
+    position: absolute;
+    top: 20px; /* Samma höjd som de andra? */
+    right: 125px; /* Till vänster om "Öppna original" */
+    color: #fff;
+    font-size: 28px; /* Anpassa storlek */
+    cursor: pointer;
+    line-height: 1;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    text-decoration: none;
+    z-index: 1001;
+}
+
+#lightbox-save:hover {
+    color: #bbb;
+}
+
+
+
+
+
+/* --- NYA STILAR FÖR LINK PREVIEW --- */
+.link-preview-container {
+    display: block; /* Starta som block */
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 8px;
+    background-color: #f9f9f9;
+    max-width: 100%;
+    overflow: hidden;
+    text-decoration: none; /* Ta bort understrykning om den ärver från a-tagg */
+    color: inherit; /* Ärver textfärg */
+    position: relative; /* För laddningsindikator */
+}
+
+.link-preview-container.loading {
+    min-height: 30px; /* Ge lite höjd medan den laddar */
+}
+
+.link-preview-container.loaded {
+    display: flex; /* Byt till flex när innehåll laddats */
+    align-items: center;
+    gap: 8px;
+}
+
+.link-preview-loading {
+    font-style: italic;
+    font-size: 0.85em;
+    color: #777;
+}
+
+.link-preview-image {
+    display: block; /* Se till att den beter sig som ett block */
+    width: 80px; /* Fast bredd */
+    height: 60px; /* Fast höjd */
+    object-fit: cover; /* Skala och beskär */
+    border-radius: 3px;
+    flex-shrink: 0; /* Krymp inte */
+}
+
+.link-preview-title {
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #333;
+    margin: 0;
+    /* Hantera långa titlar */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Ta upp resterande utrymme */
+    flex-grow: 1;
+    min-width: 0; /* Viktigt för att ellipsis ska funka i flexbox */
+}
+
+/* Stil för filnamnet som visas ovanför audio/video-spelaren */
+.media-original-filename {
+    font-size: 0.8em;  /* Lite mindre text */
+    color: #555;       /* Mörkgrå */
+    margin-bottom: 4px; /* Lite utrymme ner till spelaren */
+    margin-top: 0;     /* Ta bort ev. standardmarginal för <p> */
+    font-style: italic; /* Gör den lite diskret (valfritt) */
+    word-break: break-all; /* Viktigt för långa filnamn så de inte spräcker bubblan */
+}
+
