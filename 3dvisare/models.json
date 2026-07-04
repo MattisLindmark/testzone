@@ -1,0 +1,22 @@
+[
+    {
+        "title":  "Tomas Tomat",
+        "file":  "tomastomat",
+        "h-rotate":  "true"
+    },
+    {
+        "title":  "The FrontRoom",
+        "file":  "theRoom_HevyReduce_textured",
+        "h-rotate":  "false"
+    },
+    {
+        "title":  "Tomas Tomat highres",
+        "file":  "tomattomas_Free1_low_tripo_textured",
+        "h-rotate":  "true"
+    },
+    {
+        "title":  "human_Modly-trellis",
+        "file":  "human_Modly-trellis",
+        "h-rotate":  "false"
+    }
+]

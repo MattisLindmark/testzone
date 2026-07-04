@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<title>Model Viewer</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { 
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  background: #111; 
+  color: #eee; 
+  font-family: sans-serif;
+  }
+html, body {
+  margin: 0;
+  padding: 0;
+}
+  #thumbnailContainer {
+  flex: 0 0 auto;  /* Tar bara sin naturliga höjd */
+  background: #1a1a1a;
+  padding: 15px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+   height: 170px;
+  }
+
+  .thumbnail {
+    width: 120px;
+    height: 140px;
+    background: #222;
+    border: 2px solid #444;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+  }
+
+  .thumbnail:hover {
+    border-color: #0f0;
+    transform: scale(1.05);
+  }
+
+  .thumbnail.active {
+    border-color: #0f0;
+    box-shadow: 0 0 10px #0f0;
+  }
+
+  .thumbnail-image {
+    width: 100%;
+    height: 100px;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .thumbnail-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .thumbnail-title {
+    padding: 8px;
+    font-size: 12px;
+    text-align: center;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    background: #2a2a2a;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #renderCanvas { 
+     flex: 1 1 auto;
+    width: 100vw; 
+    height: calc(100vh - 170px); 
+    display: block; 
+  }
+
+  .mesh-icon {
+    width: 60%;
+    height: 60%;
+  }
+
+  #dropzone {
+    width: 120px;
+    height: 140px;
+    background: #222;
+    border: 2px dashed #666;
+    border-radius: 8px;
+    display: flex;
+  <div id="dropzone">Dra<br>.glb</div>
+
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-size: 11px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  #dropzone.dragover {
+    border-color: #0f0;
+    color: #0f0;
+  }
+</style>
+
+<script src="https://cdn.babylonjs.com/babylon.js"></script>
+<script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+<script src="https://cdn.babylonjs.com/inspector/babylon.inspector.bundle.js"></script>
+</head>
+<body>
+
+<div id="thumbnailContainer"></div>
+<canvas id="renderCanvas"></canvas>
+
+<script>
+const canvas = document.getElementById("renderCanvas");
+const engine = new BABYLON.Engine(canvas, true);
+let scene;
+let currentModel = null;
+
+function resetScene() {
+    if (scene) scene.dispose();
+    scene = new BABYLON.Scene(engine);
+    const camera = new BABYLON.ArcRotateCamera("cam",
+        Math.PI/2, Math.PI/2, 2, BABYLON.Vector3.Zero(), scene);
+    camera.attachControl(canvas, true);
+    console.log("Hej!!!");
+//BABYLON.Inspector.Show(scene, {});  // Visa inspektören när scenen återställs
+    new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1,1,0), scene);
+   
+}
+
+resetScene();
+
+// Mesh placeholder SVG
+// function getMeshSVG() {
+//   return `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="mesh-icon">
+//     <g fill="none" stroke="#0f0" stroke-width="2">
+//       <polygon points="50,10 90,40 90,80 50,90 10,80 10,40" />
+//       <line x1="50" y1="10" x2="50" y2="90" />
+//       <line x1="10" y1="40" x2="90" y2="40" />
+//       <line x1="10" y1="80" x2="90" y2="80" />
+//       <line x1="30" y1="30" x2="70" y2="70" />
+//       <line x1="70" y1="30" x2="30" y2="70" />
+//     </g>
+//   </svg>`;
+// }
+
+function getMeshSVG() {
+  return `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="mesh-icon">
+  <g fill="none" stroke="#0f0" stroke-width="2">
+    <!-- Front face -->
+    <polygon points="30,30 70,30 70,70 30,70" />
+
+    <!-- Back face -->
+    <polygon points="45,20 85,20 85,60 45,60" />
+
+    <!-- Connecting edges -->
+    <line x1="30" y1="30" x2="45" y2="20" />
+    <line x1="70" y1="30" x2="85" y2="20" />
+    <line x1="70" y1="70" x2="85" y2="60" />
+    <line x1="30" y1="70" x2="45" y2="60" />
+  </g>
+</svg>`;
+}
+
+
+
+// Ladda modeller från JSON
+async function loadModels() {
+  try {
+    const response = await fetch('models.json');
+    const models = await response.json();
+    const container = document.getElementById('thumbnailContainer');
+
+    for (const model of models) {
+      // Verifiera att GLB-filen finns
+      const glbPath = `models/${model.file}.glb`;
+      const fileExists = await checkFileExists(glbPath);
+      
+      if (!fileExists) continue; // Skip om GLB inte finns
+
+      // Skapa thumbnail
+      const thumb = document.createElement('div');
+      thumb.className = 'thumbnail';
+      thumb.dataset.file = model.file;
+
+      // Bild
+      const imgDiv = document.createElement('div');
+      imgDiv.className = 'thumbnail-image';
+
+      const jpgPath = `models/${model.file}.jpg`;
+      const jpgExists = await checkFileExists(jpgPath);
+
+      if (jpgExists) {
+        const img = document.createElement('img');
+        img.src = jpgPath;
+        imgDiv.appendChild(img);
+      } else {
+        imgDiv.innerHTML = getMeshSVG();
+      }
+
+      // Titel
+      const title = document.createElement('div');
+      title.className = 'thumbnail-title';
+      title.textContent = model.title;
+
+      thumb.appendChild(imgDiv);
+      thumb.appendChild(title);
+
+      // Click handler
+      thumb.addEventListener('click', () => loadModel(model));
+
+      container.appendChild(thumb);
+    }
+
+    // Ladda första modellen per default
+    if (models.length > 0) {
+      const firstModel = models.find(m => checkFileExists(`models/${m.file}.glb`));
+      if (firstModel) {
+        loadModel(firstModel);
+        document.querySelector(`[data-file="${firstModel.file}"]`).classList.add('active');
+      }
+    }
+  } catch (err) {
+    console.error('Fel vid inladdning av modeller:', err);
+  }
+}
+
+// Verifiera att fil finns
+async function checkFileExists(path) {
+  try {
+    const response = await fetch(path, { method: 'HEAD' });
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
+
+// Ladda GLB-modell
+function loadModel(model) {
+  resetScene();
+  currentModel = model.file;
+
+  // Update active thumbnail
+  document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+  document.querySelector(`[data-file="${model.file}"]`).classList.add('active');
+
+  const glbPath = `models/${model.file}.glb`;
+  const rotation = model["h-rotate"] === "true" ? Math.PI : 0;
+
+  BABYLON.SceneLoader.LoadAssetContainer(
+    "",
+    glbPath,
+    scene,
+    container => {
+      container.addAllToScene();
+      scene.createDefaultCameraOrLight(true, true, true); // ArcRotateCamera-Frefly / Ersätt befintlig kamera och ljus / Attach camera controll eller ej
+      scene.activeCamera.alpha += rotation; // Rotera kameran 180 grader om den ska roteras 180 grader
+      scene.createDefaultEnvironment();
+      //BABYLON.Inspector.Show(scene, {});
+    },
+    null,
+    (scene, msg) => console.error('Fel vid inladdning:', msg)
+  );
+
+}
+
+// Initiera
+loadModels();
+
+// Inspector toggle med Ctrl+Alt+I
+let inspectorVisible = false;
+window.addEventListener('keydown', (e) => {
+  if (e.ctrlKey && e.altKey && e.key === 'i') {
+    if (inspectorVisible) {
+      scene.debugLayer.hide();
+      inspectorVisible = false;
+    } else {
+      BABYLON.Inspector.Show(scene, {});
+      inspectorVisible = true;
+    }
+  }
+});
+
+// Render loop
+engine.runRenderLoop(() => scene && scene.render());
+window.addEventListener("resize", () => engine.resize());
+</script>
+
+</body>
+</html>
