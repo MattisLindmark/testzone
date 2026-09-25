@@ -6,6 +6,34 @@
 let currentFileHandle = null;
 
 /**
+ * Checka fil + permission innan använder vill jobba med den
+ * Anropas före formulär och history-vy
+ */
+async function ensureFilePermission() {
+  if (!currentFileHandle) {
+    return false;
+  }
+  
+  try {
+    let permission = await currentFileHandle.queryPermission({ mode: 'readwrite' });
+    
+    if (permission === 'granted') {
+      return true;
+    }
+    
+    if (permission === 'denied' || permission === 'prompt') {
+      permission = await currentFileHandle.requestPermission({ mode: 'readwrite' });
+      return permission === 'granted';
+    }
+  } catch (e) {
+    console.error('Fel vid permission-check:', e);
+    return false;
+  }
+  
+  return false;
+}
+
+/**
  * Initiera fil-hantering - försök ladda sparad handle eller fråga användare
  */
 async function initFileHandling() {

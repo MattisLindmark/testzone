@@ -60,14 +60,22 @@ async function initApp() {
  * Event-lyssnare för startsida
  */
 function attachHomePageListeners() {
-  document.getElementById('btn-weight')?.addEventListener('click', () => {
+  document.getElementById('btn-weight')?.addEventListener('click', async () => {
+    if (!await ensureFilePermission()) {
+      alert('Ingen datalogg är öppnad. Gå till Inställningar för att öppna eller skapa en fil.');
+      return;
+    }
     currentFormType = 'vikt';
     history.pushState({page: 'form'}, '', '');
     renderInputForm('vikt');
     attachFormListeners();
   });
   
-  document.getElementById('btn-blood')?.addEventListener('click', () => {
+  document.getElementById('btn-blood')?.addEventListener('click', async () => {
+    if (!await ensureFilePermission()) {
+      alert('Ingen datalogg är öppnad. Gå till Inställningar för att öppna eller skapa en fil.');
+      return;
+    }
     currentFormType = 'blod';
     history.pushState({page: 'form'}, '', '');
     renderInputForm('blod');
@@ -82,8 +90,8 @@ function attachHomePageListeners() {
   
   document.getElementById('btn-history')?.addEventListener('click', async () => {
     try {
-      if (!hasFileSelected()) {
-        alert('Ingen datalogg öppnad ännu');
+      if (!await ensureFilePermission()) {
+        alert('Ingen datalogg är öppnad. Gå till Inställningar för att öppna eller skapa en fil.');
         return;
       }
       
