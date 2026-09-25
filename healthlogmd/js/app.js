@@ -12,34 +12,11 @@ async function initApp() {
     // Initiera databaser
     await initDB();
     
-    // Försök ladda tidigare fil
-    const hasFile = await initFileHandling();
-    
     // Rendera startsida
     renderHomePage();
     attachHomePageListeners();
     
-    // Uppdatera fil-visning
-    if (hasFile) {
-      const fileName = await getCurrentFileName();
-      updateFilePathDisplay(fileName);
-    }
-    
     console.log('HealthLogMD initierad');
-    
-    // Auto-öppna senast använd fil om den finns
-    const handle = await getFileHandle();
-    if (handle) {
-      try {
-        // Verifiera att handle är giltigt
-        const permission = await handle.queryPermission({ mode: 'read' });
-        if (permission === 'granted') {
-          console.log('Senast använd fil återladdat');
-        }
-      } catch (e) {
-        console.log('Senast använd fil är inte längre tillgänglig');
-      }
-    }
     
     // Back-knapp: hantera history och navigera
     window.addEventListener('popstate', (event) => {
@@ -61,7 +38,7 @@ async function initApp() {
  */
 function attachHomePageListeners() {
   document.getElementById('btn-weight')?.addEventListener('click', async () => {
-    if (!await ensureFilePermission()) {
+    if (!await ensureFileLoaded()) {
       alert('Ingen datalogg är öppnad. Gå till Inställningar för att öppna eller skapa en fil.');
       return;
     }
@@ -72,7 +49,7 @@ function attachHomePageListeners() {
   });
   
   document.getElementById('btn-blood')?.addEventListener('click', async () => {
-    if (!await ensureFilePermission()) {
+    if (!await ensureFileLoaded()) {
       alert('Ingen datalogg är öppnad. Gå till Inställningar för att öppna eller skapa en fil.');
       return;
     }
@@ -90,7 +67,7 @@ function attachHomePageListeners() {
   
   document.getElementById('btn-history')?.addEventListener('click', async () => {
     try {
-      if (!await ensureFilePermission()) {
+      if (!await ensureFileLoaded()) {
         alert('Ingen datalogg är öppnad. Gå till Inställningar för att öppna eller skapa en fil.');
         return;
       }

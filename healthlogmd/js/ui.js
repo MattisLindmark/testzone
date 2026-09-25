@@ -27,7 +27,7 @@ function renderHomePage() {
         <div class="page-header">
           <div>
             <h1 class="page-title">HealthLogMD</h1>
-            <p style="font-size: 0.75rem; color: var(--text-tertiary); font-style: italic; margin-top: -0.5rem;">v1.4</p>
+            <p style="font-size: 0.75rem; color: var(--text-tertiary); font-style: italic; margin-top: -0.5rem;">v1.5</p>
           </div>
           <div class="header-actions">
             <button class="icon-btn" id="btn-settings" title="Inställningar">⚙️</button>

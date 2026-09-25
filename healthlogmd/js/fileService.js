@@ -6,6 +6,56 @@
 let currentFileHandle = null;
 
 /**
+ * Checka + ladda fil vid första user-interaktion
+ * Anropas när användare klickar på en knapp (har user gesture då)
+ * Returnerar true om fil är redo, false om användare måste välja fil
+ */
+async function ensureFileLoaded() {
+  // Om vi redan har en handle laden, bara checka permission
+  if (currentFileHandle) {
+    return await ensureFilePermission();
+  }
+  
+  // Ingen handle laden - försök ladda från IndexedDB
+  try {
+    const handle = await getFileHandle();
+    if (!handle) {
+      // Ingen sparad fil
+      return false;
+    }
+    
+    // Vi har en sparad fil! Sätt den och checka permission
+    currentFileHandle = handle;
+    
+    // Nu kan vi anropa requestPermission() eftersom vi har user gesture (klick)
+    let permission = await currentFileHandle.queryPermission({ mode: 'readwrite' });
+    
+    if (permission === 'granted') {
+      console.log('Sparad fil återladdat och permissioner OK');
+      return true;
+    }
+    
+    // Behöver fråga om permission
+    if (permission === 'denied' || permission === 'prompt') {
+      permission = await currentFileHandle.requestPermission({ mode: 'readwrite' });
+      if (permission === 'granted') {
+        console.log('Sparad fil återladdat med ny permission');
+        return true;
+      }
+    }
+    
+    // Permission nekad
+    console.log('Permission nekad för sparad fil');
+    currentFileHandle = null;
+    return false;
+    
+  } catch (e) {
+    console.error('Fel vid försök att ladda sparad fil:', e);
+    return false;
+  }
+}
+
+/**
  * Checka fil + permission innan använder vill jobba med den
  * Anropas före formulär och history-vy
  */
