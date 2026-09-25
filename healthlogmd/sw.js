@@ -4,16 +4,16 @@
 
 const CACHE_NAME = 'healthlog-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/css/styles.css',
-  '/js/app.js',
-  '/js/ui.js',
-  '/js/fileService.js',
-  '/js/indexedDBService.js',
-  '/js/markdownParser.js',
-  '/js/dateUtils.js',
-  '/manifest.json'
+  './',
+  './index.html',
+  './css/styles.css',
+  './js/app.js',
+  './js/ui.js',
+  './js/fileService.js',
+  './js/indexedDBService.js',
+  './js/markdownParser.js',
+  './js/dateUtils.js',
+  './manifest.json'
 ];
 
 // Install event - cache files
