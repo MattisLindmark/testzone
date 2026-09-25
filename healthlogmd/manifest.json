@@ -1,0 +1,20 @@
+{
+  "name": "HealthLogMD",
+  "short_name": "HealthLog",
+  "description": "Enkel app för att logga vikt och blodtryck lokalt",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1f2937",
+  "background_color": "#111827",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%231f2937' width='192' height='192'/><text x='50%' y='50%' font-size='120' font-weight='bold' fill='%233b82f6' text-anchor='middle' dominant-baseline='middle' font-family='system-ui'>HL</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["health", "productivity"]
+}
