@@ -26,6 +26,15 @@ async function initApp() {
     }
     
     console.log('HealthLogMD initierad');
+    
+    // Back-knapp: navigera till hemskärmen från andra sidor
+    window.addEventListener('popstate', () => {
+      const currentPage = document.querySelector('.page.active')?.id;
+      if (currentPage !== 'home-page') {
+        renderHomePage();
+        attachHomePageListeners();
+      }
+    });
   } catch (e) {
     console.error('Fel vid initiering:', e);
   }
