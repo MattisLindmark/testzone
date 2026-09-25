@@ -27,14 +27,30 @@ async function initApp() {
     
     console.log('HealthLogMD initierad');
     
-    // Back-knapp: navigera till hemskärmen från andra sidor
-    window.addEventListener('popstate', () => {
-      const currentPage = document.querySelector('.page.active')?.id;
-      if (currentPage !== 'home-page') {
+    // Auto-öppna senast använd fil om den finns
+    const handle = await getFileHandle();
+    if (handle) {
+      try {
+        // Verifiera att handle är giltigt
+        const permission = await handle.queryPermission({ mode: 'read' });
+        if (permission === 'granted') {
+          console.log('Senast använd fil återladdat');
+        }
+      } catch (e) {
+        console.log('Senast använd fil är inte längre tillgänglig');
+      }
+    }
+    
+    // Back-knapp: hantera history och navigera
+    window.addEventListener('popstate', (event) => {
+      if (event.state && event.state.page === 'home') {
         renderHomePage();
         attachHomePageListeners();
       }
     });
+    
+    // Pusha initial state för home page
+    history.pushState({page: 'home'}, '', '');
   } catch (e) {
     console.error('Fel vid initiering:', e);
   }
@@ -46,17 +62,20 @@ async function initApp() {
 function attachHomePageListeners() {
   document.getElementById('btn-weight')?.addEventListener('click', () => {
     currentFormType = 'vikt';
+    history.pushState({page: 'form'}, '', '');
     renderInputForm('vikt');
     attachFormListeners();
   });
   
   document.getElementById('btn-blood')?.addEventListener('click', () => {
     currentFormType = 'blod';
+    history.pushState({page: 'form'}, '', '');
     renderInputForm('blod');
     attachFormListeners();
   });
   
   document.getElementById('btn-settings')?.addEventListener('click', () => {
+    history.pushState({page: 'settings'}, '', '');
     renderSettingsPage();
     attachSettingsListeners();
   });
@@ -73,9 +92,11 @@ function attachHomePageListeners() {
       
       if (confirm('Visa vikt eller blodtryck?\n\nOK = Vikt\nAvbryt = Blodtryck')) {
         rows = parseMarkdownTable(content, 'vikt');
+        history.pushState({page: 'history'}, '', '');
         renderHistoryPage('vikt', rows);
       } else {
         rows = parseMarkdownTable(content, 'blod');
+        history.pushState({page: 'history'}, '', '');
         renderHistoryPage('blod', rows);
       }
       
@@ -122,8 +143,7 @@ function attachFormListeners() {
   });
   
   document.getElementById('btn-cancel')?.addEventListener('click', () => {
-    renderHomePage();
-    attachHomePageListeners();
+    history.back();
   });
 }
 
