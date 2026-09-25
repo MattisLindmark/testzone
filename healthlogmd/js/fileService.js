@@ -14,13 +14,24 @@ async function initFileHandling() {
     const handle = await getFileHandle();
     if (handle) {
       try {
-        // Försök få behörighet - requestPermission istället för queryPermission
-        // för PWA standalone-mode kompatibilitet
-        const permission = await handle.requestPermission({ mode: 'readwrite' });
+        // Först checka om vi redan har behörighet (ingen dialog)
+        let permission = await handle.queryPermission({ mode: 'readwrite' });
+        
+        // Om vi redan har behörighet, använd direkt
         if (permission === 'granted') {
           currentFileHandle = handle;
-          console.log('Sparad fil återladdat med behörighet');
+          console.log('Sparad fil återladdat automatiskt');
           return true;
+        }
+        
+        // Om vi behöver fråga, gör det
+        if (permission === 'prompt') {
+          permission = await handle.requestPermission({ mode: 'readwrite' });
+          if (permission === 'granted') {
+            currentFileHandle = handle;
+            console.log('Sparad fil återladdat med behörighet');
+            return true;
+          }
         }
       } catch (e) {
         // Handle är ogiltig eller behörighet nekad, rensa den
