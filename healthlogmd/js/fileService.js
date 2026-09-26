@@ -253,34 +253,52 @@ async function getCurrentFileName() {
 }
 
 /**
- * Dela fil (via Share API)
+ * Förbered fil för delning (läs + visa bekräftelsedialog)
+ * Anropas från share-knappens klick (har user gesture)
  */
-async function shareFile() {
+async function prepareFileForSharing() {
   if (!currentFileHandle) {
     throw new Error('Ingen fil att dela');
   }
   
   try {
+    // Läs filen asynkront
     const file = await currentFileHandle.getFile();
+    const content = await file.text();
     
-    if (navigator.share) {
-      await navigator.share({
-        files: [file],
-        title: 'Min hälsodata',
-        text: 'Hälsodatalogg från HealthLogMD'
-      });
-      return true;
-    } else {
-      throw new Error('Delning stöds inte på denna enhet');
-    }
+    // Skapa File-objekt för delning (kopplat från blob, inte från handle)
+    const blob = new Blob([content], { type: 'text/markdown' });
+    const preparedFile = new File([blob], currentFileHandle.name || 'health-log.md', { type: 'text/markdown' });
+    
+    // Visa bekräftelsedialog (ej blockerande, Chrome behåller user gesture)
+    renderShareConfirmDialog(preparedFile);
   } catch (e) {
-    if (e.name !== 'AbortError') {
-      console.error('Fel vid delning av fil:', e);
-      throw new Error('Kunde inte dela fil: ' + e.message);
-    }
+    throw new Error('Kunde inte förbereda fil för delning: ' + e.message);
+  }
+}
+
+/**
+ * Dela förbered fil direkt (anropas från dialog-klick, user gesture!)
+ * MÅSTE anropas synkront från event handler för att Chrome ska acceptera det
+ */
+function doShare(preparedFile) {
+  if (!navigator.share) {
+    alert('Delning stöds inte på denna enhet');
+    return;
   }
   
-  return false;
+  // Direkt share, ingen await innan, user gesture är färsk från dialog-klick
+  navigator.share({
+    files: [preparedFile],
+    title: 'Hälsologg HealthLogMD',
+    text: 'Min hälsologg från HealthLogMD'
+  }).then(() => {
+    console.log('Fil delad framgångsrikt');
+  }).catch(e => {
+    if (e.name !== 'AbortError') {
+      console.error('Fel vid delning:', e);
+    }
+  });
 }
 
 /**
@@ -312,47 +330,4 @@ async function verifyFilePermission() {
   }
 }
 
-/**
- * Dela filen via Android Share API eller fallback
- */
-async function shareFile() {
-  if (!currentFileHandle) {
-    throw new Error('Ingen fil är öppen');
-  }
-  
-  try {
-    // 1. Begär explicit read-permission FÖRST (krävs för getFile())
-    const permission = await currentFileHandle.requestPermission({ mode: 'read' });
-    if (permission !== 'granted') {
-      throw new Error('Permission nekad - kan inte läsa filen');
-    }
-    
-    // 2. NU kan vi säkert anropa readFile() → getFile()
-    const content = await readFile();
-    
-    // 3. Skapa File-objekt för delning
-    const blob = new Blob([content], { type: 'text/markdown' });
-    const file = new File([blob], 'health-log.md', { type: 'text/markdown' });
-    
-    // 4. Om navigator.share stöds och kan dela filer
-    if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
-      await navigator.share({
-        files: [file],
-        title: 'Hälsologg HealthLogMD',
-        text: 'Min hälsologg från HealthLogMD'
-      });
-      console.log('Fil delad framgångsrikt');
-    } else {
-      // Fallback: kopiera till urklipp
-      await navigator.clipboard.writeText(content);
-      alert('Filen sparades inte för delning, men innehållet kopierades till urklipp!');
-    }
-  } catch (e) {
-    if (e.name === 'AbortError') {
-      // Användaren avbröt delningen
-      console.log('Delning avbruten av användare');
-    } else {
-      throw new Error('Kunde inte dela fil: ' + e.message);
-    }
-  }
-}
+

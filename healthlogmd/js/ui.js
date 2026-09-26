@@ -27,7 +27,7 @@ function renderHomePage() {
         <div class="page-header">
           <div>
             <h1 class="page-title">HealthLogMD</h1>
-            <p style="font-size: 0.75rem; color: var(--text-tertiary); font-style: italic; margin-top: -0.5rem;">v1.8</p>
+            <p style="font-size: 0.75rem; color: var(--text-tertiary); font-style: italic; margin-top: -0.5rem;">v1.81</p>
           </div>
           <div class="header-actions">
             <button class="icon-btn" id="btn-settings" title="Inställningar">⚙️</button>
@@ -299,3 +299,72 @@ function updateFilePathDisplay(fileName) {
     pathEl.textContent = fileName || 'Ingen fil vald';
   }
 }
+
+/**
+ * Visa bekräftelsedialog för delning
+ * Ej blockerande - Chrome behåller user gesture
+ */
+function renderShareConfirmDialog(preparedFile) {
+  const container = document.getElementById('app');
+  const fileName = preparedFile.name || 'health-log.md';
+  
+  // Skapa overlay + dialog (DOM-baserad, ej blocking confirm())
+  const dialogHTML = `
+    <div id="share-confirm-overlay" style="
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    ">
+      <div style="
+        background: var(--bg-secondary);
+        border-radius: 8px;
+        padding: 2rem;
+        max-width: 300px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      ">
+        <h2 style="
+          margin: 0 0 1rem 0;
+          font-size: 1.1rem;
+          color: var(--text-primary);
+        ">Dela filen?</h2>
+        <p style="
+          margin: 0 0 1.5rem 0;
+          color: var(--text-secondary);
+          font-size: 0.95rem;
+        ">Vill du dela <strong>${fileName}</strong> nu?</p>
+        <div style="
+          display: flex;
+          gap: 1rem;
+        ">
+          <button id="share-confirm-cancel" class="button btn-secondary" style="flex: 1;">Avbryt</button>
+          <button id="share-confirm-ok" class="button btn-success" style="flex: 1;">Dela</button>
+        </div>
+      </div>
+    </div>
+  `;
+  
+  // Lägg till dialogen i DOM
+  const overlay = document.createElement('div');
+  overlay.innerHTML = dialogHTML;
+  document.body.appendChild(overlay);
+  
+  // Avbryt-knapp
+  document.getElementById('share-confirm-cancel').addEventListener('click', () => {
+    overlay.remove();
+  });
+  
+  // Dela-knapp - anropas synkront, user gesture från dialog-klick!
+  document.getElementById('share-confirm-ok').addEventListener('click', () => {
+    overlay.remove();
+    // Anropa direkt, ingen await före - Chrome behåller user gesture
+    doShare(preparedFile);
+  });
+}
+

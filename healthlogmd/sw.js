@@ -2,7 +2,7 @@
 // Uppdatera CACHE_NAME när du gör nya releases (v1 -> v2 -> v3 osv)
 // Service Workern checkar automatiskt vid sidladdning
 
-const CACHE_NAME = 'healthlog-v1.8';
+const CACHE_NAME = 'healthlog-v1.81';
 const urlsToCache = [
   './',
   './index.html',

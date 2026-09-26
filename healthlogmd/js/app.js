@@ -278,7 +278,8 @@ function attachSettingsListeners() {
         return;
       }
       
-      await shareFile();
+      // Förbered fil och visa dialog (user gesture från knapp-klick)
+      await prepareFileForSharing();
     } catch (e) {
       console.error('Fel vid delning:', e);
       showAlert('Kunde inte dela fil: ' + e.message, 'error');
