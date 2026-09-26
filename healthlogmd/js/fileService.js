@@ -253,7 +253,7 @@ async function getCurrentFileName() {
 }
 
 /**
- * Förbered fil för delning (läs + visa bekräftelsedialog)
+ * Förbered fil för delning (be om permission + läs + visa bekräftelsedialog)
  * Anropas från share-knappens klick (har user gesture)
  */
 async function prepareFileForSharing() {
@@ -262,15 +262,21 @@ async function prepareFileForSharing() {
   }
   
   try {
-    // Läs filen asynkront
+    // 1. Be om permission FÖRST (detta triggers systemets dialog på Android)
+    const hasPermission = await ensureFilePermission();
+    if (!hasPermission) {
+      throw new Error('Permission nekad för att läsa filen');
+    }
+    
+    // 2. Läs filen asynkront (nu har vi garanterad permission)
     const file = await currentFileHandle.getFile();
     const content = await file.text();
     
-    // Skapa File-objekt för delning (kopplat från blob, inte från handle)
-    const blob = new Blob([content], { type: 'text/markdown' });
-    const preparedFile = new File([blob], currentFileHandle.name || 'health-log.md', { type: 'text/markdown' });
+    // 3. Skapa File-objekt för delning (kopplat från blob, inte från handle)
+    const blob = new Blob([content], { type: 'text/plain' });
+    const preparedFile = new File([blob], currentFileHandle.name || 'health-log.md', { type: 'text/plain' });
     
-    // Visa bekräftelsedialog (ej blockerande, Chrome behåller user gesture)
+    // 4. Visa bekräftelsedialog (ej blockerande, Chrome behåller user gesture)
     renderShareConfirmDialog(preparedFile);
   } catch (e) {
     throw new Error('Kunde inte förbereda fil för delning: ' + e.message);
