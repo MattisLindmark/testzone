@@ -311,3 +311,47 @@ async function verifyFilePermission() {
     return false;
   }
 }
+
+/**
+ * Dela filen via Android Share API eller fallback
+ */
+async function shareFile() {
+  if (!currentFileHandle) {
+    throw new Error('Ingen fil är öppen');
+  }
+  
+  // Checka permission först
+  if (!await ensureFilePermission()) {
+    throw new Error('Ingen åtkomst till filen');
+  }
+  
+  try {
+    // Läs filens innehål
+    const content = await readFile();
+    
+    // Skapa File-objekt för delning
+    const blob = new Blob([content], { type: 'text/markdown' });
+    const file = new File([blob], 'health-log.md', { type: 'text/markdown' });
+    
+    // Om navigator.share stöds och kan dela filer
+    if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
+      await navigator.share({
+        files: [file],
+        title: 'Hälsologg HealthLogMD',
+        text: 'Min hälsologg från HealthLogMD'
+      });
+      console.log('Fil delad framgångsrikt');
+    } else {
+      // Fallback: kopiera till urklipp
+      await navigator.clipboard.writeText(content);
+      alert('Filen sparades inte för delning, men innehållet kopierades till urklipp!');
+    }
+  } catch (e) {
+    if (e.name === 'AbortError') {
+      // Användaren avbröt delningen
+      console.log('Delning avbruten av användare');
+    } else {
+      throw new Error('Kunde inte dela fil: ' + e.message);
+    }
+  }
+}
