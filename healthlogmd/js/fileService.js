@@ -274,7 +274,7 @@ async function prepareFileForSharing() {
     
     // 3. Skapa File-objekt för delning (kopplat från blob, inte från handle)
     const blob = new Blob([content], { type: 'text/plain' });
-    const preparedFile = new File([blob], currentFileHandle.name || 'health-log.md', { type: 'text/plain' });
+    const preparedFile = new File([blob], currentFileHandle.name || 'health-log.txt', { type: 'text/plain' });
     
     // 4. Visa bekräftelsedialog (ej blockerande, Chrome behåller user gesture)
     renderShareConfirmDialog(preparedFile);
