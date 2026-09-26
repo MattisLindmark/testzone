@@ -320,20 +320,21 @@ async function shareFile() {
     throw new Error('Ingen fil är öppen');
   }
   
-  // Checka permission först
-  if (!await ensureFilePermission()) {
-    throw new Error('Ingen åtkomst till filen');
-  }
-  
   try {
-    // Läs filens innehål
+    // 1. Begär explicit read-permission FÖRST (krävs för getFile())
+    const permission = await currentFileHandle.requestPermission({ mode: 'read' });
+    if (permission !== 'granted') {
+      throw new Error('Permission nekad - kan inte läsa filen');
+    }
+    
+    // 2. NU kan vi säkert anropa readFile() → getFile()
     const content = await readFile();
     
-    // Skapa File-objekt för delning
+    // 3. Skapa File-objekt för delning
     const blob = new Blob([content], { type: 'text/markdown' });
     const file = new File([blob], 'health-log.md', { type: 'text/markdown' });
     
-    // Om navigator.share stöds och kan dela filer
+    // 4. Om navigator.share stöds och kan dela filer
     if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
       await navigator.share({
         files: [file],
